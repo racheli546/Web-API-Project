@@ -1,5 +1,9 @@
-using Microsoft.AspNetCore.Mvc;
+// using Microsoft.AspNetCore.Mvc;
 using OurBakeryStore.Models;
+using System.Collections.Generic;
+using System.Linq;
+using OurBakeryStore.Services;
+using OurBakeryStore.Interfaces;
 
 namespace OurBakeryStore.Controllers;
 
@@ -7,65 +11,51 @@ namespace OurBakeryStore.Controllers;
 [Route("[controller]")]
 public class BakeryController : ControllerBase
 {
-    private static List<Bakery> list;
-    static BakeryController()
+    private IBakeryService BakeryService;
+    static BakeryController(IBakeryService BakeryService)
     {
-        list = new List<Bakery> 
-        {
-            new Bakery { Id = 4, Name = "Chocolate Croissant", IsItWithChocolate = true },
-            new Bakery { Id = 5, Name = "Chocolate Donut", IsItWithChocolate = true },
-            new Bakery { Id = 6, Name = "Vanilla Muffin", IsItWithChocolate = false },
-            new Bakery { Id = 7, Name = "Cinnamon Yeast Cake", IsItWithChocolate = false },
-            new Bakery { Id = 8, Name = "Butter Cookies", IsItWithChocolate = false },
-        };
+        this.BakeryController = BakeryService;
     } 
 
     [HttpGet]
-    public IEnumerable<Bakery> Get()
-    {
-        return list;
-    }
+    public ActionResult<List<Bakery>> GetAll() =>
+            BakeryService.GetAll();
+
     [HttpGet("{id}")]
     public ActionResult<Bakery> Get(int id)
     {
-        var Bakery = list.FirstOrDefault(p => p.Id == id);
+        var Bakery = BakeryService.Get(id);
         if (Bakery == null)
             return BadRequest("invalid id");
         return Bakery;
     }
 
-    [HttpPost]
-    public ActionResult Insert(Bakery newBakery)
-    {        
-        var maxId = list.Max(p => p.Id);
-        newBakery.Id = maxId + 1;
-        list.Add(newBakery);
 
+    [HttpPost]
+    public IActionResult create (Bakery newBakery)
+    {        
+        BakeryService.Add(newBakery);
         return CreatedAtAction(nameof(Insert), new { id = newBakery.Id }, newBakery);
     }  
 
     
     [HttpPut("{id}")]
-    public ActionResult Update(int id, Bakery newBakery)
+    public IActionResult Update(int id, Bakery newBakery)
     { 
-        var oldBakery = list.FirstOrDefault(p => p.Id == id);
-        if (oldBakery == null) 
-            return BadRequest("invalid id");
-        if (newBakery.Id != oldBakery.Id)
-            return BadRequest("id mismatch");
-
-        oldBakery.Name = newBakery.Name;
-        oldBakery.IsItWithChocolate = newBakery.IsItWithChocolate;
-        return NoContent();
+       if(id != newBakery.Id) return BadRequest();
+       var existing = bakeryService.Get(id);
+       if(existing == null) return NotFound();
+       bakeryService.Update(newBakery)
+       return NoContent();
     } 
 
     [HttpDelete("{id}")]
     public IActionResult Delete(int id)
     {
-        var bakery = list.FirstOrDefault(p => p.Id == id);
+        var bakery = bakeryService.Get(id);
         if (bakery == null)
-            return BadRequest("invalid id");
-        list.Remove(bakery); 
+            return NotFound();
+        bakeryService.Delete(id);
         return Ok($"Bakery with ID {id} has been deleted."); 
     }
 }
