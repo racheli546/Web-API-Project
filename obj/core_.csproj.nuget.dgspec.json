@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user1\\Documents\\תיכנות\\שנה ב\\סמסטר א\\core_\\project\\core_.csproj": {}
+    "C:\\Users\\user1\\Documents\\תיכנות\\שנה ב\\סמסטר א\\core_\\project\\core_project זה מה שעובד בgit\\core_.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user1\\Documents\\תיכנות\\שנה ב\\סמסטר א\\core_\\project\\core_.csproj": {
+    "C:\\Users\\user1\\Documents\\תיכנות\\שנה ב\\סמסטר א\\core_\\project\\core_project זה מה שעובד בgit\\core_.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\Documents\\תיכנות\\שנה ב\\סמסטר א\\core_\\project\\core_.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Documents\\תיכנות\\שנה ב\\סמסטר א\\core_\\project\\core_project זה מה שעובד בgit\\core_.csproj",
         "projectName": "core_",
-        "projectPath": "C:\\Users\\user1\\Documents\\תיכנות\\שנה ב\\סמסטר א\\core_\\project\\core_.csproj",
+        "projectPath": "C:\\Users\\user1\\Documents\\תיכנות\\שנה ב\\סמסטר א\\core_\\project\\core_project זה מה שעובד בgit\\core_.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\Documents\\תיכנות\\שנה ב\\סמסטר א\\core_\\project\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Documents\\תיכנות\\שנה ב\\סמסטר א\\core_\\project\\core_project זה מה שעובד בgit\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",

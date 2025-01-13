@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery Manager</title>
+</head>
+<body>
+    <h1>Bakery Manager</h1>
+    
+    <!-- תצוגה של כל המאפיות -->
+    <h2>All Bakeries</h2>
+    <ul id="bakery-list"></ul>
+
+    <!-- טופס להוספת מאפה -->
+    <h2>Add Bakery</h2>
+    <form id="add-bakery-form">
+        <input type="text" id="bakery-name" placeholder="Enter bakery name" required />
+        <label for="is-with-chocolate">With Chocolate:</label>
+        <input type="checkbox" id="is-with-chocolate" />
+        <button type="submit">Add Bakery</button>
+    </form>
+
+    <script src="app.js"></script>
+</body>
+</html>

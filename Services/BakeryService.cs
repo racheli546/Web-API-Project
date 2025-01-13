@@ -7,44 +7,52 @@ namespace OurBakeryStore.Services
 {
     public class BakeryService :IBakeryService
     {
-        List<Bakery> Bakerys { get; }
+        List<Bakery> Bakeries { get; }
         int nextId = 3;
         public BakeryService()
         {
-            Bakerys = new List<Bakery>
+            Bakeries = new List<Bakery>
             {
                 new Bakery { Id = 1, Name = "Classic Italian", IsItWithChocolate = false },
                 new Bakery { Id = 2, Name = "Veggie", IsItWithChocolate = true }
             };
         }
 
-        public List<Bakery> GetAll() => Bakerys;
-        public Bakery Get(int id) => Bakerys.FirstOrDefault(p => p.Id == id);
+        public List<Bakery> GetAll() => Bakeries;
+        public Bakery Get(int id) => Bakeries.FirstOrDefault(p => p.Id == id);
 
-        public void Add(Bakery Bakery)
+        public void Add(Bakery bakery)
         {
-            Bakery.Id = nextId++;
-            Bakerys.Add(Bakery);
+            bakery.Id = nextId++;
+            Bakeries.Add(bakery); // חשוב לוודא שזה בדיוק השם הנכון
+            Console.WriteLine($"Bakery added: {bakery.Name}, Total bakeries: {Bakeries.Count}");
         }
+
 
         public void Delete(int id)
         {
-            var Bakery = Get(id);
-            if(Bakery is null)
-                return;
-
-            Bakerys.Remove(Bakery);
+            var bakery = Get(id);
+            if (bakery != null)
+            {
+                Bakeries.Remove(bakery);
+                Console.WriteLine($"Bakery with ID {id} deleted.");
+            }
         }
 
-        public void Update(Bakery Bakery)
+
+        public void Update(Bakery bakery)
         {
-            var index = Bakerys.FindIndex(p => p.Id == Bakery.Id);
-            if(index == -1)
-                return;
-
-            Bakerys[index] = Bakery;
+            var existing = Get(bakery.Id);
+            if (existing != null)
+            {
+                existing.Name = bakery.Name;
+                existing.IsItWithChocolate = bakery.IsItWithChocolate;
+                Console.WriteLine($"Bakery with ID {bakery.Id} updated.");
+            }
         }
 
-        public int Count { get =>  Bakerys.Count();}
+
+
+        public int Count { get =>  Bakeries.Count();}
     }
 }

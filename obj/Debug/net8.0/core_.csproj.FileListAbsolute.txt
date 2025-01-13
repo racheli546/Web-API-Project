@@ -62,3 +62,36 @@ C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\obj\
 C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\obj\Debug\net8.0\core_.pdb
 C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\obj\Debug\net8.0\core_.genruntimeconfig.cache
 C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\obj\Debug\net8.0\ref\core_.dll
+C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\bin\Debug\net8.0\core_.exe
+C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\bin\Debug\net8.0\core_.dll
+C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\bin\Debug\net8.0\appsettings.json
+C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\obj\Debug\net8.0\core_.csproj.AssemblyReference.cache
+C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\obj\Debug\net8.0\core_.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\obj\Debug\net8.0\core_.AssemblyInfoInputs.cache
+C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\obj\Debug\net8.0\core_.AssemblyInfo.cs
+C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\obj\Debug\net8.0\core_.csproj.CoreCompileInputs.cache
+C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\obj\Debug\net8.0\core_.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\obj\Debug\net8.0\core_.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\obj\Debug\net8.0\core_.sourcelink.json
+C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\obj\Debug\net8.0\staticwebassets\msbuild.core_.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\obj\Debug\net8.0\staticwebassets\msbuild.build.core_.props
+C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.core_.props
+C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.core_.props
+C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\obj\Debug\net8.0\scopedcss\bundle\core_.styles.css
+C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\obj\Debug\net8.0\core_.csproj.Up2Date
+C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\obj\Debug\net8.0\core_.dll
+C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\obj\Debug\net8.0\refint\core_.dll
+C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\obj\Debug\net8.0\core_.pdb
+C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\bin\Debug\net8.0\core_.deps.json
+C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\bin\Debug\net8.0\core_.runtimeconfig.json
+C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\bin\Debug\net8.0\core_.pdb
+C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\obj\Debug\net8.0\core_.genruntimeconfig.cache
+C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\obj\Debug\net8.0\ref\core_.dll
