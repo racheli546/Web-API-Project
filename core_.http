@@ -1,6 +1,0 @@
-@core__HostAddress = http://localhost:5025
-
-GET {{core__HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
