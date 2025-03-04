@@ -1,0 +1,576 @@
+2025-03-03 16:48:47.258 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys/""" - null null
+2025-03-03 16:48:47.293 +02:00 [Information] Handling request: GET./Bakerys/
+2025-03-03 16:48:47.300 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)"'
+2025-03-03 16:48:47.315 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Bakerys\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ProjectCore.Bakery] GetAll()" on controller "ProjectCore.Controllers.BakerysController" ("ProjectCore").
+2025-03-03 16:48:47.339 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.Bakery, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-03-03 16:48:47.352 +02:00 [Information] Executed action "ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)" in 20.7745ms
+2025-03-03 16:48:47.363 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)"'
+2025-03-03 16:48:47.373 +02:00 [Information] Finished handling request: GET./Bakerys/, Response Status: 200
+2025-03-03 16:48:47.381 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys/""" - 200 null "application/json; charset=utf-8" 123.7529ms
+2025-03-03 16:51:53.629 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys/6""" - "application/json" 41
+2025-03-03 16:51:53.656 +02:00 [Information] Handling request: GET./Bakerys/6
+2025-03-03 16:51:53.662 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BakerysController.Get (ProjectCore)"'
+2025-03-03 16:51:53.671 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"Bakerys\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ProjectCore.Bakery] Get(Int32)" on controller "ProjectCore.Controllers.BakerysController" ("ProjectCore").
+2025-03-03 16:51:53.686 +02:00 [Information] Executing "ObjectResult", writing value of type '"ProjectCore.Bakery"'.
+2025-03-03 16:51:53.696 +02:00 [Information] Executed action "ProjectCore.Controllers.BakerysController.Get (ProjectCore)" in 13.016ms
+2025-03-03 16:51:53.706 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BakerysController.Get (ProjectCore)"'
+2025-03-03 16:51:53.715 +02:00 [Information] Finished handling request: GET./Bakerys/6, Response Status: 200
+2025-03-03 16:51:53.720 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys/6""" - 200 null "application/json; charset=utf-8" 91.1278ms
+2025-03-03 16:51:59.436 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakerys/6""" - "application/json" 41
+2025-03-03 16:51:59.448 +02:00 [Information] Handling request: POST./Bakerys/6
+2025-03-03 16:51:59.454 +02:00 [Information] Executing endpoint '"405 HTTP Method Not Supported"'
+2025-03-03 16:51:59.461 +02:00 [Information] Executed endpoint '"405 HTTP Method Not Supported"'
+2025-03-03 16:51:59.468 +02:00 [Information] Finished handling request: POST./Bakerys/6, Response Status: 405
+2025-03-03 16:51:59.476 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakerys/6""" - 405 0 null 40.1445ms
+2025-03-03 16:52:10.544 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys/6""" - "application/json" 41
+2025-03-03 16:52:10.561 +02:00 [Information] Handling request: GET./Bakerys/6
+2025-03-03 16:52:10.566 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BakerysController.Get (ProjectCore)"'
+2025-03-03 16:52:10.575 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"Bakerys\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ProjectCore.Bakery] Get(Int32)" on controller "ProjectCore.Controllers.BakerysController" ("ProjectCore").
+2025-03-03 16:52:10.589 +02:00 [Information] Executing "ObjectResult", writing value of type '"ProjectCore.Bakery"'.
+2025-03-03 16:52:10.598 +02:00 [Information] Executed action "ProjectCore.Controllers.BakerysController.Get (ProjectCore)" in 9.6785ms
+2025-03-03 16:52:10.606 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BakerysController.Get (ProjectCore)"'
+2025-03-03 16:52:10.614 +02:00 [Information] Finished handling request: GET./Bakerys/6, Response Status: 200
+2025-03-03 16:52:10.620 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys/6""" - 200 null "application/json; charset=utf-8" 77.0161ms
+2025-03-03 16:52:15.168 +02:00 [Information] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5198""""/Bakerys/6""" - "application/json" 41
+2025-03-03 16:52:15.181 +02:00 [Information] Handling request: PUT./Bakerys/6
+2025-03-03 16:52:15.187 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BakerysController.Update (ProjectCore)"'
+2025-03-03 16:52:15.200 +02:00 [Information] Route matched with "{action = \"Update\", controller = \"Bakerys\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Update(Int32, ProjectCore.Bakery)" on controller "ProjectCore.Controllers.BakerysController" ("ProjectCore").
+2025-03-03 16:52:15.227 +02:00 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-03-03 16:52:15.232 +02:00 [Information] Executed action "ProjectCore.Controllers.BakerysController.Update (ProjectCore)" in 24.0122ms
+2025-03-03 16:52:15.243 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BakerysController.Update (ProjectCore)"'
+2025-03-03 16:52:15.251 +02:00 [Information] Finished handling request: PUT./Bakerys/6, Response Status: 204
+2025-03-03 16:52:15.259 +02:00 [Information] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5198""""/Bakerys/6""" - 204 null null 90.8168ms
+2025-03-03 16:52:23.049 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys/6""" - "application/json" 41
+2025-03-03 16:52:23.065 +02:00 [Information] Handling request: GET./Bakerys/6
+2025-03-03 16:52:23.071 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BakerysController.Get (ProjectCore)"'
+2025-03-03 16:52:23.081 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"Bakerys\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ProjectCore.Bakery] Get(Int32)" on controller "ProjectCore.Controllers.BakerysController" ("ProjectCore").
+2025-03-03 16:52:23.097 +02:00 [Information] Executing "ObjectResult", writing value of type '"ProjectCore.Bakery"'.
+2025-03-03 16:52:23.109 +02:00 [Information] Executed action "ProjectCore.Controllers.BakerysController.Get (ProjectCore)" in 12.1925ms
+2025-03-03 16:52:23.119 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BakerysController.Get (ProjectCore)"'
+2025-03-03 16:52:23.128 +02:00 [Information] Finished handling request: GET./Bakerys/6, Response Status: 200
+2025-03-03 16:52:23.135 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys/6""" - 200 null "application/json; charset=utf-8" 86.1315ms
+2025-03-03 16:52:41.771 +02:00 [Information] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5198""""/Bakerys/6""" - "application/json" 79
+2025-03-03 16:52:41.789 +02:00 [Information] Handling request: PUT./Bakerys/6
+2025-03-03 16:52:41.795 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BakerysController.Update (ProjectCore)"'
+2025-03-03 16:52:41.810 +02:00 [Information] Route matched with "{action = \"Update\", controller = \"Bakerys\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Update(Int32, ProjectCore.Bakery)" on controller "ProjectCore.Controllers.BakerysController" ("ProjectCore").
+2025-03-03 16:52:41.827 +02:00 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-03-03 16:52:41.834 +02:00 [Information] Executed action "ProjectCore.Controllers.BakerysController.Update (ProjectCore)" in 10.6072ms
+2025-03-03 16:52:41.846 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BakerysController.Update (ProjectCore)"'
+2025-03-03 16:52:41.855 +02:00 [Information] Finished handling request: PUT./Bakerys/6, Response Status: 204
+2025-03-03 16:52:41.863 +02:00 [Information] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5198""""/Bakerys/6""" - 204 null null 92.0915ms
+2025-03-03 16:52:46.257 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys/6""" - "application/json" 79
+2025-03-03 16:52:46.269 +02:00 [Information] Handling request: GET./Bakerys/6
+2025-03-03 16:52:46.277 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BakerysController.Get (ProjectCore)"'
+2025-03-03 16:52:46.284 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"Bakerys\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ProjectCore.Bakery] Get(Int32)" on controller "ProjectCore.Controllers.BakerysController" ("ProjectCore").
+2025-03-03 16:52:46.297 +02:00 [Information] Executing "ObjectResult", writing value of type '"ProjectCore.Bakery"'.
+2025-03-03 16:52:46.308 +02:00 [Information] Executed action "ProjectCore.Controllers.BakerysController.Get (ProjectCore)" in 10.7301ms
+2025-03-03 16:52:46.317 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BakerysController.Get (ProjectCore)"'
+2025-03-03 16:52:46.326 +02:00 [Information] Finished handling request: GET./Bakerys/6, Response Status: 200
+2025-03-03 16:52:46.332 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys/6""" - 200 null "application/json; charset=utf-8" 75.2774ms
+2025-03-03 16:52:59.558 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakerys/6""" - "application/json" 79
+2025-03-03 16:52:59.572 +02:00 [Information] Handling request: POST./Bakerys/6
+2025-03-03 16:52:59.577 +02:00 [Information] Executing endpoint '"405 HTTP Method Not Supported"'
+2025-03-03 16:52:59.591 +02:00 [Information] Executed endpoint '"405 HTTP Method Not Supported"'
+2025-03-03 16:52:59.599 +02:00 [Information] Finished handling request: POST./Bakerys/6, Response Status: 405
+2025-03-03 16:52:59.604 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakerys/6""" - 405 0 null 46.5779ms
+2025-03-03 16:53:05.491 +02:00 [Information] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5198""""/Bakerys/6""" - "application/json" 79
+2025-03-03 16:53:05.509 +02:00 [Information] Handling request: PUT./Bakerys/6
+2025-03-03 16:53:05.516 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BakerysController.Update (ProjectCore)"'
+2025-03-03 16:53:05.522 +02:00 [Information] Route matched with "{action = \"Update\", controller = \"Bakerys\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Update(Int32, ProjectCore.Bakery)" on controller "ProjectCore.Controllers.BakerysController" ("ProjectCore").
+2025-03-03 16:53:05.538 +02:00 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-03-03 16:53:05.543 +02:00 [Information] Executed action "ProjectCore.Controllers.BakerysController.Update (ProjectCore)" in 8.9599ms
+2025-03-03 16:53:05.551 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BakerysController.Update (ProjectCore)"'
+2025-03-03 16:53:05.560 +02:00 [Information] Finished handling request: PUT./Bakerys/6, Response Status: 204
+2025-03-03 16:53:05.566 +02:00 [Information] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5198""""/Bakerys/6""" - 204 null null 75.3329ms
+2025-03-03 16:53:26.126 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys/6""" - "application/json" 79
+2025-03-03 16:53:26.140 +02:00 [Information] Handling request: GET./Bakerys/6
+2025-03-03 16:53:26.145 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BakerysController.Get (ProjectCore)"'
+2025-03-03 16:53:26.152 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"Bakerys\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ProjectCore.Bakery] Get(Int32)" on controller "ProjectCore.Controllers.BakerysController" ("ProjectCore").
+2025-03-03 16:53:26.166 +02:00 [Information] Executing "ObjectResult", writing value of type '"ProjectCore.Bakery"'.
+2025-03-03 16:53:26.173 +02:00 [Information] Executed action "ProjectCore.Controllers.BakerysController.Get (ProjectCore)" in 7.975ms
+2025-03-03 16:53:26.181 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BakerysController.Get (ProjectCore)"'
+2025-03-03 16:53:26.186 +02:00 [Information] Finished handling request: GET./Bakerys/6, Response Status: 200
+2025-03-03 16:53:26.191 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys/6""" - 200 null "application/json; charset=utf-8" 64.8889ms
+2025-03-03 16:53:34.573 +02:00 [Information] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5198""""/Bakerys/6""" - "application/json" 80
+2025-03-03 16:53:34.588 +02:00 [Information] Handling request: PUT./Bakerys/6
+2025-03-03 16:53:34.594 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BakerysController.Update (ProjectCore)"'
+2025-03-03 16:53:34.601 +02:00 [Information] Route matched with "{action = \"Update\", controller = \"Bakerys\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Update(Int32, ProjectCore.Bakery)" on controller "ProjectCore.Controllers.BakerysController" ("ProjectCore").
+2025-03-03 16:53:34.620 +02:00 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-03-03 16:53:34.624 +02:00 [Information] Executed action "ProjectCore.Controllers.BakerysController.Update (ProjectCore)" in 9.8111ms
+2025-03-03 16:53:34.633 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BakerysController.Update (ProjectCore)"'
+2025-03-03 16:53:34.640 +02:00 [Information] Finished handling request: PUT./Bakerys/6, Response Status: 204
+2025-03-03 16:53:34.647 +02:00 [Information] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5198""""/Bakerys/6""" - 204 null null 73.2507ms
+2025-03-03 16:53:39.852 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys/6""" - "application/json" 80
+2025-03-03 16:53:39.872 +02:00 [Information] Handling request: GET./Bakerys/6
+2025-03-03 16:53:39.878 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BakerysController.Get (ProjectCore)"'
+2025-03-03 16:53:39.887 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"Bakerys\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ProjectCore.Bakery] Get(Int32)" on controller "ProjectCore.Controllers.BakerysController" ("ProjectCore").
+2025-03-03 16:53:39.903 +02:00 [Information] Executing "ObjectResult", writing value of type '"ProjectCore.Bakery"'.
+2025-03-03 16:53:39.915 +02:00 [Information] Executed action "ProjectCore.Controllers.BakerysController.Get (ProjectCore)" in 13.0763ms
+2025-03-03 16:53:39.927 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BakerysController.Get (ProjectCore)"'
+2025-03-03 16:53:39.935 +02:00 [Information] Finished handling request: GET./Bakerys/6, Response Status: 200
+2025-03-03 16:53:39.942 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys/6""" - 200 null "application/json; charset=utf-8" 89.8344ms
+2025-03-03 16:55:10.944 +02:00 [Information] Application is shutting down...
+2025-03-03 17:19:55.741 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-03-03 17:19:55.794 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-03 17:19:55.798 +02:00 [Information] Hosting environment: "Development"
+2025-03-03 17:19:55.801 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-03-03 17:20:23.503 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakerys/6""" - "application/json" 80
+2025-03-03 17:20:23.613 +02:00 [Information] Handling request: POST./Bakerys/6
+2025-03-03 17:20:23.633 +02:00 [Information] Executing endpoint '"405 HTTP Method Not Supported"'
+2025-03-03 17:20:23.639 +02:00 [Information] Executed endpoint '"405 HTTP Method Not Supported"'
+2025-03-03 17:20:23.647 +02:00 [Information] Finished handling request: POST./Bakerys/6, Response Status: 405
+2025-03-03 17:20:23.672 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakerys/6""" - 405 0 null 172.6153ms
+2025-03-03 17:20:28.650 +02:00 [Information] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5198""""/Bakerys/6""" - "application/json" 80
+2025-03-03 17:20:28.668 +02:00 [Information] Handling request: PUT./Bakerys/6
+2025-03-03 17:20:28.673 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BakerysController.Update (ProjectCore)"'
+2025-03-03 17:20:28.754 +02:00 [Information] Route matched with "{action = \"Update\", controller = \"Bakerys\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Update(Int32, ProjectCore.Bakery)" on controller "ProjectCore.Controllers.BakerysController" ("ProjectCore").
+2025-03-03 17:20:29.002 +02:00 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-03-03 17:20:29.011 +02:00 [Information] Executed action "ProjectCore.Controllers.BakerysController.Update (ProjectCore)" in 245.4454ms
+2025-03-03 17:20:29.016 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BakerysController.Update (ProjectCore)"'
+2025-03-03 17:20:29.021 +02:00 [Information] Finished handling request: PUT./Bakerys/6, Response Status: 204
+2025-03-03 17:20:29.026 +02:00 [Information] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5198""""/Bakerys/6""" - 204 null null 377.3784ms
+2025-03-03 17:20:37.226 +02:00 [Information] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5198""""/Bakerys/6""" - "application/json" 79
+2025-03-03 17:20:37.238 +02:00 [Information] Handling request: PUT./Bakerys/6
+2025-03-03 17:20:37.242 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BakerysController.Update (ProjectCore)"'
+2025-03-03 17:20:37.248 +02:00 [Information] Route matched with "{action = \"Update\", controller = \"Bakerys\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Update(Int32, ProjectCore.Bakery)" on controller "ProjectCore.Controllers.BakerysController" ("ProjectCore").
+2025-03-03 17:20:37.260 +02:00 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-03-03 17:20:37.265 +02:00 [Information] Executed action "ProjectCore.Controllers.BakerysController.Update (ProjectCore)" in 10.9384ms
+2025-03-03 17:20:37.272 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BakerysController.Update (ProjectCore)"'
+2025-03-03 17:20:37.277 +02:00 [Information] Finished handling request: PUT./Bakerys/6, Response Status: 204
+2025-03-03 17:20:37.282 +02:00 [Information] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5198""""/Bakerys/6""" - 204 null null 56.6812ms
+2025-03-03 17:20:41.094 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys/6""" - "application/json" 79
+2025-03-03 17:20:41.124 +02:00 [Information] Handling request: GET./Bakerys/6
+2025-03-03 17:20:41.130 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BakerysController.Get (ProjectCore)"'
+2025-03-03 17:20:41.144 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"Bakerys\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ProjectCore.Bakery] Get(Int32)" on controller "ProjectCore.Controllers.BakerysController" ("ProjectCore").
+2025-03-03 17:20:41.172 +02:00 [Information] Executing "ObjectResult", writing value of type '"ProjectCore.Bakery"'.
+2025-03-03 17:20:41.224 +02:00 [Information] Executed action "ProjectCore.Controllers.BakerysController.Get (ProjectCore)" in 67.6702ms
+2025-03-03 17:20:41.232 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BakerysController.Get (ProjectCore)"'
+2025-03-03 17:20:41.238 +02:00 [Information] Finished handling request: GET./Bakerys/6, Response Status: 200
+2025-03-03 17:20:41.242 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys/6""" - 200 null "application/json; charset=utf-8" 148.4849ms
+2025-03-03 17:21:50.426 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakerys/6""" - "application/json" 79
+2025-03-03 17:21:50.440 +02:00 [Information] Handling request: POST./Bakerys/6
+2025-03-03 17:21:50.448 +02:00 [Information] Executing endpoint '"405 HTTP Method Not Supported"'
+2025-03-03 17:21:50.458 +02:00 [Information] Executed endpoint '"405 HTTP Method Not Supported"'
+2025-03-03 17:21:50.468 +02:00 [Information] Finished handling request: POST./Bakerys/6, Response Status: 405
+2025-03-03 17:21:50.476 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakerys/6""" - 405 0 null 49.8216ms
+2025-03-03 17:22:05.134 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakerys/""" - "application/json" 79
+2025-03-03 17:22:05.150 +02:00 [Information] Handling request: POST./Bakerys/
+2025-03-03 17:22:05.159 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BakerysController.Insert (ProjectCore)"'
+2025-03-03 17:22:05.172 +02:00 [Information] Route matched with "{action = \"Insert\", controller = \"Bakerys\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Insert(ProjectCore.Bakery)" on controller "ProjectCore.Controllers.BakerysController" ("ProjectCore").
+2025-03-03 17:22:05.199 +02:00 [Information] Executing "CreatedAtActionResult", writing value of type '"ProjectCore.Bakery"'.
+2025-03-03 17:22:05.275 +02:00 [Information] Executed action "ProjectCore.Controllers.BakerysController.Insert (ProjectCore)" in 89.7936ms
+2025-03-03 17:22:05.281 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BakerysController.Insert (ProjectCore)"'
+2025-03-03 17:22:05.288 +02:00 [Information] Finished handling request: POST./Bakerys/, Response Status: 201
+2025-03-03 17:22:05.294 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakerys/""" - 201 null "application/json; charset=utf-8" 160.7032ms
+2025-03-03 17:22:10.548 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys/""" - "application/json" 79
+2025-03-03 17:22:10.561 +02:00 [Information] Handling request: GET./Bakerys/
+2025-03-03 17:22:10.566 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)"'
+2025-03-03 17:22:10.581 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Bakerys\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ProjectCore.Bakery] GetAll()" on controller "ProjectCore.Controllers.BakerysController" ("ProjectCore").
+2025-03-03 17:22:10.596 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.Bakery, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-03-03 17:22:10.626 +02:00 [Information] Executed action "ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)" in 31.4938ms
+2025-03-03 17:22:10.636 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)"'
+2025-03-03 17:22:10.647 +02:00 [Information] Finished handling request: GET./Bakerys/, Response Status: 200
+2025-03-03 17:22:10.655 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys/""" - 200 null "application/json; charset=utf-8" 106.8665ms
+2025-03-03 17:22:19.892 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys/""" - "application/json" 79
+2025-03-03 17:22:19.901 +02:00 [Information] Handling request: GET./Bakerys/
+2025-03-03 17:22:19.907 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)"'
+2025-03-03 17:22:19.928 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Bakerys\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ProjectCore.Bakery] GetAll()" on controller "ProjectCore.Controllers.BakerysController" ("ProjectCore").
+2025-03-03 17:22:19.945 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.Bakery, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-03-03 17:22:19.957 +02:00 [Information] Executed action "ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)" in 12.7473ms
+2025-03-03 17:22:19.968 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)"'
+2025-03-03 17:22:19.976 +02:00 [Information] Finished handling request: GET./Bakerys/, Response Status: 200
+2025-03-03 17:22:19.984 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys/""" - 200 null "application/json; charset=utf-8" 91.5007ms
+2025-03-03 17:22:30.284 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys/""" - "application/json" 79
+2025-03-03 17:22:30.292 +02:00 [Information] Handling request: GET./Bakerys/
+2025-03-03 17:22:30.301 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)"'
+2025-03-03 17:22:30.310 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Bakerys\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ProjectCore.Bakery] GetAll()" on controller "ProjectCore.Controllers.BakerysController" ("ProjectCore").
+2025-03-03 17:22:30.325 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.Bakery, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-03-03 17:22:30.337 +02:00 [Information] Executed action "ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)" in 12.2573ms
+2025-03-03 17:22:30.349 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)"'
+2025-03-03 17:22:30.359 +02:00 [Information] Finished handling request: GET./Bakerys/, Response Status: 200
+2025-03-03 17:22:30.367 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys/""" - 200 null "application/json; charset=utf-8" 82.8336ms
+2025-03-03 17:22:46.748 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakerys/""" - "application/json" 78
+2025-03-03 17:22:46.767 +02:00 [Information] Handling request: POST./Bakerys/
+2025-03-03 17:22:46.771 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BakerysController.Insert (ProjectCore)"'
+2025-03-03 17:22:46.780 +02:00 [Information] Route matched with "{action = \"Insert\", controller = \"Bakerys\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Insert(ProjectCore.Bakery)" on controller "ProjectCore.Controllers.BakerysController" ("ProjectCore").
+2025-03-03 17:22:46.798 +02:00 [Information] Executing "CreatedAtActionResult", writing value of type '"ProjectCore.Bakery"'.
+2025-03-03 17:22:46.812 +02:00 [Information] Executed action "ProjectCore.Controllers.BakerysController.Insert (ProjectCore)" in 19.3571ms
+2025-03-03 17:22:46.823 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BakerysController.Insert (ProjectCore)"'
+2025-03-03 17:22:46.831 +02:00 [Information] Finished handling request: POST./Bakerys/, Response Status: 201
+2025-03-03 17:22:46.840 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakerys/""" - 201 null "application/json; charset=utf-8" 92.2525ms
+2025-03-03 17:22:52.342 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys/""" - "application/json" 78
+2025-03-03 17:22:52.377 +02:00 [Information] Handling request: GET./Bakerys/
+2025-03-03 17:22:52.389 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)"'
+2025-03-03 17:22:52.398 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Bakerys\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ProjectCore.Bakery] GetAll()" on controller "ProjectCore.Controllers.BakerysController" ("ProjectCore").
+2025-03-03 17:22:52.417 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.Bakery, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-03-03 17:22:52.429 +02:00 [Information] Executed action "ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)" in 12.6274ms
+2025-03-03 17:22:52.440 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)"'
+2025-03-03 17:22:52.449 +02:00 [Information] Finished handling request: GET./Bakerys/, Response Status: 200
+2025-03-03 17:22:52.456 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys/""" - 200 null "application/json; charset=utf-8" 113.9702ms
+2025-03-03 17:23:34.398 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Users/""" - "application/json" 78
+2025-03-03 17:23:34.409 +02:00 [Information] Handling request: GET./Users/
+2025-03-03 17:23:34.420 +02:00 [Information] Finished handling request: GET./Users/, Response Status: 404
+2025-03-03 17:23:34.424 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Users/""" - 404 0 null 26.1476ms
+2025-03-03 17:23:34.448 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/Users/", Response status code: 404
+2025-03-03 17:26:39.445 +02:00 [Information] Application is shutting down...
+2025-03-03 17:26:48.148 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-03-03 17:26:48.198 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-03 17:26:48.202 +02:00 [Information] Hosting environment: "Development"
+2025-03-03 17:26:48.204 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-03-03 17:26:53.183 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Users/""" - "application/json" 78
+2025-03-03 17:26:53.233 +02:00 [Information] Handling request: GET./Users/
+2025-03-03 17:26:53.242 +02:00 [Information] Finished handling request: GET./Users/, Response Status: 404
+2025-03-03 17:26:53.250 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Users/""" - 404 0 null 67.527ms
+2025-03-03 17:26:53.266 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/Users/", Response status code: 404
+2025-03-03 17:27:46.114 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Users/""" - "application/json" 78
+2025-03-03 17:27:46.135 +02:00 [Information] Handling request: GET./Users/
+2025-03-03 17:27:46.141 +02:00 [Information] Finished handling request: GET./Users/, Response Status: 404
+2025-03-03 17:27:46.145 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Users/""" - 404 0 null 31.5588ms
+2025-03-03 17:27:46.164 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/Users/", Response status code: 404
+2025-03-03 17:28:52.406 +02:00 [Information] Application is shutting down...
+2025-03-03 17:31:20.832 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-03-03 17:31:20.929 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-03 17:31:20.934 +02:00 [Information] Hosting environment: "Development"
+2025-03-03 17:31:20.938 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-03-03 17:31:25.723 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Users/""" - "application/json" 78
+2025-03-03 17:31:25.810 +02:00 [Information] Handling request: GET./Users/
+2025-03-03 17:31:25.820 +02:00 [Information] Finished handling request: GET./Users/, Response Status: 404
+2025-03-03 17:31:25.832 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Users/""" - 404 0 null 110.8417ms
+2025-03-03 17:31:25.850 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/Users/", Response status code: 404
+2025-03-03 17:33:39.118 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Users/""" - "application/json" 78
+2025-03-03 17:33:39.128 +02:00 [Information] Handling request: GET./Users/
+2025-03-03 17:33:39.134 +02:00 [Information] Finished handling request: GET./Users/, Response Status: 404
+2025-03-03 17:33:39.137 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Users/""" - 404 0 null 19.2105ms
+2025-03-03 17:33:39.145 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/Users/", Response status code: 404
+2025-03-03 17:33:44.515 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Users""" - "application/json" 78
+2025-03-03 17:33:44.529 +02:00 [Information] Handling request: GET./Users
+2025-03-03 17:33:44.535 +02:00 [Information] Finished handling request: GET./Users, Response Status: 404
+2025-03-03 17:33:44.540 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Users""" - 404 0 null 24.664ms
+2025-03-03 17:33:44.557 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/Users", Response status code: 404
+2025-03-03 17:33:51.432 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/users""" - "application/json" 78
+2025-03-03 17:33:51.436 +02:00 [Information] Handling request: GET./users
+2025-03-03 17:33:51.446 +02:00 [Information] Finished handling request: GET./users, Response Status: 404
+2025-03-03 17:33:51.458 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/users""" - 404 0 null 26.143ms
+2025-03-03 17:33:51.466 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/users", Response status code: 404
+2025-03-03 17:33:58.609 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/""" - "application/json" 78
+2025-03-03 17:33:58.613 +02:00 [Information] Handling request: GET./
+2025-03-03 17:33:58.730 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main\wwwroot\index.html"'
+2025-03-03 17:33:58.734 +02:00 [Information] Finished handling request: GET./index.html, Response Status: 200
+2025-03-03 17:33:58.749 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/index.html""" - 200 1806 "text/html" 137.5505ms
+2025-03-03 17:40:22.670 +02:00 [Information] Application is shutting down...
+2025-03-03 17:40:35.818 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-03-03 17:40:35.870 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-03 17:40:35.874 +02:00 [Information] Hosting environment: "Development"
+2025-03-03 17:40:35.876 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-03-03 17:40:55.792 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Users""" - "application/json" 78
+2025-03-03 17:40:55.888 +02:00 [Information] Handling request: GET./Users
+2025-03-03 17:40:55.899 +02:00 [Information] Finished handling request: GET./Users, Response Status: 404
+2025-03-03 17:40:55.906 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Users""" - 404 0 null 117.5848ms
+2025-03-03 17:40:55.932 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/Users", Response status code: 404
+2025-03-03 17:44:23.432 +02:00 [Information] Application is shutting down...
+2025-03-03 17:44:33.125 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-03-03 17:44:33.182 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-03 17:44:33.185 +02:00 [Information] Hosting environment: "Development"
+2025-03-03 17:44:33.186 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-03-03 17:44:37.289 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Users""" - "application/json" 78
+2025-03-03 17:44:37.341 +02:00 [Information] Handling request: GET./Users
+2025-03-03 17:44:37.350 +02:00 [Information] Finished handling request: GET./Users, Response Status: 404
+2025-03-03 17:44:37.360 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Users""" - 404 0 null 71.9172ms
+2025-03-03 17:44:37.380 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/Users", Response status code: 404
+2025-03-03 17:45:36.925 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Users""" - "application/json" 78
+2025-03-03 17:45:36.941 +02:00 [Information] Handling request: GET./Users
+2025-03-03 17:45:36.944 +02:00 [Information] Finished handling request: GET./Users, Response Status: 404
+2025-03-03 17:45:36.948 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Users""" - 404 0 null 23.8925ms
+2025-03-03 17:45:36.958 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/Users", Response status code: 404
+2025-03-03 17:46:04.843 +02:00 [Information] Application is shutting down...
+2025-03-03 17:46:19.288 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-03-03 17:46:19.396 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-03 17:46:19.401 +02:00 [Information] Hosting environment: "Development"
+2025-03-03 17:46:19.407 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-03-03 17:46:24.185 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Users""" - "application/json" 78
+2025-03-03 17:46:24.233 +02:00 [Information] Handling request: GET./Users
+2025-03-03 17:46:24.240 +02:00 [Information] Finished handling request: GET./Users, Response Status: 404
+2025-03-03 17:46:24.245 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Users""" - 404 0 null 61.2626ms
+2025-03-03 17:46:24.255 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/Users", Response status code: 404
+2025-03-03 17:48:15.072 +02:00 [Information] Application is shutting down...
+2025-03-03 17:48:24.463 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-03-03 17:48:24.514 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-03 17:48:24.518 +02:00 [Information] Hosting environment: "Development"
+2025-03-03 17:48:24.520 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-03-03 17:48:31.315 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Users""" - "application/json" 78
+2025-03-03 17:48:31.362 +02:00 [Information] Handling request: GET./Users
+2025-03-03 17:48:31.371 +02:00 [Information] Finished handling request: GET./Users, Response Status: 404
+2025-03-03 17:48:31.376 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Users""" - 404 0 null 62.9308ms
+2025-03-03 17:48:31.384 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/Users", Response status code: 404
+2025-03-03 17:52:05.473 +02:00 [Information] Application is shutting down...
+2025-03-03 17:53:23.387 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-03-03 17:53:23.448 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-03 17:53:23.451 +02:00 [Information] Hosting environment: "Development"
+2025-03-03 17:53:23.453 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-03-03 17:53:31.682 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Users""" - "application/json" 78
+2025-03-03 17:53:31.728 +02:00 [Information] Handling request: GET./Users
+2025-03-03 17:53:31.734 +02:00 [Information] Finished handling request: GET./Users, Response Status: 404
+2025-03-03 17:53:31.739 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Users""" - 404 0 null 58.5128ms
+2025-03-03 17:53:31.750 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/Users", Response status code: 404
+2025-03-03 17:58:47.852 +02:00 [Information] Application is shutting down...
+2025-03-03 17:59:05.174 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-03-03 17:59:05.274 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-03 17:59:05.281 +02:00 [Information] Hosting environment: "Development"
+2025-03-03 17:59:05.285 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-03-03 17:59:14.071 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Users""" - "application/json" 78
+2025-03-03 17:59:14.166 +02:00 [Information] Handling request: GET./Users
+2025-03-03 17:59:14.177 +02:00 [Information] Finished handling request: GET./Users, Response Status: 404
+2025-03-03 17:59:14.191 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Users""" - 404 0 null 123.8508ms
+2025-03-03 17:59:14.216 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/Users", Response status code: 404
+2025-03-03 18:01:56.738 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys/""" - null null
+2025-03-03 18:01:56.763 +02:00 [Information] Handling request: GET./Bakerys/
+2025-03-03 18:01:56.773 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)"'
+2025-03-03 18:01:56.840 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Bakerys\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ProjectCore.Bakery] GetAll()" on controller "ProjectCore.Controllers.BakerysController" ("ProjectCore").
+2025-03-03 18:01:56.993 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.Bakery, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-03-03 18:01:57.071 +02:00 [Information] Executed action "ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)" in 211.0199ms
+2025-03-03 18:01:57.077 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)"'
+2025-03-03 18:01:57.085 +02:00 [Information] Finished handling request: GET./Bakerys/, Response Status: 200
+2025-03-03 18:01:57.092 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys/""" - 200 null "application/json; charset=utf-8" 355.0936ms
+2025-03-03 18:03:28.378 +02:00 [Information] Application is shutting down...
+2025-03-03 18:03:37.535 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-03-03 18:03:37.588 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-03 18:03:37.591 +02:00 [Information] Hosting environment: "Development"
+2025-03-03 18:03:37.593 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-03-03 18:04:05.612 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Users""" - null null
+2025-03-03 18:04:05.760 +02:00 [Information] Handling request: GET./Users
+2025-03-03 18:04:05.794 +02:00 [Information] Finished handling request: GET./Users, Response Status: 404
+2025-03-03 18:04:05.816 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Users""" - 404 0 null 208.6663ms
+2025-03-03 18:04:05.861 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/Users", Response status code: 404
+2025-03-03 18:04:12.039 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - null null
+2025-03-03 18:04:12.082 +02:00 [Error] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+ProjectCore.Controllers.UserController.getUser (ProjectCore)
+ProjectCore.Controllers.UserController.GetAll (ProjectCore)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-03 18:04:12.226 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - 500 null "text/html; charset=utf-8" 188.4237ms
+2025-03-03 18:04:46.416 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Users""" - "application/json" 78
+2025-03-03 18:04:46.435 +02:00 [Information] Handling request: GET./Users
+2025-03-03 18:04:46.440 +02:00 [Information] Finished handling request: GET./Users, Response Status: 404
+2025-03-03 18:04:46.447 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Users""" - 404 0 null 30.9431ms
+2025-03-03 18:04:46.462 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/Users", Response status code: 404
+2025-03-03 18:05:04.417 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Users""" - null null
+2025-03-03 18:05:04.432 +02:00 [Information] Handling request: GET./Users
+2025-03-03 18:05:04.434 +02:00 [Information] Finished handling request: GET./Users, Response Status: 404
+2025-03-03 18:05:04.438 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Users""" - 404 0 null 20.5295ms
+2025-03-03 18:05:04.448 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/Users", Response status code: 404
+2025-03-03 18:07:06.747 +02:00 [Information] Application is shutting down...
+2025-03-03 18:07:15.313 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-03-03 18:07:15.367 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-03 18:07:15.371 +02:00 [Information] Hosting environment: "Development"
+2025-03-03 18:07:15.376 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-03-03 18:07:35.291 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/currentUser""" - "application/json" 78
+2025-03-03 18:07:35.351 +02:00 [Information] Handling request: GET./User/currentUser
+2025-03-03 18:07:35.363 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.getUser (ProjectCore)"'
+2025-03-03 18:07:35.391 +02:00 [Information] Route matched with "{action = \"getUser\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ProjectCore.User] getUser()" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-03 18:07:35.414 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.getUser (ProjectCore)" in 11.4059ms
+2025-03-03 18:07:35.424 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.getUser (ProjectCore)"'
+2025-03-03 18:07:35.431 +02:00 [Information] Finished handling request: GET./User/currentUser, Response Status: 500
+2025-03-03 18:07:35.436 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/currentUser""" - 500 null "application/json" 147.2952ms
+2025-03-03 18:08:04.305 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/all
+""" - "application/json" 78
+2025-03-03 18:08:04.323 +02:00 [Information] Handling request: GET./User/all%0A
+2025-03-03 18:08:04.333 +02:00 [Information] Finished handling request: GET./User/all%0A, Response Status: 500
+2025-03-03 18:08:04.338 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/all
+""" - 500 null "application/json" 33.6458ms
+2025-03-03 18:09:48.130 +02:00 [Information] Application is shutting down...
+2025-03-03 18:10:53.096 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-03-03 18:10:53.153 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-03 18:10:53.156 +02:00 [Information] Hosting environment: "Development"
+2025-03-03 18:10:53.159 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-03-03 18:10:57.422 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/all
+""" - "application/json" 78
+2025-03-03 18:10:57.471 +02:00 [Information] Handling request: GET./User/all%0A
+2025-03-03 18:10:57.482 +02:00 [Information] Finished handling request: GET./User/all%0A, Response Status: 500
+2025-03-03 18:10:57.493 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/all
+""" - 500 null "application/json" 71.1567ms
+2025-03-03 18:12:54.339 +02:00 [Information] Application is shutting down...
+2025-03-03 18:13:03.017 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-03-03 18:13:03.063 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-03 18:13:03.066 +02:00 [Information] Hosting environment: "Development"
+2025-03-03 18:13:03.068 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-03-03 18:13:07.224 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User
+""" - "application/json" 78
+2025-03-03 18:13:07.276 +02:00 [Information] Handling request: GET./User%0A
+2025-03-03 18:13:07.286 +02:00 [Information] Finished handling request: GET./User%0A, Response Status: 404
+2025-03-03 18:13:07.293 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User
+""" - 404 0 null 70.645ms
+2025-03-03 18:13:07.309 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/User%0A", Response status code: 404
+2025-03-03 18:13:15.697 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User
+""" - "application/json" 78
+2025-03-03 18:13:15.708 +02:00 [Information] Handling request: GET./User%0A
+2025-03-03 18:13:15.712 +02:00 [Information] Finished handling request: GET./User%0A, Response Status: 404
+2025-03-03 18:13:15.715 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User
+""" - 404 0 null 18.1749ms
+2025-03-03 18:13:15.722 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/User%0A", Response status code: 404
+2025-03-03 18:13:19.516 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Users
+""" - "application/json" 78
+2025-03-03 18:13:19.529 +02:00 [Information] Handling request: GET./Users%0A
+2025-03-03 18:13:19.533 +02:00 [Information] Finished handling request: GET./Users%0A, Response Status: 404
+2025-03-03 18:13:19.537 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Users
+""" - 404 0 null 21.1954ms
+2025-03-03 18:13:19.546 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/Users%0A", Response status code: 404
+2025-03-03 18:18:30.261 +02:00 [Information] Application is shutting down...
+2025-03-03 18:20:21.860 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-03-03 18:20:21.912 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-03 18:20:21.915 +02:00 [Information] Hosting environment: "Development"
+2025-03-03 18:20:21.916 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-03-03 18:20:37.257 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/currentUser
+""" - "application/json" 78
+2025-03-03 18:20:37.355 +02:00 [Information] Handling request: GET./User/currentUser%0A
+2025-03-03 18:20:37.370 +02:00 [Information] Finished handling request: GET./User/currentUser%0A, Response Status: 500
+2025-03-03 18:20:37.379 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/currentUser
+""" - 500 null "application/json" 123.5139ms
+2025-03-03 18:20:57.407 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/currentUser""" - "application/json" 78
+2025-03-03 18:20:57.420 +02:00 [Information] Handling request: GET./User/currentUser
+2025-03-03 18:20:57.428 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.getUser (ProjectCore)"'
+2025-03-03 18:20:57.468 +02:00 [Information] Route matched with "{action = \"getUser\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ProjectCore.User] getUser()" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-03 18:20:57.488 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.getUser (ProjectCore)" in 3.4557ms
+2025-03-03 18:20:57.496 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.getUser (ProjectCore)"'
+2025-03-03 18:20:57.502 +02:00 [Information] Finished handling request: GET./User/currentUser, Response Status: 500
+2025-03-03 18:20:57.505 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/currentUser""" - 500 null "application/json" 98.798ms
+2025-03-03 18:21:25.095 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/currentUser""" - null null
+2025-03-03 18:21:25.102 +02:00 [Information] Handling request: GET./User/currentUser
+2025-03-03 18:21:25.105 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.getUser (ProjectCore)"'
+2025-03-03 18:21:25.110 +02:00 [Information] Route matched with "{action = \"getUser\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ProjectCore.User] getUser()" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-03 18:21:25.116 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.getUser (ProjectCore)" in 0.3449ms
+2025-03-03 18:21:25.123 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.getUser (ProjectCore)"'
+2025-03-03 18:21:25.129 +02:00 [Information] Finished handling request: GET./User/currentUser, Response Status: 500
+2025-03-03 18:21:25.132 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/currentUser""" - 500 null "application/json" 37.3981ms
+2025-03-03 18:23:35.218 +02:00 [Information] Application is shutting down...
+2025-03-03 18:23:43.863 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-03-03 18:23:43.913 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-03 18:23:43.917 +02:00 [Information] Hosting environment: "Development"
+2025-03-03 18:23:43.921 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-03-03 18:23:49.700 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/currentUser""" - null null
+2025-03-03 18:23:49.750 +02:00 [Information] Handling request: GET./User/currentUser
+2025-03-03 18:23:49.759 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.getUser (ProjectCore)"'
+2025-03-03 18:23:49.785 +02:00 [Information] Route matched with "{action = \"getUser\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ProjectCore.User] getUser()" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-03 18:23:49.869 +02:00 [Information] Executing "NotFoundObjectResult", writing value of type '"System.String"'.
+2025-03-03 18:23:49.882 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.getUser (ProjectCore)" in 88.0002ms
+2025-03-03 18:23:49.886 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.getUser (ProjectCore)"'
+2025-03-03 18:23:49.888 +02:00 [Information] Finished handling request: GET./User/currentUser, Response Status: 404
+2025-03-03 18:23:49.892 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/currentUser""" - 404 null "text/plain; charset=utf-8" 194.2982ms
+2025-03-03 18:24:17.229 +02:00 [Information] Application is shutting down...
+2025-03-03 18:24:25.094 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-03-03 18:24:25.151 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-03 18:24:25.156 +02:00 [Information] Hosting environment: "Development"
+2025-03-03 18:24:25.159 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-03-03 18:24:28.792 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/currentUser""" - null null
+2025-03-03 18:24:28.840 +02:00 [Information] Handling request: GET./User/currentUser
+2025-03-03 18:24:28.849 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.getUser (ProjectCore)"'
+2025-03-03 18:24:28.874 +02:00 [Information] Route matched with "{action = \"getUser\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ProjectCore.User] getUser()" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-03 18:24:28.941 +02:00 [Information] Executing "NotFoundObjectResult", writing value of type '"System.String"'.
+2025-03-03 18:24:28.951 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.getUser (ProjectCore)" in 65.5732ms
+2025-03-03 18:24:28.957 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.getUser (ProjectCore)"'
+2025-03-03 18:24:28.963 +02:00 [Information] Finished handling request: GET./User/currentUser, Response Status: 404
+2025-03-03 18:24:28.968 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/currentUser""" - 404 null "text/plain; charset=utf-8" 177.5046ms
+2025-03-03 18:24:57.905 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/currentUser""" - "application/json" 78
+2025-03-03 18:24:57.932 +02:00 [Information] Handling request: GET./User/currentUser
+2025-03-03 18:24:57.940 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.getUser (ProjectCore)"'
+2025-03-03 18:24:57.951 +02:00 [Information] Route matched with "{action = \"getUser\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ProjectCore.User] getUser()" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-03 18:24:57.970 +02:00 [Information] Executing "NotFoundObjectResult", writing value of type '"System.String"'.
+2025-03-03 18:24:57.980 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.getUser (ProjectCore)" in 13.8357ms
+2025-03-03 18:24:57.992 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.getUser (ProjectCore)"'
+2025-03-03 18:24:57.998 +02:00 [Information] Finished handling request: GET./User/currentUser, Response Status: 404
+2025-03-03 18:24:58.002 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/currentUser""" - 404 null "text/plain; charset=utf-8" 99.4156ms
+2025-03-03 18:25:20.862 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - "application/json" 78
+2025-03-03 18:25:20.867 +02:00 [Information] Handling request: GET./User
+2025-03-03 18:25:20.868 +02:00 [Information] Executing endpoint '"405 HTTP Method Not Supported"'
+2025-03-03 18:25:20.870 +02:00 [Information] Executed endpoint '"405 HTTP Method Not Supported"'
+2025-03-03 18:25:20.871 +02:00 [Information] Finished handling request: GET./User, Response Status: 405
+2025-03-03 18:25:20.872 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - 405 0 null 10.3538ms
+2025-03-03 18:25:31.589 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - null null
+2025-03-03 18:25:31.600 +02:00 [Information] Handling request: GET./User
+2025-03-03 18:25:31.604 +02:00 [Information] Executing endpoint '"405 HTTP Method Not Supported"'
+2025-03-03 18:25:31.609 +02:00 [Information] Executed endpoint '"405 HTTP Method Not Supported"'
+2025-03-03 18:25:31.614 +02:00 [Information] Finished handling request: GET./User, Response Status: 405
+2025-03-03 18:25:31.620 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - 405 0 null 30.501ms
+2025-03-03 18:25:48.600 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - null null
+2025-03-03 18:25:48.606 +02:00 [Information] Handling request: GET./User
+2025-03-03 18:25:48.611 +02:00 [Information] Executing endpoint '"405 HTTP Method Not Supported"'
+2025-03-03 18:25:48.618 +02:00 [Information] Executed endpoint '"405 HTTP Method Not Supported"'
+2025-03-03 18:25:48.622 +02:00 [Information] Finished handling request: GET./User, Response Status: 405
+2025-03-03 18:25:48.627 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - 405 0 null 26.608ms
+2025-03-03 18:26:42.415 +02:00 [Information] Application is shutting down...
+2025-03-03 18:26:51.854 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-03-03 18:26:51.904 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-03 18:26:51.909 +02:00 [Information] Hosting environment: "Development"
+2025-03-03 18:26:51.912 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-03-03 18:26:56.271 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - "application/json" 78
+2025-03-03 18:26:56.310 +02:00 [Information] Handling request: GET./User
+2025-03-03 18:26:56.315 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.getUser (ProjectCore)"'
+2025-03-03 18:26:56.337 +02:00 [Information] Route matched with "{action = \"getUser\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ProjectCore.User] getUser()" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-03 18:26:56.381 +02:00 [Information] Executing "NotFoundObjectResult", writing value of type '"System.String"'.
+2025-03-03 18:26:56.391 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.getUser (ProjectCore)" in 46.5308ms
+2025-03-03 18:26:56.396 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.getUser (ProjectCore)"'
+2025-03-03 18:26:56.401 +02:00 [Information] Finished handling request: GET./User, Response Status: 404
+2025-03-03 18:26:56.406 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - 404 null "text/plain; charset=utf-8" 136.505ms
+2025-03-03 18:28:07.020 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - "application/json" 78
+2025-03-03 18:28:07.036 +02:00 [Information] Handling request: GET./User
+2025-03-03 18:28:07.039 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.getUser (ProjectCore)"'
+2025-03-03 18:28:07.043 +02:00 [Information] Route matched with "{action = \"getUser\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ProjectCore.User] getUser()" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-03 18:28:07.052 +02:00 [Information] Executing "NotFoundObjectResult", writing value of type '"System.String"'.
+2025-03-03 18:28:07.058 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.getUser (ProjectCore)" in 7.2641ms
+2025-03-03 18:28:07.064 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.getUser (ProjectCore)"'
+2025-03-03 18:28:07.068 +02:00 [Information] Finished handling request: GET./User, Response Status: 404
+2025-03-03 18:28:07.074 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - 404 null "text/plain; charset=utf-8" 53.8982ms
+2025-03-03 18:28:12.117 +02:00 [Information] Application is shutting down...
+2025-03-03 18:28:20.098 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-03-03 18:28:20.150 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-03 18:28:20.155 +02:00 [Information] Hosting environment: "Development"
+2025-03-03 18:28:20.158 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-03-03 18:28:23.603 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - "application/json" 78
+2025-03-03 18:28:23.653 +02:00 [Information] Handling request: GET./User
+2025-03-03 18:28:23.660 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.GetAll (ProjectCore)"'
+2025-03-03 18:28:23.683 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[ProjectCore.User]] GetAll()" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-03 18:28:23.740 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.User, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-03-03 18:28:23.770 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.GetAll (ProjectCore)" in 74.9ms
+2025-03-03 18:28:23.779 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.GetAll (ProjectCore)"'
+2025-03-03 18:28:23.783 +02:00 [Information] Finished handling request: GET./User, Response Status: 200
+2025-03-03 18:28:23.788 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - 200 null "application/json; charset=utf-8" 187.3557ms
+2025-03-03 18:29:39.585 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/User""" - "application/json" 83
+2025-03-03 18:29:39.605 +02:00 [Information] Handling request: POST./User
+2025-03-03 18:29:39.615 +02:00 [Information] Finished handling request: POST./User, Response Status: 500
+2025-03-03 18:29:39.621 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/User""" - 500 null "application/json" 36.8927ms
+2025-03-03 18:31:07.532 +02:00 [Information] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User""" - "application/json" 83
+2025-03-03 18:31:07.545 +02:00 [Information] Handling request: PUT./User
+2025-03-03 18:31:07.551 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-03 18:31:07.568 +02:00 [Information] Route matched with "{action = \"updateCurrentUser\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult updateCurrentUser(ProjectCore.User)" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-03 18:31:07.645 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2025-03-03 18:31:07.719 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)" in 140.5025ms
+2025-03-03 18:31:07.724 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-03 18:31:07.727 +02:00 [Information] Finished handling request: PUT./User, Response Status: 400
+2025-03-03 18:31:07.734 +02:00 [Information] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User""" - 400 null "application/problem+json; charset=utf-8" 201.3797ms
+2025-03-03 18:31:42.188 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - "application/json" 83
+2025-03-03 18:31:42.199 +02:00 [Information] Handling request: GET./User
+2025-03-03 18:31:42.205 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.GetAll (ProjectCore)"'
+2025-03-03 18:31:42.212 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[ProjectCore.User]] GetAll()" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-03 18:31:42.227 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.User, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-03-03 18:31:42.237 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.GetAll (ProjectCore)" in 11.7447ms
+2025-03-03 18:31:42.244 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.GetAll (ProjectCore)"'
+2025-03-03 18:31:42.251 +02:00 [Information] Finished handling request: GET./User, Response Status: 200
+2025-03-03 18:31:42.255 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - 200 null "application/json; charset=utf-8" 67.0724ms
+2025-03-03 18:32:14.358 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/1""" - "application/json" 91
+2025-03-03 18:32:14.363 +02:00 [Information] Handling request: GET./User/1
+2025-03-03 18:32:14.371 +02:00 [Information] Finished handling request: GET./User/1, Response Status: 500
+2025-03-03 18:32:14.374 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/1""" - 500 null "application/json" 16.5238ms
+2025-03-03 18:32:24.153 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/""" - "application/json" 91
+2025-03-03 18:32:24.162 +02:00 [Information] Handling request: GET./User/
+2025-03-03 18:32:24.166 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.GetAll (ProjectCore)"'
+2025-03-03 18:32:24.173 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[ProjectCore.User]] GetAll()" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-03 18:32:24.184 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.User, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-03-03 18:32:24.193 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.GetAll (ProjectCore)" in 10.7229ms
+2025-03-03 18:32:24.202 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.GetAll (ProjectCore)"'
+2025-03-03 18:32:24.210 +02:00 [Information] Finished handling request: GET./User/, Response Status: 200
+2025-03-03 18:32:24.217 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/""" - 200 null "application/json; charset=utf-8" 64.0973ms

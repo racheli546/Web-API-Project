@@ -1,9 +1,13 @@
 
 using Microsoft.AspNetCore.Mvc;
 using ProjectCore.Interfaces;
+using Microsoft.AspNetCore.Authorization;
+
 namespace ProjectCore.Controllers;
 [ApiController]
 [Route("[controller]")]
+// [Authorize(Policy = "User")]
+
 public class BakerysController : ControllerBase
 {
     private IBakeryService BakeryService;

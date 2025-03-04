@@ -7,6 +7,7 @@ using Microsoft.OpenApi.Models;
 using ProjectCore.Middlewares;
 using Serilog;
 using Serilog.Events;
+using ProjectCore;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -33,7 +34,8 @@ builder.Services.AddBakeryService();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
+builder.Services.AddSingleton<IUserService, UserService>();
+builder.Services.AddHttpContextAccessor();
 
 
 var app = builder.Build();
@@ -49,7 +51,7 @@ app.UseErrorHandlingMiddleware();
 app.UseDefaultFiles();
 app.UseStaticFiles();
 /*js (remove "launchUrl" from Properties\launchSettings.json*/
-app.UseHttpsRedirection();
+// app.UseHttpsRedirection();
 
 app.UseAuthorization();
 

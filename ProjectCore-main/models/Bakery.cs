@@ -11,4 +11,5 @@ public class Bakery
     public int Id { get; set; }
     public string Name { get; set; }
     public CategoryBakeries Category { get; set; }
+    public int UserId {get; set;}
 }
