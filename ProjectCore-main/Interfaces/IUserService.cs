@@ -6,6 +6,7 @@ namespace ProjectCore.Interfaces
 {
     public interface IUserService
     {
+        User Authenticate(string username, string password);
         List<User> GetAll();
 
         User ?Get(int id);
@@ -15,6 +16,11 @@ namespace ProjectCore.Interfaces
         void Delete(int id);
 
         void Update(User user);
+         // ✅ הוספת קניית מאפה
+        void BuyBakery(int userId, Bakery bakery);
+
+        // ✅ הסרת מאפה מרשימת המשתמש
+        void RemoveBakery(int userId, int bakeryId);
 
         // int Count { get;}
     }

@@ -1,0 +1,624 @@
+2025-03-05 00:02:53.255 +02:00 [Information] Application is shutting down...
+2025-03-05 00:03:01.297 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-03-05 00:03:01.375 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-05 00:03:01.379 +02:00 [Information] Hosting environment: "Development"
+2025-03-05 00:03:01.385 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-03-05 00:03:07.754 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - "application/json" 56
+2025-03-05 00:03:07.835 +02:00 [Information] Handling request: POST./Auth/login
+2025-03-05 00:03:07.852 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-05 00:03:07.909 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(ProjectCore.Models.UserLoginDto)" on controller "ProjectCore.Controllers.AuthController" ("ProjectCore").
+2025-03-05 00:03:08.206 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.String"'.
+2025-03-05 00:03:08.226 +02:00 [Information] Executed action "ProjectCore.Controllers.AuthController.Login (ProjectCore)" in 302.8354ms
+2025-03-05 00:03:08.238 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-05 00:03:08.242 +02:00 [Information] Finished handling request: POST./Auth/login, Response Status: 500
+2025-03-05 00:03:08.251 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - 500 null "text/plain; charset=utf-8" 501.9233ms
+2025-03-05 00:03:13.862 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - "application/json" 56
+2025-03-05 00:03:13.886 +02:00 [Information] Handling request: POST./Auth/login
+2025-03-05 00:03:13.894 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-05 00:03:13.902 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(ProjectCore.Models.UserLoginDto)" on controller "ProjectCore.Controllers.AuthController" ("ProjectCore").
+2025-03-05 00:03:13.925 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.String"'.
+2025-03-05 00:03:13.936 +02:00 [Information] Executed action "ProjectCore.Controllers.AuthController.Login (ProjectCore)" in 18.5591ms
+2025-03-05 00:03:13.943 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-05 00:03:13.949 +02:00 [Information] Finished handling request: POST./Auth/login, Response Status: 500
+2025-03-05 00:03:13.955 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - 500 null "text/plain; charset=utf-8" 95.0849ms
+2025-03-05 00:04:01.152 +02:00 [Information] Application is shutting down...
+2025-03-05 00:04:09.889 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-03-05 00:04:09.937 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-05 00:04:09.941 +02:00 [Information] Hosting environment: "Development"
+2025-03-05 00:04:09.945 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-03-05 00:04:13.179 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - "application/json" 56
+2025-03-05 00:04:13.220 +02:00 [Information] Handling request: POST./Auth/login
+2025-03-05 00:04:13.228 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-05 00:04:13.254 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(ProjectCore.Models.UserLoginDto)" on controller "ProjectCore.Controllers.AuthController" ("ProjectCore").
+2025-03-05 00:04:13.397 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.String"'.
+2025-03-05 00:04:13.410 +02:00 [Information] Executed action "ProjectCore.Controllers.AuthController.Login (ProjectCore)" in 146.5221ms
+2025-03-05 00:04:13.417 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-05 00:04:13.422 +02:00 [Information] Finished handling request: POST./Auth/login, Response Status: 500
+2025-03-05 00:04:13.428 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - 500 null "text/plain; charset=utf-8" 250.4025ms
+2025-03-05 02:11:52.268 +02:00 [Information] Application is shutting down...
+2025-03-05 19:59:07.096 +02:00 [Information] User profile is available. Using '"C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-05 19:59:07.386 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-03-05 19:59:07.398 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-05 19:59:07.405 +02:00 [Information] Hosting environment: "Development"
+2025-03-05 19:59:07.412 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-03-05 20:06:09.453 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - "application/json" 54
+2025-03-05 20:06:09.736 +02:00 [Information] Handling request: POST./Auth/login
+2025-03-05 20:06:09.776 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-05 20:06:09.895 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(ProjectCore.Models.UserLoginDto)" on controller "ProjectCore.Controllers.AuthController" ("ProjectCore").
+2025-03-05 20:06:10.549 +02:00 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-03-05 20:06:10.693 +02:00 [Information] Executed action "ProjectCore.Controllers.AuthController.Login (ProjectCore)" in 771.3797ms
+2025-03-05 20:06:10.709 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-05 20:06:10.716 +02:00 [Information] Finished handling request: POST./Auth/login, Response Status: 200
+2025-03-05 20:06:10.734 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - 200 null "application/json; charset=utf-8" 1287.4878ms
+2025-03-05 20:12:22.879 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/profile""" - "application/json" 54
+2025-03-05 20:12:22.936 +02:00 [Information] Handling request: GET./User/profile
+2025-03-05 20:12:22.965 +02:00 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)"
+2025-03-05 20:12:22.992 +02:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+2025-03-05 20:12:22.999 +02:00 [Information] Finished handling request: GET./User/profile, Response Status: 401
+2025-03-05 20:12:23.005 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/profile""" - 401 0 null 128.1041ms
+2025-03-05 20:22:36.519 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/profile""" - "application/json" 54
+2025-03-05 20:22:36.640 +02:00 [Information] Successfully validated the token.
+2025-03-05 20:22:36.648 +02:00 [Information] Handling request: GET./User/profile
+2025-03-05 20:22:36.656 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.Get (ProjectCore)"'
+2025-03-05 20:22:36.668 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ProjectCore.User] Get(Int32)" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-05 20:22:36.696 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2025-03-05 20:22:36.771 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.Get (ProjectCore)" in 96.4531ms
+2025-03-05 20:22:36.778 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.Get (ProjectCore)"'
+2025-03-05 20:22:36.781 +02:00 [Information] Finished handling request: GET./User/profile, Response Status: 400
+2025-03-05 20:22:36.784 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/profile""" - 400 null "application/problem+json; charset=utf-8" 265.2012ms
+2025-03-05 20:27:19.385 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/profile""" - "application/json" 54
+2025-03-05 20:27:19.408 +02:00 [Information] Successfully validated the token.
+2025-03-05 20:27:19.415 +02:00 [Information] Handling request: GET./User/profile
+2025-03-05 20:27:19.427 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.Get (ProjectCore)"'
+2025-03-05 20:27:19.439 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ProjectCore.User] Get(Int32)" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-05 20:27:19.459 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2025-03-05 20:27:19.472 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.Get (ProjectCore)" in 15.8942ms
+2025-03-05 20:27:19.482 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.Get (ProjectCore)"'
+2025-03-05 20:27:19.491 +02:00 [Information] Finished handling request: GET./User/profile, Response Status: 400
+2025-03-05 20:27:19.497 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/profile""" - 400 null "application/problem+json; charset=utf-8" 111.2382ms
+2025-03-05 20:32:11.155 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/currentUser""" - "application/json" 54
+2025-03-05 20:32:11.178 +02:00 [Information] Successfully validated the token.
+2025-03-05 20:32:11.186 +02:00 [Information] Handling request: GET./User/currentUser
+2025-03-05 20:32:11.194 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.GetCurrentUser (ProjectCore)"'
+2025-03-05 20:32:11.206 +02:00 [Information] Route matched with "{action = \"GetCurrentUser\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ProjectCore.User] GetCurrentUser()" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-05 20:32:11.224 +02:00 [Information] Executing "ObjectResult", writing value of type '"ProjectCore.User"'.
+2025-03-05 20:32:11.242 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.GetCurrentUser (ProjectCore)" in 20.8361ms
+2025-03-05 20:32:11.249 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.GetCurrentUser (ProjectCore)"'
+2025-03-05 20:32:11.256 +02:00 [Information] Finished handling request: GET./User/currentUser, Response Status: 200
+2025-03-05 20:32:11.260 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/currentUser""" - 200 null "application/json; charset=utf-8" 105.4336ms
+2025-03-05 20:36:00.942 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - "application/json" 54
+2025-03-05 20:36:00.961 +02:00 [Information] Successfully validated the token.
+2025-03-05 20:36:00.966 +02:00 [Information] Handling request: GET./User
+2025-03-05 20:36:00.976 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.GetAllUsers (ProjectCore)"'
+2025-03-05 20:36:00.989 +02:00 [Information] Route matched with "{action = \"GetAllUsers\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[ProjectCore.User]] GetAllUsers()" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-05 20:36:01.003 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.User, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-03-05 20:36:01.016 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.GetAllUsers (ProjectCore)" in 14.9295ms
+2025-03-05 20:36:01.024 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.GetAllUsers (ProjectCore)"'
+2025-03-05 20:36:01.031 +02:00 [Information] Finished handling request: GET./User, Response Status: 200
+2025-03-05 20:36:01.035 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - 200 null "application/json; charset=utf-8" 93.0214ms
+2025-03-05 20:36:20.553 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - "application/json" 54
+2025-03-05 20:36:20.566 +02:00 [Information] Handling request: GET./User
+2025-03-05 20:36:20.572 +02:00 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)"
+2025-03-05 20:36:20.582 +02:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+2025-03-05 20:36:20.588 +02:00 [Information] Finished handling request: GET./User, Response Status: 401
+2025-03-05 20:36:20.594 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - 401 0 null 40.8916ms
+2025-03-05 20:38:41.712 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/User/buy/2""" - "application/json" 54
+2025-03-05 20:38:41.719 +02:00 [Information] Successfully validated the token.
+2025-03-05 20:38:41.721 +02:00 [Information] Handling request: POST./User/buy/2
+2025-03-05 20:38:41.724 +02:00 [Information] Finished handling request: POST./User/buy/2, Response Status: 404
+2025-03-05 20:38:41.726 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/User/buy/2""" - 404 0 null 13.798ms
+2025-03-05 20:38:41.736 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "POST" "http"://"localhost:5198""""/User/buy/2", Response status code: 404
+2025-03-05 20:38:57.486 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/User/buy/1""" - "application/json" 54
+2025-03-05 20:38:57.498 +02:00 [Information] Successfully validated the token.
+2025-03-05 20:38:57.502 +02:00 [Information] Handling request: POST./User/buy/1
+2025-03-05 20:38:57.506 +02:00 [Information] Finished handling request: POST./User/buy/1, Response Status: 404
+2025-03-05 20:38:57.512 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/User/buy/1""" - 404 0 null 25.0074ms
+2025-03-05 20:38:57.532 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "POST" "http"://"localhost:5198""""/User/buy/1", Response status code: 404
+2025-03-05 20:46:44.740 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - "application/json" 54
+2025-03-05 20:46:44.749 +02:00 [Information] Successfully validated the token.
+2025-03-05 20:46:44.753 +02:00 [Information] Handling request: GET./User
+2025-03-05 20:46:44.758 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.GetAllUsers (ProjectCore)"'
+2025-03-05 20:46:44.765 +02:00 [Information] Route matched with "{action = \"GetAllUsers\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[ProjectCore.User]] GetAllUsers()" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-05 20:46:44.776 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.User, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-03-05 20:46:44.782 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.GetAllUsers (ProjectCore)" in 6.8759ms
+2025-03-05 20:46:44.788 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.GetAllUsers (ProjectCore)"'
+2025-03-05 20:46:44.794 +02:00 [Information] Finished handling request: GET./User, Response Status: 200
+2025-03-05 20:46:44.796 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - 200 null "application/json; charset=utf-8" 55.9564ms
+2025-03-05 20:47:35.669 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - "application/json" 59
+2025-03-05 20:47:35.677 +02:00 [Information] Successfully validated the token.
+2025-03-05 20:47:35.682 +02:00 [Information] Handling request: POST./Auth/login
+2025-03-05 20:47:35.689 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-05 20:47:35.693 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(ProjectCore.Models.UserLoginDto)" on controller "ProjectCore.Controllers.AuthController" ("ProjectCore").
+2025-03-05 20:47:35.708 +02:00 [Information] Executing "UnauthorizedObjectResult", writing value of type '"System.String"'.
+2025-03-05 20:47:35.712 +02:00 [Information] Executed action "ProjectCore.Controllers.AuthController.Login (ProjectCore)" in 7.3008ms
+2025-03-05 20:47:35.721 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-05 20:47:35.727 +02:00 [Information] Finished handling request: POST./Auth/login, Response Status: 401
+2025-03-05 20:47:35.731 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - 401 null "text/plain; charset=utf-8" 61.445ms
+2025-03-05 20:48:33.030 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - "application/json" 57
+2025-03-05 20:48:33.048 +02:00 [Information] Successfully validated the token.
+2025-03-05 20:48:33.058 +02:00 [Information] Handling request: POST./Auth/login
+2025-03-05 20:48:33.068 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-05 20:48:33.073 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(ProjectCore.Models.UserLoginDto)" on controller "ProjectCore.Controllers.AuthController" ("ProjectCore").
+2025-03-05 20:48:33.093 +02:00 [Information] Executing "UnauthorizedObjectResult", writing value of type '"System.String"'.
+2025-03-05 20:48:33.101 +02:00 [Information] Executed action "ProjectCore.Controllers.AuthController.Login (ProjectCore)" in 11.2477ms
+2025-03-05 20:48:33.108 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-05 20:48:33.118 +02:00 [Information] Finished handling request: POST./Auth/login, Response Status: 401
+2025-03-05 20:48:33.121 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - 401 null "text/plain; charset=utf-8" 91.3964ms
+2025-03-05 20:49:16.539 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - "application/json" 57
+2025-03-05 20:49:16.547 +02:00 [Information] Successfully validated the token.
+2025-03-05 20:49:16.551 +02:00 [Information] Handling request: GET./User
+2025-03-05 20:49:16.554 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.GetAllUsers (ProjectCore)"'
+2025-03-05 20:49:16.558 +02:00 [Information] Route matched with "{action = \"GetAllUsers\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[ProjectCore.User]] GetAllUsers()" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-05 20:49:16.566 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.User, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-03-05 20:49:16.570 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.GetAllUsers (ProjectCore)" in 3.9536ms
+2025-03-05 20:49:16.573 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.GetAllUsers (ProjectCore)"'
+2025-03-05 20:49:16.575 +02:00 [Information] Finished handling request: GET./User, Response Status: 200
+2025-03-05 20:49:16.579 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - 200 null "application/json; charset=utf-8" 39.7431ms
+2025-03-05 20:50:05.100 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - "application/json" 55
+2025-03-05 20:50:05.105 +02:00 [Information] Handling request: POST./Auth/login
+2025-03-05 20:50:05.106 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-05 20:50:05.110 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(ProjectCore.Models.UserLoginDto)" on controller "ProjectCore.Controllers.AuthController" ("ProjectCore").
+2025-03-05 20:50:05.117 +02:00 [Information] Executing "UnauthorizedObjectResult", writing value of type '"System.String"'.
+2025-03-05 20:50:05.120 +02:00 [Information] Executed action "ProjectCore.Controllers.AuthController.Login (ProjectCore)" in 3.4135ms
+2025-03-05 20:50:05.121 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-05 20:50:05.123 +02:00 [Information] Finished handling request: POST./Auth/login, Response Status: 401
+2025-03-05 20:50:05.124 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - 401 null "text/plain; charset=utf-8" 24.3714ms
+2025-03-05 20:52:48.222 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - "application/json" 52
+2025-03-05 20:52:48.231 +02:00 [Information] Handling request: POST./Auth/login
+2025-03-05 20:52:48.235 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-05 20:52:48.239 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(ProjectCore.Models.UserLoginDto)" on controller "ProjectCore.Controllers.AuthController" ("ProjectCore").
+2025-03-05 20:52:48.249 +02:00 [Information] Executing "UnauthorizedObjectResult", writing value of type '"System.String"'.
+2025-03-05 20:52:48.251 +02:00 [Information] Executed action "ProjectCore.Controllers.AuthController.Login (ProjectCore)" in 3.3761ms
+2025-03-05 20:52:48.257 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-05 20:52:48.261 +02:00 [Information] Finished handling request: POST./Auth/login, Response Status: 401
+2025-03-05 20:52:48.262 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - 401 null "text/plain; charset=utf-8" 39.9689ms
+2025-03-05 21:19:08.665 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - "application/json" 54
+2025-03-05 21:19:08.669 +02:00 [Information] Handling request: POST./Auth/login
+2025-03-05 21:19:08.671 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-05 21:19:08.673 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(ProjectCore.Models.UserLoginDto)" on controller "ProjectCore.Controllers.AuthController" ("ProjectCore").
+2025-03-05 21:19:08.681 +02:00 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-03-05 21:19:08.683 +02:00 [Information] Executed action "ProjectCore.Controllers.AuthController.Login (ProjectCore)" in 4.0269ms
+2025-03-05 21:19:08.686 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-05 21:19:08.688 +02:00 [Information] Finished handling request: POST./Auth/login, Response Status: 200
+2025-03-05 21:19:08.689 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - 200 null "application/json; charset=utf-8" 23.4424ms
+2025-03-05 21:20:03.564 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - "application/json" 54
+2025-03-05 21:20:03.569 +02:00 [Information] Successfully validated the token.
+2025-03-05 21:20:03.572 +02:00 [Information] Handling request: GET./User
+2025-03-05 21:20:03.574 +02:00 [Information] Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)"
+2025-03-05 21:20:03.587 +02:00 [Information] AuthenticationScheme: "Bearer" was forbidden.
+2025-03-05 21:20:03.596 +02:00 [Information] Finished handling request: GET./User, Response Status: 403
+2025-03-05 21:20:03.600 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - 403 0 null 35.8996ms
+2025-03-05 21:20:45.675 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User(1)""" - "application/json" 54
+2025-03-05 21:20:45.681 +02:00 [Information] Successfully validated the token.
+2025-03-05 21:20:45.683 +02:00 [Information] Handling request: GET./User(1)
+2025-03-05 21:20:45.693 +02:00 [Information] Finished handling request: GET./User(1), Response Status: 404
+2025-03-05 21:20:45.697 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User(1)""" - 404 0 null 21.5873ms
+2025-03-05 21:20:45.701 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/User(1)", Response status code: 404
+2025-03-05 21:27:43.062 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/currentUser""" - "application/json" 54
+2025-03-05 21:27:43.101 +02:00 [Information] Successfully validated the token.
+2025-03-05 21:27:43.103 +02:00 [Information] Handling request: GET./User/currentUser
+2025-03-05 21:27:43.111 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.GetCurrentUser (ProjectCore)"'
+2025-03-05 21:27:43.118 +02:00 [Information] Route matched with "{action = \"GetCurrentUser\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ProjectCore.User] GetCurrentUser()" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-05 21:27:43.124 +02:00 [Information] Executing "ObjectResult", writing value of type '"ProjectCore.User"'.
+2025-03-05 21:27:43.126 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.GetCurrentUser (ProjectCore)" in 2.2968ms
+2025-03-05 21:27:43.128 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.GetCurrentUser (ProjectCore)"'
+2025-03-05 21:27:43.130 +02:00 [Information] Finished handling request: GET./User/currentUser, Response Status: 200
+2025-03-05 21:27:43.136 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/currentUser""" - 200 null "application/json; charset=utf-8" 72.937ms
+2025-03-05 21:29:23.120 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/User/buy/2""" - "application/json" 54
+2025-03-05 21:29:23.127 +02:00 [Information] Successfully validated the token.
+2025-03-05 21:29:23.131 +02:00 [Information] Handling request: POST./User/buy/2
+2025-03-05 21:29:23.134 +02:00 [Information] Finished handling request: POST./User/buy/2, Response Status: 404
+2025-03-05 21:29:23.138 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/User/buy/2""" - 404 0 null 18.0819ms
+2025-03-05 21:29:23.148 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "POST" "http"://"localhost:5198""""/User/buy/2", Response status code: 404
+2025-03-05 21:29:39.820 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/User/buy/1""" - "application/json" 54
+2025-03-05 21:29:39.828 +02:00 [Information] Successfully validated the token.
+2025-03-05 21:29:39.838 +02:00 [Information] Handling request: POST./User/buy/1
+2025-03-05 21:29:39.843 +02:00 [Information] Finished handling request: POST./User/buy/1, Response Status: 404
+2025-03-05 21:29:39.851 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/User/buy/1""" - 404 0 null 31.1206ms
+2025-03-05 21:29:39.866 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "POST" "http"://"localhost:5198""""/User/buy/1", Response status code: 404
+2025-03-05 21:38:13.888 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - "application/json" 54
+2025-03-05 21:38:13.900 +02:00 [Information] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2025-03-05 21:38:13.934 +02:00 [Information] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'."
+2025-03-05 21:38:13.938 +02:00 [Information] Handling request: GET./User
+2025-03-05 21:38:13.940 +02:00 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)"
+2025-03-05 21:38:13.946 +02:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+2025-03-05 21:38:13.948 +02:00 [Information] Finished handling request: GET./User, Response Status: 401
+2025-03-05 21:38:13.949 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - 401 0 null 61.3086ms
+2025-03-05 21:38:30.982 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - "application/json" 54
+2025-03-05 21:38:31.000 +02:00 [Information] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2025-03-05 21:38:31.016 +02:00 [Information] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'."
+2025-03-05 21:38:31.021 +02:00 [Information] Handling request: GET./User
+2025-03-05 21:38:31.025 +02:00 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)"
+2025-03-05 21:38:31.029 +02:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+2025-03-05 21:38:31.032 +02:00 [Information] Finished handling request: GET./User, Response Status: 401
+2025-03-05 21:38:31.035 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - 401 0 null 51.9793ms
+2025-03-05 21:38:41.959 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - "application/json" 54
+2025-03-05 21:38:41.970 +02:00 [Information] Successfully validated the token.
+2025-03-05 21:38:41.976 +02:00 [Information] Handling request: GET./User
+2025-03-05 21:38:41.979 +02:00 [Information] Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)"
+2025-03-05 21:38:41.986 +02:00 [Information] AuthenticationScheme: "Bearer" was forbidden.
+2025-03-05 21:38:41.994 +02:00 [Information] Finished handling request: GET./User, Response Status: 403
+2025-03-05 21:38:42.000 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - 403 0 null 41.2682ms
+2025-03-05 21:38:56.064 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - "application/json" 54
+2025-03-05 21:38:56.073 +02:00 [Information] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2025-03-05 21:38:56.089 +02:00 [Information] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'."
+2025-03-05 21:38:56.097 +02:00 [Information] Handling request: GET./User
+2025-03-05 21:38:56.101 +02:00 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)"
+2025-03-05 21:38:56.107 +02:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+2025-03-05 21:38:56.109 +02:00 [Information] Finished handling request: GET./User, Response Status: 401
+2025-03-05 21:38:56.110 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - 401 0 null 45.7275ms
+2025-03-05 21:39:07.342 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/currentUser""" - "application/json" 54
+2025-03-05 21:39:07.349 +02:00 [Information] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2025-03-05 21:39:07.361 +02:00 [Information] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'."
+2025-03-05 21:39:07.366 +02:00 [Information] Handling request: GET./User/currentUser
+2025-03-05 21:39:07.374 +02:00 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+2025-03-05 21:39:07.381 +02:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+2025-03-05 21:39:07.387 +02:00 [Information] Finished handling request: GET./User/currentUser, Response Status: 401
+2025-03-05 21:39:07.390 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/currentUser""" - 401 0 null 48.2638ms
+2025-03-05 21:39:09.387 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/currentUser""" - "application/json" 54
+2025-03-05 21:39:09.400 +02:00 [Information] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2025-03-05 21:39:09.410 +02:00 [Information] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'."
+2025-03-05 21:39:09.412 +02:00 [Information] Handling request: GET./User/currentUser
+2025-03-05 21:39:09.413 +02:00 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+2025-03-05 21:39:09.416 +02:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+2025-03-05 21:39:09.419 +02:00 [Information] Finished handling request: GET./User/currentUser, Response Status: 401
+2025-03-05 21:39:09.421 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/currentUser""" - 401 0 null 34.1561ms
+2025-03-05 21:45:07.253 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/User""" - "application/json" 94
+2025-03-05 21:45:07.262 +02:00 [Information] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2025-03-05 21:45:07.275 +02:00 [Information] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'."
+2025-03-05 21:45:07.281 +02:00 [Information] Handling request: POST./User
+2025-03-05 21:45:07.286 +02:00 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)"
+2025-03-05 21:45:07.291 +02:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+2025-03-05 21:45:07.299 +02:00 [Information] Finished handling request: POST./User, Response Status: 401
+2025-03-05 21:45:07.303 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/User""" - 401 0 null 49.5399ms
+2025-03-05 21:45:38.749 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/User""" - "application/json" 94
+2025-03-05 21:45:38.757 +02:00 [Information] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2025-03-05 21:45:38.774 +02:00 [Information] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'."
+2025-03-05 21:45:38.782 +02:00 [Information] Handling request: POST./User
+2025-03-05 21:45:38.796 +02:00 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)"
+2025-03-05 21:45:38.804 +02:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+2025-03-05 21:45:38.809 +02:00 [Information] Finished handling request: POST./User, Response Status: 401
+2025-03-05 21:45:38.814 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/User""" - 401 0 null 65.2651ms
+2025-03-05 21:51:20.580 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/User""" - "application/json" 94
+2025-03-05 21:51:20.589 +02:00 [Information] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2025-03-05 21:51:20.606 +02:00 [Information] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'."
+2025-03-05 21:51:20.613 +02:00 [Information] Handling request: POST./User
+2025-03-05 21:51:20.619 +02:00 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)"
+2025-03-05 21:51:20.626 +02:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+2025-03-05 21:51:20.631 +02:00 [Information] Finished handling request: POST./User, Response Status: 401
+2025-03-05 21:51:20.636 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/User""" - 401 0 null 55.5513ms
+2025-03-05 21:55:36.579 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - "application/json" 54
+2025-03-05 21:55:36.610 +02:00 [Information] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2025-03-05 21:55:36.626 +02:00 [Information] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'."
+2025-03-05 21:55:36.635 +02:00 [Information] Handling request: POST./Auth/login
+2025-03-05 21:55:36.639 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-05 21:55:36.646 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(ProjectCore.Models.UserLoginDto)" on controller "ProjectCore.Controllers.AuthController" ("ProjectCore").
+2025-03-05 21:55:36.667 +02:00 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-03-05 21:55:36.679 +02:00 [Information] Executed action "ProjectCore.Controllers.AuthController.Login (ProjectCore)" in 16.3249ms
+2025-03-05 21:55:36.690 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-05 21:55:36.697 +02:00 [Information] Finished handling request: POST./Auth/login, Response Status: 200
+2025-03-05 21:55:36.704 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - 200 null "application/json; charset=utf-8" 125.3445ms
+2025-03-05 21:56:36.622 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/User""" - "application/json" 94
+2025-03-05 21:56:36.631 +02:00 [Information] Successfully validated the token.
+2025-03-05 21:56:36.634 +02:00 [Information] Handling request: POST./User
+2025-03-05 21:56:36.636 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.CreateUser (ProjectCore)"'
+2025-03-05 21:56:36.642 +02:00 [Information] Route matched with "{action = \"CreateUser\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreateUser(ProjectCore.User)" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-05 21:56:36.683 +02:00 [Information] Executing "CreatedAtActionResult", writing value of type '"ProjectCore.User"'.
+2025-03-05 21:56:36.736 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.CreateUser (ProjectCore)" in 86.5273ms
+2025-03-05 21:56:36.743 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.CreateUser (ProjectCore)"'
+2025-03-05 21:56:36.749 +02:00 [Information] Finished handling request: POST./User, Response Status: 201
+2025-03-05 21:56:36.753 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/User""" - 201 null "application/json; charset=utf-8" 130.9247ms
+2025-03-05 21:56:53.837 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/User""" - "application/json" 88
+2025-03-05 21:56:53.846 +02:00 [Information] Successfully validated the token.
+2025-03-05 21:56:53.848 +02:00 [Information] Handling request: POST./User
+2025-03-05 21:56:53.851 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.CreateUser (ProjectCore)"'
+2025-03-05 21:56:53.854 +02:00 [Information] Route matched with "{action = \"CreateUser\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreateUser(ProjectCore.User)" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-05 21:56:53.863 +02:00 [Information] Executing "CreatedAtActionResult", writing value of type '"ProjectCore.User"'.
+2025-03-05 21:56:53.870 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.CreateUser (ProjectCore)" in 10.7876ms
+2025-03-05 21:56:53.879 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.CreateUser (ProjectCore)"'
+2025-03-05 21:56:53.888 +02:00 [Information] Finished handling request: POST./User, Response Status: 201
+2025-03-05 21:56:53.892 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/User""" - 201 null "application/json; charset=utf-8" 54.8033ms
+2025-03-05 21:57:25.208 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/buy/1""" - "application/json" 88
+2025-03-05 21:57:25.219 +02:00 [Information] Successfully validated the token.
+2025-03-05 21:57:25.222 +02:00 [Information] Handling request: GET./User/buy/1
+2025-03-05 21:57:25.226 +02:00 [Information] Finished handling request: GET./User/buy/1, Response Status: 404
+2025-03-05 21:57:25.229 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/buy/1""" - 404 0 null 20.9224ms
+2025-03-05 21:57:25.245 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/User/buy/1", Response status code: 404
+2025-03-05 21:57:52.561 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys""" - "application/json" 88
+2025-03-05 21:57:52.567 +02:00 [Information] Successfully validated the token.
+2025-03-05 21:57:52.570 +02:00 [Information] Handling request: GET./Bakerys
+2025-03-05 21:57:52.575 +02:00 [Information] Finished handling request: GET./Bakerys, Response Status: 500
+2025-03-05 21:57:52.577 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys""" - 500 null "application/json" 16.1427ms
+2025-03-05 21:58:09.792 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys""" - "application/json" 88
+2025-03-05 21:58:09.802 +02:00 [Information] Handling request: GET./Bakerys
+2025-03-05 21:58:09.805 +02:00 [Information] Finished handling request: GET./Bakerys, Response Status: 500
+2025-03-05 21:58:09.806 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys""" - 500 null "application/json" 13.897ms
+2025-03-05 22:22:33.484 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - "application/json" 52
+2025-03-05 22:22:33.502 +02:00 [Information] Handling request: POST./Auth/login
+2025-03-05 22:22:33.517 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-05 22:22:33.521 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(ProjectCore.Models.UserLoginDto)" on controller "ProjectCore.Controllers.AuthController" ("ProjectCore").
+2025-03-05 22:22:33.530 +02:00 [Information] Executing "UnauthorizedObjectResult", writing value of type '"System.String"'.
+2025-03-05 22:22:33.534 +02:00 [Information] Executed action "ProjectCore.Controllers.AuthController.Login (ProjectCore)" in 8.0162ms
+2025-03-05 22:22:33.537 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-05 22:22:33.540 +02:00 [Information] Finished handling request: POST./Auth/login, Response Status: 401
+2025-03-05 22:22:33.542 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - 401 null "text/plain; charset=utf-8" 58.1223ms
+2025-03-05 22:28:14.057 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - "application/json" 52
+2025-03-05 22:28:14.068 +02:00 [Information] Handling request: POST./Auth/login
+2025-03-05 22:28:14.072 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-05 22:28:14.077 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(ProjectCore.Models.UserLoginDto)" on controller "ProjectCore.Controllers.AuthController" ("ProjectCore").
+2025-03-05 22:28:14.094 +02:00 [Information] Executing "UnauthorizedObjectResult", writing value of type '"System.String"'.
+2025-03-05 22:28:14.102 +02:00 [Information] Executed action "ProjectCore.Controllers.AuthController.Login (ProjectCore)" in 11.1278ms
+2025-03-05 22:28:14.113 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-05 22:28:14.122 +02:00 [Information] Finished handling request: POST./Auth/login, Response Status: 401
+2025-03-05 22:28:14.127 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - 401 null "text/plain; charset=utf-8" 70.8821ms
+2025-03-05 22:29:01.987 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - "application/json" 52
+2025-03-05 22:29:01.992 +02:00 [Information] Handling request: POST./Auth/login
+2025-03-05 22:29:01.995 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-05 22:29:02.000 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(ProjectCore.Models.UserLoginDto)" on controller "ProjectCore.Controllers.AuthController" ("ProjectCore").
+2025-03-05 22:29:02.009 +02:00 [Information] Executing "UnauthorizedObjectResult", writing value of type '"System.String"'.
+2025-03-05 22:29:02.016 +02:00 [Information] Executed action "ProjectCore.Controllers.AuthController.Login (ProjectCore)" in 9.0203ms
+2025-03-05 22:29:02.023 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-05 22:29:02.033 +02:00 [Information] Finished handling request: POST./Auth/login, Response Status: 401
+2025-03-05 22:29:02.040 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - 401 null "text/plain; charset=utf-8" 52.3871ms
+2025-03-05 22:30:16.104 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - "application/json" 50
+2025-03-05 22:30:16.111 +02:00 [Information] Handling request: POST./Auth/login
+2025-03-05 22:30:16.114 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-05 22:30:16.118 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(ProjectCore.Models.UserLoginDto)" on controller "ProjectCore.Controllers.AuthController" ("ProjectCore").
+2025-03-05 22:30:16.127 +02:00 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-03-05 22:30:16.133 +02:00 [Information] Executed action "ProjectCore.Controllers.AuthController.Login (ProjectCore)" in 9.4021ms
+2025-03-05 22:30:16.137 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-05 22:30:16.138 +02:00 [Information] Finished handling request: POST./Auth/login, Response Status: 200
+2025-03-05 22:30:16.140 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - 200 null "application/json; charset=utf-8" 36.5469ms
+2025-03-05 22:33:22.791 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/currentUser""" - "application/json" 50
+2025-03-05 22:33:22.800 +02:00 [Information] Successfully validated the token.
+2025-03-05 22:33:22.802 +02:00 [Information] Handling request: GET./User/currentUser
+2025-03-05 22:33:22.805 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.GetCurrentUser (ProjectCore)"'
+2025-03-05 22:33:22.809 +02:00 [Information] Route matched with "{action = \"GetCurrentUser\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ProjectCore.User] GetCurrentUser()" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-05 22:33:22.813 +02:00 [Information] Executing "ObjectResult", writing value of type '"ProjectCore.User"'.
+2025-03-05 22:33:22.816 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.GetCurrentUser (ProjectCore)" in 3.0571ms
+2025-03-05 22:33:22.819 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.GetCurrentUser (ProjectCore)"'
+2025-03-05 22:33:22.820 +02:00 [Information] Finished handling request: GET./User/currentUser, Response Status: 200
+2025-03-05 22:33:22.822 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/currentUser""" - 200 null "application/json; charset=utf-8" 30.3522ms
+2025-03-05 22:42:34.986 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - "application/json" 50
+2025-03-05 22:42:35.004 +02:00 [Information] Successfully validated the token.
+2025-03-05 22:42:35.011 +02:00 [Information] Handling request: GET./User
+2025-03-05 22:42:35.018 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.GetAllUsers (ProjectCore)"'
+2025-03-05 22:42:35.026 +02:00 [Information] Route matched with "{action = \"GetAllUsers\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[ProjectCore.User]] GetAllUsers()" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-05 22:42:35.033 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.User, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-03-05 22:42:35.040 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.GetAllUsers (ProjectCore)" in 7.1609ms
+2025-03-05 22:42:35.044 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.GetAllUsers (ProjectCore)"'
+2025-03-05 22:42:35.050 +02:00 [Information] Finished handling request: GET./User, Response Status: 200
+2025-03-05 22:42:35.053 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - 200 null "application/json; charset=utf-8" 66.9616ms
+2025-03-05 22:43:10.607 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/2""" - "application/json" 50
+2025-03-05 22:43:10.617 +02:00 [Information] Successfully validated the token.
+2025-03-05 22:43:10.621 +02:00 [Information] Handling request: GET./User/2
+2025-03-05 22:43:10.626 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.Get (ProjectCore)"'
+2025-03-05 22:43:10.632 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ProjectCore.User] Get(Int32)" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-05 22:43:10.656 +02:00 [Information] Executing "OkObjectResult", writing value of type '"ProjectCore.User"'.
+2025-03-05 22:43:10.665 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.Get (ProjectCore)" in 22.91ms
+2025-03-05 22:43:10.672 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.Get (ProjectCore)"'
+2025-03-05 22:43:10.678 +02:00 [Information] Finished handling request: GET./User/2, Response Status: 200
+2025-03-05 22:43:10.682 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/2""" - 200 null "application/json; charset=utf-8" 74.3222ms
+2025-03-05 22:44:27.173 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/User""" - "application/json" 90
+2025-03-05 22:44:27.182 +02:00 [Information] Successfully validated the token.
+2025-03-05 22:44:27.187 +02:00 [Information] Handling request: POST./User
+2025-03-05 22:44:27.190 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.CreateUser (ProjectCore)"'
+2025-03-05 22:44:27.194 +02:00 [Information] Route matched with "{action = \"CreateUser\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreateUser(ProjectCore.User)" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-05 22:44:27.204 +02:00 [Information] Executing "CreatedAtActionResult", writing value of type '"ProjectCore.User"'.
+2025-03-05 22:44:27.213 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.CreateUser (ProjectCore)" in 12.8169ms
+2025-03-05 22:44:27.218 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.CreateUser (ProjectCore)"'
+2025-03-05 22:44:27.223 +02:00 [Information] Finished handling request: POST./User, Response Status: 201
+2025-03-05 22:44:27.226 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/User""" - 201 null "application/json; charset=utf-8" 52.7363ms
+2025-03-05 22:45:00.486 +02:00 [Information] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/2""" - "application/json" 94
+2025-03-05 22:45:00.492 +02:00 [Information] Successfully validated the token.
+2025-03-05 22:45:00.496 +02:00 [Information] Handling request: PUT./User/2
+2025-03-05 22:45:00.500 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.UpdateUser (ProjectCore)"'
+2025-03-05 22:45:00.522 +02:00 [Information] Route matched with "{action = \"UpdateUser\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult UpdateUser(Int32, ProjectCore.User)" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-05 22:45:00.560 +02:00 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-03-05 22:45:00.578 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.UpdateUser (ProjectCore)" in 44.2802ms
+2025-03-05 22:45:00.594 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.UpdateUser (ProjectCore)"'
+2025-03-05 22:45:00.603 +02:00 [Information] Finished handling request: PUT./User/2, Response Status: 204
+2025-03-05 22:45:00.608 +02:00 [Information] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/2""" - 204 null null 122.0927ms
+2025-03-05 22:45:47.315 +02:00 [Information] Request starting "HTTP/1.1" "DELETE" "http"://"localhost:5198""""/User/2""" - null null
+2025-03-05 22:45:47.323 +02:00 [Information] Successfully validated the token.
+2025-03-05 22:45:47.345 +02:00 [Information] Handling request: DELETE./User/2
+2025-03-05 22:45:47.357 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.Delete (ProjectCore)"'
+2025-03-05 22:45:47.378 +02:00 [Information] Route matched with "{action = \"Delete\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Delete(Int32)" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-05 22:45:47.387 +02:00 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-03-05 22:45:47.405 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.Delete (ProjectCore)" in 21.4362ms
+2025-03-05 22:45:47.412 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.Delete (ProjectCore)"'
+2025-03-05 22:45:47.421 +02:00 [Information] Finished handling request: DELETE./User/2, Response Status: 204
+2025-03-05 22:45:47.423 +02:00 [Information] Request finished "HTTP/1.1" "DELETE" "http"://"localhost:5198""""/User/2""" - 204 null null 108.3421ms
+2025-03-05 22:45:54.435 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/""" - null null
+2025-03-05 22:45:54.441 +02:00 [Information] Successfully validated the token.
+2025-03-05 22:45:54.445 +02:00 [Information] Handling request: GET./User/
+2025-03-05 22:45:54.449 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.GetAllUsers (ProjectCore)"'
+2025-03-05 22:45:54.454 +02:00 [Information] Route matched with "{action = \"GetAllUsers\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[ProjectCore.User]] GetAllUsers()" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-05 22:45:54.467 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.User, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-03-05 22:45:54.475 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.GetAllUsers (ProjectCore)" in 9.6334ms
+2025-03-05 22:45:54.483 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.GetAllUsers (ProjectCore)"'
+2025-03-05 22:45:54.489 +02:00 [Information] Finished handling request: GET./User/, Response Status: 200
+2025-03-05 22:45:54.493 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/""" - 200 null "application/json; charset=utf-8" 58.0656ms
+2025-03-05 22:46:15.778 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys""" - null null
+2025-03-05 22:46:15.792 +02:00 [Information] Successfully validated the token.
+2025-03-05 22:46:15.795 +02:00 [Information] Handling request: GET./Bakerys
+2025-03-05 22:46:15.799 +02:00 [Information] Finished handling request: GET./Bakerys, Response Status: 500
+2025-03-05 22:46:15.804 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys""" - 500 null "application/json" 25.5245ms
+2025-03-05 22:50:14.880 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - "application/json" 56
+2025-03-05 22:50:14.889 +02:00 [Information] Successfully validated the token.
+2025-03-05 22:50:14.892 +02:00 [Information] Handling request: POST./Auth/login
+2025-03-05 22:50:14.895 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-05 22:50:14.900 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(ProjectCore.Models.UserLoginDto)" on controller "ProjectCore.Controllers.AuthController" ("ProjectCore").
+2025-03-05 22:50:14.909 +02:00 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-03-05 22:50:14.913 +02:00 [Information] Executed action "ProjectCore.Controllers.AuthController.Login (ProjectCore)" in 6.9824ms
+2025-03-05 22:50:14.919 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-05 22:50:14.923 +02:00 [Information] Finished handling request: POST./Auth/login, Response Status: 200
+2025-03-05 22:50:14.926 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - 200 null "application/json; charset=utf-8" 45.9408ms
+2025-03-05 22:50:49.809 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys""" - "application/json" 56
+2025-03-05 22:50:49.814 +02:00 [Information] Successfully validated the token.
+2025-03-05 22:50:49.818 +02:00 [Information] Handling request: GET./Bakerys
+2025-03-05 22:50:49.824 +02:00 [Information] Finished handling request: GET./Bakerys, Response Status: 500
+2025-03-05 22:50:49.827 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys""" - 500 null "application/json" 18.5182ms
+2025-03-05 22:54:46.986 +02:00 [Information] Application is shutting down...
+2025-03-05 22:55:01.148 +02:00 [Information] User profile is available. Using '"C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-05 22:55:01.282 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-03-05 22:55:01.285 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-05 22:55:01.289 +02:00 [Information] Hosting environment: "Development"
+2025-03-05 22:55:01.290 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-03-05 22:55:13.977 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys""" - "application/json" 56
+2025-03-05 22:55:14.093 +02:00 [Information] Successfully validated the token.
+2025-03-05 22:55:14.105 +02:00 [Information] Handling request: GET./Bakerys
+2025-03-05 22:55:14.112 +02:00 [Information] Finished handling request: GET./Bakerys, Response Status: 500
+2025-03-05 22:55:14.118 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys""" - 500 null "application/json" 140.707ms
+2025-03-05 23:00:03.967 +02:00 [Information] Application is shutting down...
+2025-03-05 23:01:15.690 +02:00 [Information] User profile is available. Using '"C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-05 23:01:15.804 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-03-05 23:01:15.809 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-05 23:01:15.811 +02:00 [Information] Hosting environment: "Development"
+2025-03-05 23:01:15.813 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-03-05 23:01:21.674 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys""" - "application/json" 56
+2025-03-05 23:01:21.787 +02:00 [Information] Successfully validated the token.
+2025-03-05 23:01:21.799 +02:00 [Information] Handling request: GET./Bakerys
+2025-03-05 23:01:21.805 +02:00 [Information] Finished handling request: GET./Bakerys, Response Status: 500
+2025-03-05 23:01:21.810 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys""" - 500 null "application/json" 136.4347ms
+2025-03-05 23:03:23.305 +02:00 [Information] Application is shutting down...
+2025-03-05 23:03:49.071 +02:00 [Information] User profile is available. Using '"C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-05 23:03:49.160 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-03-05 23:03:49.164 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-05 23:03:49.166 +02:00 [Information] Hosting environment: "Development"
+2025-03-05 23:03:49.167 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-03-05 23:03:55.693 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys""" - "application/json" 56
+2025-03-05 23:03:55.805 +02:00 [Information] Successfully validated the token.
+2025-03-05 23:03:55.816 +02:00 [Information] Handling request: GET./Bakerys
+2025-03-05 23:03:55.823 +02:00 [Information] Finished handling request: GET./Bakerys, Response Status: 500
+2025-03-05 23:03:55.827 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys""" - 500 null "application/json" 134.5907ms
+2025-03-05 23:13:43.940 +02:00 [Information] Application is shutting down...
+2025-03-05 23:13:53.625 +02:00 [Information] User profile is available. Using '"C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-05 23:13:53.710 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-03-05 23:13:53.713 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-05 23:13:53.714 +02:00 [Information] Hosting environment: "Development"
+2025-03-05 23:13:53.715 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-03-05 23:13:59.703 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys""" - "application/json" 56
+2025-03-05 23:13:59.813 +02:00 [Information] Successfully validated the token.
+2025-03-05 23:13:59.824 +02:00 [Information] Handling request: GET./Bakerys
+2025-03-05 23:13:59.830 +02:00 [Information] Finished handling request: GET./Bakerys, Response Status: 500
+2025-03-05 23:13:59.834 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys""" - 500 null "application/json" 130.6429ms
+2025-03-05 23:14:28.004 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - "application/json" 56
+2025-03-05 23:14:28.026 +02:00 [Information] Handling request: POST./Auth/login
+2025-03-05 23:14:28.033 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-05 23:14:28.087 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(ProjectCore.Models.UserLoginDto)" on controller "ProjectCore.Controllers.AuthController" ("ProjectCore").
+2025-03-05 23:14:28.244 +02:00 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-03-05 23:14:28.323 +02:00 [Information] Executed action "ProjectCore.Controllers.AuthController.Login (ProjectCore)" in 220.2101ms
+2025-03-05 23:14:28.329 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-05 23:14:28.332 +02:00 [Information] Finished handling request: POST./Auth/login, Response Status: 200
+2025-03-05 23:14:28.334 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - 200 null "application/json; charset=utf-8" 330.3831ms
+2025-03-05 23:14:57.586 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys""" - "application/json" 56
+2025-03-05 23:14:57.602 +02:00 [Information] Successfully validated the token.
+2025-03-05 23:14:57.612 +02:00 [Information] Handling request: GET./Bakerys
+2025-03-05 23:14:57.616 +02:00 [Information] Finished handling request: GET./Bakerys, Response Status: 500
+2025-03-05 23:14:57.619 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys""" - 500 null "application/json" 32.7119ms
+2025-03-05 23:21:15.570 +02:00 [Information] Application is shutting down...
+2025-03-05 23:24:19.600 +02:00 [Information] User profile is available. Using '"C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-05 23:24:19.680 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-03-05 23:24:19.684 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-05 23:24:19.685 +02:00 [Information] Hosting environment: "Development"
+2025-03-05 23:24:19.686 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-03-05 23:24:24.564 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys""" - "application/json" 56
+2025-03-05 23:24:24.680 +02:00 [Information] Successfully validated the token.
+2025-03-05 23:24:24.692 +02:00 [Information] Handling request: GET./Bakerys
+2025-03-05 23:24:24.698 +02:00 [Information] Finished handling request: GET./Bakerys, Response Status: 500
+2025-03-05 23:24:24.702 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys""" - 500 null "application/json" 138.3872ms
+2025-03-05 23:28:02.984 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - "application/json" 50
+2025-03-05 23:28:02.993 +02:00 [Information] Successfully validated the token.
+2025-03-05 23:28:02.995 +02:00 [Information] Handling request: POST./Auth/login
+2025-03-05 23:28:03.001 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-05 23:28:03.045 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(ProjectCore.Models.UserLoginDto)" on controller "ProjectCore.Controllers.AuthController" ("ProjectCore").
+2025-03-05 23:28:03.229 +02:00 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-03-05 23:28:03.310 +02:00 [Information] Executed action "ProjectCore.Controllers.AuthController.Login (ProjectCore)" in 250.7169ms
+2025-03-05 23:28:03.315 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-05 23:28:03.317 +02:00 [Information] Finished handling request: POST./Auth/login, Response Status: 200
+2025-03-05 23:28:03.322 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - 200 null "application/json; charset=utf-8" 338.0098ms
+2025-03-05 23:28:54.102 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakerys""" - "application/json" 74
+2025-03-05 23:28:54.116 +02:00 [Information] Successfully validated the token.
+2025-03-05 23:28:54.120 +02:00 [Information] Handling request: POST./Bakerys
+2025-03-05 23:28:54.126 +02:00 [Information] Finished handling request: POST./Bakerys, Response Status: 500
+2025-03-05 23:28:54.128 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakerys""" - 500 null "application/json" 25.9151ms
+2025-03-05 23:29:28.275 +02:00 [Information] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5198""""/Bakerys/1""" - "application/json" 86
+2025-03-05 23:29:28.283 +02:00 [Information] Successfully validated the token.
+2025-03-05 23:29:28.286 +02:00 [Information] Handling request: PUT./Bakerys/1
+2025-03-05 23:29:28.294 +02:00 [Information] Finished handling request: PUT./Bakerys/1, Response Status: 500
+2025-03-05 23:29:28.298 +02:00 [Information] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5198""""/Bakerys/1""" - 500 null "application/json" 23.4778ms

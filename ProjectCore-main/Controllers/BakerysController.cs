@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Authorization;
 namespace ProjectCore.Controllers;
 [ApiController]
 [Route("[controller]")]
-// [Authorize(Policy = "User")]
+[Authorize(Policy = "User")]
 
 public class BakerysController : ControllerBase
 {
@@ -16,12 +16,38 @@ public class BakerysController : ControllerBase
         this.BakeryService = BakeryService;
     }
 
-
-    [HttpGet]
-    public IEnumerable<Bakery> GetAll()
+[HttpGet]
+public IActionResult GetAll()
+{
+    Console.WriteLine("📌 בקשת GET /Bakerys התקבלה"); 
+    try
     {
-        return BakeryService.GetAll();
+        var bakeries = BakeryService.GetAll();
+        Console.WriteLine("✅ BakeryService.GetAll() בוצע בהצלחה");
+
+        if (bakeries == null)
+        {
+            Console.WriteLine("❌ BakeryService.GetAll() החזיר NULL!");
+            return StatusCode(500, "Database error: No bakeries found.");
+        }
+
+        Console.WriteLine($"✅ נמצאו {bakeries.Count()} מאפים.");
+        return Ok(bakeries);
     }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"❌ שגיאה חמורה ב-GetAll: {ex.GetType().Name} - {ex.Message}");
+        Console.WriteLine($"🔍 פרטי שגיאה: {ex.StackTrace}");
+        return StatusCode(500, new { error = $"Internal Server Error: {ex.Message}" });
+    }
+}
+
+
+    // [HttpGet]
+    // public IEnumerable<Bakery> GetAll()
+    // {
+    //     return BakeryService.GetAll();
+    // }
     [HttpGet("{id}")]
     public ActionResult<Bakery> Get(int id)
     {

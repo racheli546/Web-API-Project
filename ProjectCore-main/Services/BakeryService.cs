@@ -11,46 +11,102 @@ namespace ProjectCore.Services;
 
 public class BakeryService : IBakeryService
 {
-    List<Bakery> ListBakeries { get; }
+    List<Bakery> ListBakeries { get; set;}
     private string fileName = "Bakery.json";
 
     int nextId = 0;
+    // public BakeryService(IWebHostEnvironment webHost)
+    // {
+    //     this.fileName = Path.Combine(webHost.ContentRootPath, "Data", "Bakery.json");
+    //     if (File.Exists(fileName))
+    //     {
+    //         using (var jsonFile = File.OpenText(fileName))
+    //         {
+    //             var content = jsonFile.ReadToEnd();
+    //             ListBakeries = JsonSerializer.Deserialize<List<Bakery>>(content, new JsonSerializerOptions { PropertyNameCaseInsensitive = true }) ?? new List<Bakery>();
+    //         }
+    //     }
+    //     else
+    //     {
+    //         ListBakeries = new List<Bakery>();
+    //     }
+    //     // ListBakeries = new List<Bakery>
+    //     // {
+    //     // new Bakery { Id = 1, Name = "Cheeses cake" ,Category=CategoryBakeries.Cheesecake},
+    //     // new Bakery { Id = 2, Name = "Chocolates Cake", Category = CategoryBakeries.ChocolateCake},
+    //     // new Bakery { Id = 3, Name = " Carrots Cake", Category = CategoryBakeries.CarrotCake},
+    //     // new Bakery { Id = 4, Name = " Vanillas Cake", Category = CategoryBakeries.VanillaCake}
+    //     // };
+    // }
     public BakeryService(IWebHostEnvironment webHost)
     {
         this.fileName = Path.Combine(webHost.ContentRootPath, "Data", "Bakery.json");
-        if (File.Exists(fileName))
+
+        if (!File.Exists(fileName))
         {
-            using (var jsonFile = File.OpenText(fileName))
-            {
-                var content = jsonFile.ReadToEnd();
-                ListBakeries = JsonSerializer.Deserialize<List<Bakery>>(content, new JsonSerializerOptions { PropertyNameCaseInsensitive = true }) ?? new List<Bakery>();
-            }
+            Console.WriteLine("⚠ Bakery.json לא קיים - יוצרים רשימה ריקה");
+            ListBakeries = new List<Bakery>();
+            saveToFile(); // ניצור קובץ חדש
         }
         else
         {
-            ListBakeries = new List<Bakery>();
+            try
+            {
+                var json = File.ReadAllText(fileName);
+                ListBakeries = JsonSerializer.Deserialize<List<Bakery>>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true }) ?? new List<Bakery>();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"❌ שגיאה בטעינת מאפיות: {ex.Message}");
+                ListBakeries = new List<Bakery>(); // נימנע מקריסה
+            }
         }
-        // ListBakeries = new List<Bakery>
-        // {
-        // new Bakery { Id = 1, Name = "Cheeses cake" ,Category=CategoryBakeries.Cheesecake},
-        // new Bakery { Id = 2, Name = "Chocolates Cake", Category = CategoryBakeries.ChocolateCake},
-        // new Bakery { Id = 3, Name = " Carrots Cake", Category = CategoryBakeries.CarrotCake},
-        // new Bakery { Id = 4, Name = " Vanillas Cake", Category = CategoryBakeries.VanillaCake}
-        // };
     }
+
+
+    // private void saveToFile()
+    // {
+    //     File.WriteAllText(fileName, JsonSerializer.Serialize(ListBakeries));
+    // }
 
     private void saveToFile()
     {
-        File.WriteAllText(fileName, JsonSerializer.Serialize(ListBakeries));
+        try
+        {
+            File.WriteAllText(fileName, JsonSerializer.Serialize(ListBakeries, new JsonSerializerOptions { WriteIndented = true }));
+            Console.WriteLine("✅ שמירת מאפיות בוצעה בהצלחה");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"❌ שגיאה בשמירת מאפיות לקובץ: {ex.Message}");
+        }
     }
+
+    // public List<Bakery> GetAll()
+    // {
+    //     if (ListBakeries == null || !ListBakeries.Any())
+    //     {
+    //         Console.WriteLine("❌ Bakery list is empty or null!");
+    //     }
+    //     return ListBakeries ?? new List<Bakery>();
+    // }
+
     public List<Bakery> GetAll()
     {
-        if (ListBakeries == null || !ListBakeries.Any())
+        if (ListBakeries == null)
         {
-            Console.WriteLine("❌ Bakery list is empty or null!");
+            Console.WriteLine("⚠ הרשימה הייתה NULL - יוצרים רשימה ריקה");
+            ListBakeries = new List<Bakery>();
         }
-        return ListBakeries ?? new List<Bakery>();
+
+        if (!ListBakeries.Any())
+        {
+            Console.WriteLine("⚠ אין מאפיות זמינות - הרשימה ריקה.");
+        }
+        
+        return ListBakeries;
     }
+
     // public Bakery? Get(int id) => ListBakeries.FirstOrDefault(b => b.Id == id);
     public Bakery Get(int id) => ListBakeries.FirstOrDefault(t => t.Id == id);
 
@@ -70,13 +126,27 @@ public class BakeryService : IBakeryService
 //         nextId++;
 //     }
 
+    // public void Add(Bakery bakery)
+    // {
+    //     bakery.Id = ListBakeries.Max(t => t.Id) + 1;
+    //     ListBakeries.Add(bakery);
+    //     // console.log("racheli ", bakery.Id);
+    //     saveToFile();
+    // }
     public void Add(Bakery bakery)
     {
-        bakery.Id = ListBakeries.Max(t => t.Id) + 1;
+        if (ListBakeries == null)
+        {
+            Console.WriteLine("⚠ הרשימה הייתה NULL - יוצרים רשימה חדשה");
+            ListBakeries = new List<Bakery>();
+        }
+
+        bakery.Id = ListBakeries.Any() ? ListBakeries.Max(t => t.Id) + 1 : 1;
         ListBakeries.Add(bakery);
-        // console.log("racheli ", bakery.Id);
         saveToFile();
+        Console.WriteLine($"✅ מאפייה נוספה בהצלחה: {bakery.Name} (ID = {bakery.Id})");
     }
+
 
     // public void Update(Bakery bakery)
     // {

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 
 <head>
@@ -57,4 +57,83 @@
     </script>
 </body>
 
-</html>
+</html> -->
+<script>
+    const token = localStorage.getItem("token");
+
+    if (!token) {
+        window.location.href = "login.html"; // מעביר לדף ההתחברות
+    } else {
+        fetch("/User/profile", {
+            headers: { "Authorization": `Bearer ${token}` }
+        })
+        .then(res => res.json())
+        .then(user => {
+            document.getElementById("username").innerText = user.username;
+        })
+        .catch(() => {
+            localStorage.removeItem("token");
+            window.location.href = "login.html";
+        });
+    }
+</script>
+
+<h1>Welcome, <span id="username"></span>!</h1>
+<script>
+    function loadBakeries() {
+        const token = localStorage.getItem("token");
+
+        fetch("/Bakerys/available", {
+            headers: { "Authorization": `Bearer ${token}` }
+        })
+        .then(res => res.json())
+        .then(bakeries => {
+            const list = document.getElementById("bakeryList");
+            list.innerHTML = "";
+            bakeries.forEach(bakery => {
+                list.innerHTML += `<li>${bakery.name} 
+                    <button onclick="buyBakery(${bakery.id})">קנה</button></li>`;
+            });
+        });
+    }
+
+    function buyBakery(bakeryId) {
+        const token = localStorage.getItem("token");
+
+        fetch(`/User/buy/${bakeryId}`, {
+            method: "POST",
+            headers: { "Authorization": `Bearer ${token}` }
+        })
+        .then(() => alert("נרכש בהצלחה!"))
+        .then(() => loadBakeries()); // רענון הרשימה
+    }
+
+    window.onload = loadBakeries;
+</script>
+
+<ul id="bakeryList"></ul>
+<script>
+    function loadUserPurchases() {
+        const token = localStorage.getItem("token");
+
+        fetch("/User/purchases", {
+            headers: { "Authorization": `Bearer ${token}` }
+        })
+        .then(res => res.json())
+        .then(purchases => {
+            const list = document.getElementById("purchasedList");
+            list.innerHTML = "";
+            purchases.forEach(bakery => {
+                list.innerHTML += `<li>${bakery.name}</li>`;
+            });
+        });
+    }
+
+    window.onload = function() {
+        loadBakeries();
+        loadUserPurchases();
+    };
+</script>
+
+<h2>המאפים שרכשת:</h2>
+<ul id="purchasedList"></ul>

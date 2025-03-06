@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1k6zzS4IrOsPL2WXvqvp4qlQ4LrErIU2ze/Ru4aKGQc=",
+  "Hash": "jX/DLY6LwNJPosZ03af060eTXNU7hS1D4qzkrfPwS2c=",
   "Source": "ProjectCore",
   "BasePath": "_content/ProjectCore",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\user1\\Documents\\תיכנות\\שנה ב\\סמסטר א\\core_\\project\\core_project זה מה שעובד בgit\\ProjectCore-main\\wwwroot\\login.html",
+      "SourceId": "ProjectCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user1\\Documents\\תיכנות\\שנה ב\\סמסטר א\\core_\\project\\core_project זה מה שעובד בgit\\ProjectCore-main\\wwwroot\\",
+      "BasePath": "_content/ProjectCore",
+      "RelativePath": "login.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\login.html"
     }
   ]
 }
