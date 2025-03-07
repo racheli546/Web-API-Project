@@ -77,29 +77,34 @@ app.Use(async (context, next) =>
     }
 });
 
-app.UseAuthentication();
-app.UseAuthorization();
 
-app.MapControllers();
-app.Run();
 
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
 app.UseLoggerMiddleware();
 app.UseErrorHandlingMiddleware();
-/*js*/
-app.UseDefaultFiles();
-app.UseStaticFiles();
+
 /*js (remove "launchUrl" from Properties\launchSettings.json*/
 // app.UseHttpsRedirection();
 
+
+
+
+app.UseDefaultFiles();
+app.UseStaticFiles();
+
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
 
+
+
+app.MapFallbackToFile("index.html");
 app.Run();
 
 

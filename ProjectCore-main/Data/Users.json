@@ -7,32 +7,30 @@
     "PurchasedBakeries": []
   },
   {
-    "Id": 4,
-    "Username": "newUser",
-    "Password": "pass123",
-    "Role": "User",
-    "PurchasedBakeries": []
-  },
-  {
     "Id": 5,
-    "Username": "racheli",
+    "Username": "yael",
     "Password": "newPass",
     "Role": "User",
     "PurchasedBakeries": []
   },
   {
     "Id": 6,
-    "Username": "racheli",
-    "Password": "newPass",
-    "Role": "User",
-    "PurchasedBakeries": []
-  },
-  {
-    "Id": 7,
-    "Username": "hiii",
+    "Username": "ayala",
     "Password": "1234",
     "Role": "User",
     "PurchasedBakeries": [
+      {
+        "Id": 7,
+        "Name": "lichi",
+        "Category": 2,
+        "UserId": 1
+      },
+      {
+        "Id": 9,
+        "Name": "Chocolate Cake",
+        "Category": 1,
+        "UserId": 1
+      },
       {
         "Id": 1,
         "Name": "Cheeses cake",
@@ -49,8 +47,22 @@
   },
   {
     "Id": 8,
-    "Username": "newuser",
-    "Password": "password123",
+    "Username": "\u05E9\u05D9\u05DE\u05D9",
+    "Password": "1234",
+    "Role": "User",
+    "PurchasedBakeries": [
+      {
+        "Id": 1,
+        "Name": "Cheeses cake",
+        "Category": 2,
+        "UserId": 1
+      }
+    ]
+  },
+  {
+    "Id": 9,
+    "Username": "\u05DE\u05D9\u05DB\u05D0\u05DC",
+    "Password": "1478",
     "Role": "User",
     "PurchasedBakeries": []
   }

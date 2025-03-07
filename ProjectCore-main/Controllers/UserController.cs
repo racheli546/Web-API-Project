@@ -97,21 +97,54 @@ public ActionResult updateCurrentUser([FromBody] User user)
     return NoContent();
 }
 
+[HttpPut("{id}")]
+[Authorize(Roles = "Admin")]
+public IActionResult UpdateUser(int id, [FromBody] User user)
+{
+    Console.WriteLine($" קיבלנו בקשת עדכון למשתמש ID: {id}");
+    Console.WriteLine($" נתונים מהקליינט - ID: {user.Id}, שם משתמש: {user.Username}, תפקיד: {user.Role}");
 
-   // ✅ משתמש רגיל יכול לעדכן את עצמו בלבד, Admin יכול לעדכן את כולם
-        [HttpPut("{id}")]
-        public ActionResult UpdateUser(int id, [FromBody] User user)
-        {
-            var loggedInUserId = int.Parse(User.FindFirst("Id")?.Value);
+    if (id != user.Id)
+    {
+        Console.WriteLine("❌ שגיאה: ה-ID שנשלח לא תואם לנתוני המשתמש!");
+        return BadRequest(new { error = "User ID mismatch." });
+    }
 
-            if (User.IsInRole("Admin") || loggedInUserId == id)
-            {
-                _userService.Update(user);
-                return NoContent();
-            }
+    var existingUser = _userService.Get(id);
+    if (existingUser == null)
+    {
+        Console.WriteLine("❌ שגיאה: המשתמש לא נמצא במערכת!");
+        return NotFound(new { error = "User not found." });
+    }
 
-            return Forbid(); // ❌ לא מאפשר עריכת משתמשים אחרים
-        }
+    // ✅ עדכון פרטי המשתמש
+    existingUser.Username = user.Username;
+    existingUser.Role = user.Role;
+    if(user.Password != null)
+    {
+        existingUser.Password = user.Password;
+    }
+    _userService.Update(existingUser);
+
+    Console.WriteLine("✅ המשתמש עודכן בהצלחה!");
+    return Ok(new { message = "User updated successfully.", user = existingUser });
+}
+
+
+//    // ✅ משתמש רגיל יכול לעדכן את עצמו בלבד, Admin יכול לעדכן את כולם
+//         [HttpPut("{id}")]
+//         public ActionResult UpdateUser(int id, [FromBody] User user)
+//         {
+//             var loggedInUserId = int.Parse(User.FindFirst("Id")?.Value);
+
+//             if (User.IsInRole("Admin") || loggedInUserId == id)
+//             {
+//                 _userService.Update(user);
+//                 return NoContent();
+//             }
+
+//             return Forbid(); // ❌ לא מאפשר עריכת משתמשים אחרים
+//         }
 
     // ✅ רק משתמשים מחוברים יכולים לראות את הפרופיל שלהם
         [HttpGet("currentUser")]

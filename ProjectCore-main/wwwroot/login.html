@@ -1,25 +1,18 @@
-<script>
-    function login() {
-        const username = document.getElementById("username").value;
-        const password = document.getElementById("password").value;
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>התחברות</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>התחברות</h2>
+    <input type="text" id="username" placeholder="שם משתמש">
+    <input type="password" id="password" placeholder="סיסמה">
+    <button onclick="login()">התחבר</button>
+    <p id="errorMessage" class="error"></p>
 
-        fetch("/Auth/login", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ username, password })
-        })
-        .then(res => res.json())
-        .then(data => {
-            if (data.token) {
-                localStorage.setItem("token", data.token);
-                window.location.href = "index.html"; // מעבר לעמוד הראשי
-            } else {
-                alert("Login failed!");
-            }
-        });
-    }
-</script>
-
-<input type="text" id="username" placeholder="Enter Username">
-<input type="password" id="password" placeholder="Enter Password">
-<button onclick="login()">Login</button>
+    <script src="app.js"></script>
+</body>
+</html>

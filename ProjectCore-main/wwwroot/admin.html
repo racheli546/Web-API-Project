@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ניהול משתמשים ומאפים</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ניהול משתמשים ומאפים</h1>
+            <button class="logout-btn" onclick="logout()">התנתק</button>
+        </header>
+
+        <section class="user-management">
+            <h2>רשימת משתמשים</h2>
+            <button onclick="openAddUserForm()">הוסף משתמש</button>
+            <div id="addUserForm" style="display: none;">
+                <input type="text" id="add-username" placeholder="שם משתמש">
+                <input type="password" id="add-password" placeholder="סיסמה">
+                <select id="add-role">
+                    <option value="User">משתמש</option>
+                    <option value="Admin">מנהל</option>
+                </select>
+                <button onclick="addUser()">הוסף</button>
+                <button onclick="closeAddUserForm()">בטל</button>
+            </div>
+            <div id="customersList"></div>
+        </section>
+
+        <section class="bakery-management">
+            <h2>רשימת מאפים</h2>
+            <button onclick="openAddBakeryForm()">הוסף מאפה</button>
+            <div id="addBakeryForm" style="display: none;">
+                <input type="text" id="add-bakery-name" placeholder="שם מאפה">
+                <input type="hidden" id="add-bakery-user-id" value="1"> <button onclick="addBakery()">הוסף</button>
+                <button onclick="closeAddBakeryForm()">בטל</button>
+            </div>
+            <div id="bakeryList"></div>
+        </section>
+
+        <div id="editForm" style="display: none;">
+            <input type="hidden" id="edit-id">
+            <input type="text" id="edit-username" placeholder="שם משתמש">
+            <input type="text" id="edit-role" placeholder="תפקיד">
+            <input type="password" id="edit-password" placeholder="סיסמה">
+            <button onclick="updateUser()">שמור</button>
+            <button onclick="closeEditForm()">בטל</button>
+        </div>
+        <div id="editBakeryForm" style="display: none;">
+            <input type="hidden" id="edit-bakery-id">
+            <input type="text" id="edit-bakery-name" placeholder="שם מאפה">
+            <input type="hidden" id="edit-bakery-user-id" value="1"> <button onclick="updateBakery()">שמור</button>
+            <button onclick="closeEditBakeryForm()">בטל</button>
+        </div>
+    </div>
+
+    <script src="admin.js"></script>
+</body>
+</html>

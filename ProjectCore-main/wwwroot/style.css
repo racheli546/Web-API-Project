@@ -1,0 +1,107 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #fceabb, #f8b500);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* עיצוב לדף ההתחברות בלבד */
+.login-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 85%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-container h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.login-container button {
+    background-color: #64b5f6;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+.login-container button:hover {
+    background-color: #1e88e5;
+}
+
+.login-container .error {
+    color: #e57373;
+    margin-top: 10px;
+}
+
+/* עיצוב לשאר הדפים */
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 85%;
+    max-width: 900px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 20px;
+}
+
+h1, h2 {
+    color: #333;
+    font-size: 28px;
+    margin: 0 0 20px 0;
+}
+
+.logout-btn, button {
+    background-color: #64b5f6;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+.logout-btn:hover, button:hover {
+    background-color: #1e88e5;
+}
+
+/* .bakery-section */

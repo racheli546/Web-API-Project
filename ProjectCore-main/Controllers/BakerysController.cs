@@ -64,17 +64,41 @@ public IActionResult GetAll()
         BakeryService.Add(nb);
         return CreatedAtAction(nameof(Insert), new { id = nb.Id }, nb);
     }
-    [HttpPut("{id}")]
-    public ActionResult Update(int id, Bakery nb)
+    // [HttpPut("{id}")]
+    // public ActionResult Update(int id, Bakery nb)
+    // {
+    //     if (id != nb.Id)
+    //         return BadRequest();
+    //     var existingBakery = BakeryService.Get(id);
+    //     if (existingBakery is null)
+    //         return NotFound();
+    //     BakeryService.Update(nb);
+    //     return NoContent();
+    // }
+
+   [HttpPut("{id}")]
+public ActionResult Update(int id, string name, int userId)
+{
+    if (id != BakeryService.Get(id).Id)
     {
-        if (id != nb.Id)
-            return BadRequest();
-        var existingBakery = BakeryService.Get(id);
-        if (existingBakery is null)
-            return NotFound();
-        BakeryService.Update(nb);
-        return NoContent();
+        return BadRequest(new { message = "ID לא תואם" });
     }
+
+    var existingBakery = BakeryService.Get(id);
+    if (existingBakery is null)
+    {
+        return NotFound(new { message = "מאפה לא נמצא" });
+    }
+
+    Bakery nb = new Bakery();
+    nb.Id = id;
+    nb.Name = name;
+    nb.UserId = userId;
+
+    BakeryService.Update(nb);
+    return Ok(nb); // החזרת אובייקט JSON תקין
+}
+
     [HttpDelete("{id}")]
     public ActionResult Delete(int id)
     {

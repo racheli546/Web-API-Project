@@ -1,139 +1,28 @@
-<!-- <!DOCTYPE html>
-<html>
-
+<!DOCTYPE html>
+<html lang="he">
 <head>
     <meta charset="UTF-8">
-    <title>Bakery CRUD</title>
-    <link rel="stylesheet" href="css/site.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>חנות מאפים</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <h1>Bakery CRUD</h1>
-    <h3>Add</h3>
-    <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
-        <input type="text" id="add-name" placeholder="New Bakery">
-        <select id="add-category">
-            <option value="" disabled selected>Choose a category</option>
-            <option value="0">Cheesecake</option>
-            <option value="1">ChocolateCake</option>
-            <option value="2">CarrotCake</option>
-            <option value="3">VanillaCake</option>
-        </select>
-        <input type="submit" value="Add">
-    </form>
+    <div class="container">
+        
+        <h1 style="text-align: center;">ברוך הבא!</h1>
+        
+        <h2 style="text-align: center;">התחברות</h2>
+        <header>
+            </br>   
+            <input type="text" id="username" placeholder="שם משתמש">
+            <input type="password" id="password" placeholder="סיסמה">
+        </br>
+              </header>
 
-    <div id="editForm">
-        <h3>Edit</h3>
-        <form action="javascript:void(0);" onsubmit="updateItem()">
-            <input type="hidden" id="edit-id">
-            <input type="text" id="edit-name">
-            <select id="edit-category">
-                <option value="" disabled selected>Choose a category</option>
-                <option value="0">Cheesecake</option>
-                <option value="1">ChocolateCake</option>
-                <option value="2">CarrotCake</option>
-                <option value="3">VanillaCake</option>
-            </select>
-            <input type="submit" value="Save">
-            <a onclick="closeInput()" aria-label="Close">&#10006;</a>
-        </form>
+              <button onclick="login()" style="text-align: center;">התחבר</button>
+              <p id="errorMessage" class="error"></p> 
     </div>
 
-    <p id="counter"></p>
-
-    <table>
-        <tr>
-            <th>Category</th>
-            <th>Name</th>
-            <th></th>
-            <th></th>
-        </tr>
-        <tbody id="bakeries"></tbody>
-    </table>
-
-    <script src="js/site.js" asp-append-version="true"></script>
-    <script type="text/javascript">
-        getItems();
-    </script>
+    <script src="app.js"></script>
 </body>
-
-</html> -->
-<script>
-    const token = localStorage.getItem("token");
-
-    if (!token) {
-        window.location.href = "login.html"; // מעביר לדף ההתחברות
-    } else {
-        fetch("/User/profile", {
-            headers: { "Authorization": `Bearer ${token}` }
-        })
-        .then(res => res.json())
-        .then(user => {
-            document.getElementById("username").innerText = user.username;
-        })
-        .catch(() => {
-            localStorage.removeItem("token");
-            window.location.href = "login.html";
-        });
-    }
-</script>
-
-<h1>Welcome, <span id="username"></span>!</h1>
-<script>
-    function loadBakeries() {
-        const token = localStorage.getItem("token");
-
-        fetch("/Bakerys/available", {
-            headers: { "Authorization": `Bearer ${token}` }
-        })
-        .then(res => res.json())
-        .then(bakeries => {
-            const list = document.getElementById("bakeryList");
-            list.innerHTML = "";
-            bakeries.forEach(bakery => {
-                list.innerHTML += `<li>${bakery.name} 
-                    <button onclick="buyBakery(${bakery.id})">קנה</button></li>`;
-            });
-        });
-    }
-
-    function buyBakery(bakeryId) {
-        const token = localStorage.getItem("token");
-
-        fetch(`/User/buy/${bakeryId}`, {
-            method: "POST",
-            headers: { "Authorization": `Bearer ${token}` }
-        })
-        .then(() => alert("נרכש בהצלחה!"))
-        .then(() => loadBakeries()); // רענון הרשימה
-    }
-
-    window.onload = loadBakeries;
-</script>
-
-<ul id="bakeryList"></ul>
-<script>
-    function loadUserPurchases() {
-        const token = localStorage.getItem("token");
-
-        fetch("/User/purchases", {
-            headers: { "Authorization": `Bearer ${token}` }
-        })
-        .then(res => res.json())
-        .then(purchases => {
-            const list = document.getElementById("purchasedList");
-            list.innerHTML = "";
-            purchases.forEach(bakery => {
-                list.innerHTML += `<li>${bakery.name}</li>`;
-            });
-        });
-    }
-
-    window.onload = function() {
-        loadBakeries();
-        loadUserPurchases();
-    };
-</script>
-
-<h2>המאפים שרכשת:</h2>
-<ul id="purchasedList"></ul>
+</html>
