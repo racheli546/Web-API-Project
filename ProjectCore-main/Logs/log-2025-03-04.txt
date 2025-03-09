@@ -1,0 +1,625 @@
+2025-03-04 00:55:00.657 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/""" - "application/json" 91
+2025-03-04 00:55:00.693 +02:00 [Information] Handling request: GET./User/
+2025-03-04 00:55:00.698 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.GetAll (ProjectCore)"'
+2025-03-04 00:55:00.706 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[ProjectCore.User]] GetAll()" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 00:55:00.720 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.User, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-03-04 00:55:00.732 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.GetAll (ProjectCore)" in 14.1848ms
+2025-03-04 00:55:00.740 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.GetAll (ProjectCore)"'
+2025-03-04 00:55:00.748 +02:00 [Information] Finished handling request: GET./User/, Response Status: 200
+2025-03-04 00:55:00.753 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/""" - 200 null "application/json; charset=utf-8" 95.9812ms
+2025-03-04 00:55:16.807 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/User/1""" - "application/json" 91
+2025-03-04 00:55:16.819 +02:00 [Information] Handling request: POST./User/1
+2025-03-04 00:55:16.824 +02:00 [Information] Executing endpoint '"405 HTTP Method Not Supported"'
+2025-03-04 00:55:16.829 +02:00 [Information] Executed endpoint '"405 HTTP Method Not Supported"'
+2025-03-04 00:55:16.836 +02:00 [Information] Finished handling request: POST./User/1, Response Status: 405
+2025-03-04 00:55:16.842 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/User/1""" - 405 0 null 35.1424ms
+2025-03-04 00:55:21.736 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/User/""" - "application/json" 91
+2025-03-04 00:55:21.755 +02:00 [Information] Handling request: POST./User/
+2025-03-04 00:55:21.761 +02:00 [Information] Finished handling request: POST./User/, Response Status: 500
+2025-03-04 00:55:21.766 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/User/""" - 500 null "application/json" 29.4358ms
+2025-03-04 00:55:26.831 +02:00 [Information] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/""" - "application/json" 91
+2025-03-04 00:55:26.846 +02:00 [Information] Handling request: PUT./User/
+2025-03-04 00:55:26.851 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-04 00:55:26.859 +02:00 [Information] Route matched with "{action = \"updateCurrentUser\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult updateCurrentUser(ProjectCore.User)" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 00:55:26.877 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2025-03-04 00:55:26.888 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)" in 17.098ms
+2025-03-04 00:55:26.896 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-04 00:55:26.905 +02:00 [Information] Finished handling request: PUT./User/, Response Status: 400
+2025-03-04 00:55:26.909 +02:00 [Information] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/""" - 400 null "application/problem+json; charset=utf-8" 78.5716ms
+2025-03-04 00:55:31.829 +02:00 [Information] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/1""" - "application/json" 91
+2025-03-04 00:55:31.847 +02:00 [Information] Handling request: PUT./User/1
+2025-03-04 00:55:31.854 +02:00 [Information] Executing endpoint '"405 HTTP Method Not Supported"'
+2025-03-04 00:55:31.862 +02:00 [Information] Executed endpoint '"405 HTTP Method Not Supported"'
+2025-03-04 00:55:31.869 +02:00 [Information] Finished handling request: PUT./User/1, Response Status: 405
+2025-03-04 00:55:31.874 +02:00 [Information] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/1""" - 405 0 null 45.7236ms
+2025-03-04 00:55:38.087 +02:00 [Information] Request starting "HTTP/1.1" "DELETE" "http"://"localhost:5198""""/User/1""" - "application/json" 91
+2025-03-04 00:55:38.097 +02:00 [Information] Handling request: DELETE./User/1
+2025-03-04 00:55:38.100 +02:00 [Information] Finished handling request: DELETE./User/1, Response Status: 500
+2025-03-04 00:55:38.107 +02:00 [Information] Request finished "HTTP/1.1" "DELETE" "http"://"localhost:5198""""/User/1""" - 500 null "application/json" 20.2616ms
+2025-03-04 00:55:42.879 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/1""" - "application/json" 91
+2025-03-04 00:55:42.895 +02:00 [Information] Handling request: GET./User/1
+2025-03-04 00:55:42.903 +02:00 [Information] Finished handling request: GET./User/1, Response Status: 500
+2025-03-04 00:55:42.909 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/1""" - 500 null "application/json" 30.404ms
+2025-03-04 01:15:50.394 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/1""" - "application/json" 91
+2025-03-04 01:15:50.406 +02:00 [Information] Handling request: GET./User/1
+2025-03-04 01:15:50.411 +02:00 [Information] Finished handling request: GET./User/1, Response Status: 500
+2025-03-04 01:15:50.415 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/1""" - 500 null "application/json" 21.2743ms
+2025-03-04 01:17:04.858 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/User/1""" - "application/json" 91
+2025-03-04 01:17:04.865 +02:00 [Information] Handling request: POST./User/1
+2025-03-04 01:17:04.869 +02:00 [Information] Executing endpoint '"405 HTTP Method Not Supported"'
+2025-03-04 01:17:04.881 +02:00 [Information] Executed endpoint '"405 HTTP Method Not Supported"'
+2025-03-04 01:17:04.890 +02:00 [Information] Finished handling request: POST./User/1, Response Status: 405
+2025-03-04 01:17:04.894 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/User/1""" - 405 0 null 35.9056ms
+2025-03-04 01:17:13.642 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/User/""" - "application/json" 91
+2025-03-04 01:17:13.662 +02:00 [Information] Handling request: POST./User/
+2025-03-04 01:17:13.664 +02:00 [Information] Finished handling request: POST./User/, Response Status: 500
+2025-03-04 01:17:13.667 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/User/""" - 500 null "application/json" 25.6238ms
+2025-03-04 01:19:33.033 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/1""" - "application/json" 91
+2025-03-04 01:19:33.039 +02:00 [Information] Handling request: GET./User/1
+2025-03-04 01:19:33.042 +02:00 [Information] Finished handling request: GET./User/1, Response Status: 500
+2025-03-04 01:19:33.045 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/1""" - 500 null "application/json" 11.9426ms
+2025-03-04 01:20:29.746 +02:00 [Information] Application is shutting down...
+2025-03-04 01:20:41.950 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-03-04 01:20:41.984 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-04 01:20:41.987 +02:00 [Information] Hosting environment: "Development"
+2025-03-04 01:20:41.988 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-03-04 01:20:49.145 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/1""" - "application/json" 91
+2025-03-04 01:20:49.179 +02:00 [Information] Handling request: GET./User/1
+2025-03-04 01:20:49.185 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.GetById (ProjectCore)"'
+2025-03-04 01:20:49.208 +02:00 [Information] Route matched with "{action = \"GetById\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ProjectCore.User] GetById(Int32)" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 01:20:49.253 +02:00 [Information] Executing "OkObjectResult", writing value of type '"ProjectCore.User"'.
+2025-03-04 01:20:49.270 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.GetById (ProjectCore)" in 56.7037ms
+2025-03-04 01:20:49.274 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.GetById (ProjectCore)"'
+2025-03-04 01:20:49.276 +02:00 [Information] Finished handling request: GET./User/1, Response Status: 200
+2025-03-04 01:20:49.278 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/1""" - 200 null "application/json; charset=utf-8" 133.6642ms
+2025-03-04 01:21:01.835 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/2""" - "application/json" 91
+2025-03-04 01:21:01.847 +02:00 [Information] Handling request: GET./User/2
+2025-03-04 01:21:01.850 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.GetById (ProjectCore)"'
+2025-03-04 01:21:01.855 +02:00 [Information] Route matched with "{action = \"GetById\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ProjectCore.User] GetById(Int32)" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 01:21:01.865 +02:00 [Information] Executing "OkObjectResult", writing value of type '"ProjectCore.User"'.
+2025-03-04 01:21:01.868 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.GetById (ProjectCore)" in 5.6596ms
+2025-03-04 01:21:01.870 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.GetById (ProjectCore)"'
+2025-03-04 01:21:01.872 +02:00 [Information] Finished handling request: GET./User/2, Response Status: 200
+2025-03-04 01:21:01.875 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/2""" - 200 null "application/json; charset=utf-8" 40.4567ms
+2025-03-04 01:22:16.286 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/2""" - "application/json" 91
+2025-03-04 01:22:16.291 +02:00 [Information] Handling request: GET./User/2
+2025-03-04 01:22:16.293 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.GetById (ProjectCore)"'
+2025-03-04 01:22:16.294 +02:00 [Information] Route matched with "{action = \"GetById\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ProjectCore.User] GetById(Int32)" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 01:22:16.297 +02:00 [Information] Executing "OkObjectResult", writing value of type '"ProjectCore.User"'.
+2025-03-04 01:22:16.299 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.GetById (ProjectCore)" in 2.2751ms
+2025-03-04 01:22:16.300 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.GetById (ProjectCore)"'
+2025-03-04 01:22:16.302 +02:00 [Information] Finished handling request: GET./User/2, Response Status: 200
+2025-03-04 01:22:16.304 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/2""" - 200 null "application/json; charset=utf-8" 17.7778ms
+2025-03-04 01:34:46.225 +02:00 [Information] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/2""" - "application/json" 93
+2025-03-04 01:34:46.236 +02:00 [Information] Handling request: PUT./User/2
+2025-03-04 01:34:46.243 +02:00 [Information] Executing endpoint '"405 HTTP Method Not Supported"'
+2025-03-04 01:34:46.251 +02:00 [Information] Executed endpoint '"405 HTTP Method Not Supported"'
+2025-03-04 01:34:46.256 +02:00 [Information] Finished handling request: PUT./User/2, Response Status: 405
+2025-03-04 01:34:46.263 +02:00 [Information] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/2""" - 405 0 null 37.8752ms
+2025-03-04 01:34:50.344 +02:00 [Information] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/""" - "application/json" 93
+2025-03-04 01:34:50.350 +02:00 [Information] Handling request: PUT./User/
+2025-03-04 01:34:50.354 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-04 01:34:50.368 +02:00 [Information] Route matched with "{action = \"updateCurrentUser\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult updateCurrentUser(ProjectCore.User)" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 01:34:50.426 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-03-04 01:34:50.466 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)" in 89.3676ms
+2025-03-04 01:34:50.471 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-04 01:34:50.475 +02:00 [Information] Finished handling request: PUT./User/, Response Status: 400
+2025-03-04 01:34:50.479 +02:00 [Information] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/""" - 400 null "application/problem+json; charset=utf-8" 135.0896ms
+2025-03-04 01:35:27.695 +02:00 [Information] Application is shutting down...
+2025-03-04 01:35:36.455 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-03-04 01:35:36.493 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-04 01:35:36.495 +02:00 [Information] Hosting environment: "Development"
+2025-03-04 01:35:36.496 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-03-04 01:35:40.972 +02:00 [Information] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/""" - "application/json" 93
+2025-03-04 01:35:41.001 +02:00 [Information] Handling request: PUT./User/
+2025-03-04 01:35:41.007 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-04 01:35:41.025 +02:00 [Information] Route matched with "{action = \"updateCurrentUser\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult updateCurrentUser(ProjectCore.User)" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 01:35:41.074 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"System.String"'.
+2025-03-04 01:35:41.081 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)" in 51.489ms
+2025-03-04 01:35:41.083 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-04 01:35:41.084 +02:00 [Information] Finished handling request: PUT./User/, Response Status: 400
+2025-03-04 01:35:41.087 +02:00 [Information] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/""" - 400 null "text/plain; charset=utf-8" 116.4449ms
+2025-03-04 01:35:46.974 +02:00 [Information] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/1""" - "application/json" 93
+2025-03-04 01:35:46.986 +02:00 [Information] Handling request: PUT./User/1
+2025-03-04 01:35:46.991 +02:00 [Information] Executing endpoint '"405 HTTP Method Not Supported"'
+2025-03-04 01:35:46.997 +02:00 [Information] Executed endpoint '"405 HTTP Method Not Supported"'
+2025-03-04 01:35:46.999 +02:00 [Information] Finished handling request: PUT./User/1, Response Status: 405
+2025-03-04 01:35:47.001 +02:00 [Information] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/1""" - 405 0 null 28.0632ms
+2025-03-04 01:35:56.714 +02:00 [Information] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/""" - "application/json" 93
+2025-03-04 01:35:56.719 +02:00 [Information] Handling request: PUT./User/
+2025-03-04 01:35:56.719 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-04 01:35:56.723 +02:00 [Information] Route matched with "{action = \"updateCurrentUser\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult updateCurrentUser(ProjectCore.User)" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 01:35:56.729 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"System.String"'.
+2025-03-04 01:35:56.730 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)" in 3.8879ms
+2025-03-04 01:35:56.732 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-04 01:35:56.733 +02:00 [Information] Finished handling request: PUT./User/, Response Status: 400
+2025-03-04 01:35:56.734 +02:00 [Information] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/""" - 400 null "text/plain; charset=utf-8" 19.8028ms
+2025-03-04 01:36:21.938 +02:00 [Information] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/""" - "application/json" 93
+2025-03-04 01:36:21.944 +02:00 [Information] Handling request: PUT./User/
+2025-03-04 01:36:21.946 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-04 01:36:21.949 +02:00 [Information] Route matched with "{action = \"updateCurrentUser\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult updateCurrentUser(ProjectCore.User)" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 01:36:21.956 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"System.String"'.
+2025-03-04 01:36:21.958 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)" in 2.6787ms
+2025-03-04 01:36:21.964 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-04 01:36:21.967 +02:00 [Information] Finished handling request: PUT./User/, Response Status: 400
+2025-03-04 01:36:21.969 +02:00 [Information] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/""" - 400 null "text/plain; charset=utf-8" 30.6758ms
+2025-03-04 01:36:28.896 +02:00 [Information] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/""" - "application/json" 93
+2025-03-04 01:36:28.902 +02:00 [Information] Handling request: PUT./User/
+2025-03-04 01:36:28.905 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-04 01:36:28.909 +02:00 [Information] Route matched with "{action = \"updateCurrentUser\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult updateCurrentUser(ProjectCore.User)" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 01:36:28.913 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"System.String"'.
+2025-03-04 01:36:28.915 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)" in 3.1214ms
+2025-03-04 01:36:28.917 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-04 01:36:28.922 +02:00 [Information] Finished handling request: PUT./User/, Response Status: 400
+2025-03-04 01:36:28.926 +02:00 [Information] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/""" - 400 null "text/plain; charset=utf-8" 30.1825ms
+2025-03-04 01:36:32.601 +02:00 [Information] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/1""" - "application/json" 93
+2025-03-04 01:36:32.611 +02:00 [Information] Handling request: PUT./User/1
+2025-03-04 01:36:32.615 +02:00 [Information] Executing endpoint '"405 HTTP Method Not Supported"'
+2025-03-04 01:36:32.616 +02:00 [Information] Executed endpoint '"405 HTTP Method Not Supported"'
+2025-03-04 01:36:32.617 +02:00 [Information] Finished handling request: PUT./User/1, Response Status: 405
+2025-03-04 01:36:32.618 +02:00 [Information] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/1""" - 405 0 null 17.6432ms
+2025-03-04 01:37:16.729 +02:00 [Information] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/1""" - "application/json" 93
+2025-03-04 01:37:16.738 +02:00 [Information] Handling request: PUT./User/1
+2025-03-04 01:37:16.746 +02:00 [Information] Executing endpoint '"405 HTTP Method Not Supported"'
+2025-03-04 01:37:16.749 +02:00 [Information] Executed endpoint '"405 HTTP Method Not Supported"'
+2025-03-04 01:37:16.755 +02:00 [Information] Finished handling request: PUT./User/1, Response Status: 405
+2025-03-04 01:37:16.760 +02:00 [Information] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/1""" - 405 0 null 30.8379ms
+2025-03-04 01:37:23.723 +02:00 [Information] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/""" - "application/json" 93
+2025-03-04 01:37:23.730 +02:00 [Information] Handling request: PUT./User/
+2025-03-04 01:37:23.732 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-04 01:37:23.735 +02:00 [Information] Route matched with "{action = \"updateCurrentUser\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult updateCurrentUser(ProjectCore.User)" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 01:37:23.743 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"System.String"'.
+2025-03-04 01:37:23.748 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)" in 6.6407ms
+2025-03-04 01:37:23.754 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-04 01:37:23.758 +02:00 [Information] Finished handling request: PUT./User/, Response Status: 400
+2025-03-04 01:37:23.763 +02:00 [Information] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/""" - 400 null "text/plain; charset=utf-8" 39.4903ms
+2025-03-04 01:38:35.518 +02:00 [Information] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/1""" - "application/json" 93
+2025-03-04 01:38:35.522 +02:00 [Information] Handling request: PUT./User/1
+2025-03-04 01:38:35.523 +02:00 [Information] Executing endpoint '"405 HTTP Method Not Supported"'
+2025-03-04 01:38:35.531 +02:00 [Information] Executed endpoint '"405 HTTP Method Not Supported"'
+2025-03-04 01:38:35.534 +02:00 [Information] Finished handling request: PUT./User/1, Response Status: 405
+2025-03-04 01:38:35.540 +02:00 [Information] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/1""" - 405 0 null 21.9184ms
+2025-03-04 01:38:44.632 +02:00 [Information] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/""" - "application/json" 93
+2025-03-04 01:38:44.642 +02:00 [Information] Handling request: PUT./User/
+2025-03-04 01:38:44.646 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-04 01:38:44.654 +02:00 [Information] Route matched with "{action = \"updateCurrentUser\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult updateCurrentUser(ProjectCore.User)" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 01:38:44.663 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"System.String"'.
+2025-03-04 01:38:44.668 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)" in 6.8007ms
+2025-03-04 01:38:44.671 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-04 01:38:44.675 +02:00 [Information] Finished handling request: PUT./User/, Response Status: 400
+2025-03-04 01:38:44.676 +02:00 [Information] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/""" - 400 null "text/plain; charset=utf-8" 43.9863ms
+2025-03-04 01:39:59.780 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/User""" - "application/json" 93
+2025-03-04 01:39:59.787 +02:00 [Information] Handling request: POST./User
+2025-03-04 01:39:59.795 +02:00 [Information] Finished handling request: POST./User, Response Status: 500
+2025-03-04 01:39:59.800 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/User""" - 500 null "application/json" 19.6068ms
+2025-03-04 01:40:21.408 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/User""" - "application/json" 86
+2025-03-04 01:40:21.414 +02:00 [Information] Handling request: POST./User
+2025-03-04 01:40:21.419 +02:00 [Information] Finished handling request: POST./User, Response Status: 500
+2025-03-04 01:40:21.425 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/User""" - 500 null "application/json" 16.8541ms
+2025-03-04 01:40:56.954 +02:00 [Information] Application is shutting down...
+2025-03-04 01:41:03.820 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-03-04 01:41:03.860 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-04 01:41:03.864 +02:00 [Information] Hosting environment: "Development"
+2025-03-04 01:41:03.867 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-03-04 01:41:07.672 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/User""" - "application/json" 86
+2025-03-04 01:41:07.701 +02:00 [Information] Handling request: POST./User
+2025-03-04 01:41:07.706 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.Create (ProjectCore)"'
+2025-03-04 01:41:07.730 +02:00 [Information] Route matched with "{action = \"Create\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Create(ProjectCore.User)" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 01:41:07.804 +02:00 [Information] Executing "CreatedAtActionResult", writing value of type '"ProjectCore.User"'.
+2025-03-04 01:41:07.828 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.Create (ProjectCore)" in 90.3658ms
+2025-03-04 01:41:07.832 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.Create (ProjectCore)"'
+2025-03-04 01:41:07.833 +02:00 [Information] Finished handling request: POST./User, Response Status: 201
+2025-03-04 01:41:07.836 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/User""" - 201 null "application/json; charset=utf-8" 165.1547ms
+2025-03-04 01:41:13.482 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - "application/json" 86
+2025-03-04 01:41:13.501 +02:00 [Information] Handling request: GET./User
+2025-03-04 01:41:13.503 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.GetAll (ProjectCore)"'
+2025-03-04 01:41:13.505 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[ProjectCore.User]] GetAll()" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 01:41:13.509 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.User, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-03-04 01:41:13.513 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.GetAll (ProjectCore)" in 5.7315ms
+2025-03-04 01:41:13.516 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.GetAll (ProjectCore)"'
+2025-03-04 01:41:13.519 +02:00 [Information] Finished handling request: GET./User, Response Status: 200
+2025-03-04 01:41:13.521 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - 200 null "application/json; charset=utf-8" 39.5675ms
+2025-03-04 01:41:38.745 +02:00 [Information] Request starting "HTTP/1.1" "DELETE" "http"://"localhost:5198""""/User/1""" - "application/json" 86
+2025-03-04 01:41:38.755 +02:00 [Information] Handling request: DELETE./User/1
+2025-03-04 01:41:38.760 +02:00 [Information] Finished handling request: DELETE./User/1, Response Status: 500
+2025-03-04 01:41:38.761 +02:00 [Information] Request finished "HTTP/1.1" "DELETE" "http"://"localhost:5198""""/User/1""" - 500 null "application/json" 15.9391ms
+2025-03-04 01:41:45.435 +02:00 [Information] Request starting "HTTP/1.1" "DELETE" "http"://"localhost:5198""""/User/3""" - "application/json" 86
+2025-03-04 01:41:45.442 +02:00 [Information] Handling request: DELETE./User/3
+2025-03-04 01:41:45.446 +02:00 [Information] Finished handling request: DELETE./User/3, Response Status: 500
+2025-03-04 01:41:45.450 +02:00 [Information] Request finished "HTTP/1.1" "DELETE" "http"://"localhost:5198""""/User/3""" - 500 null "application/json" 14.079ms
+2025-03-04 01:41:50.847 +02:00 [Information] Request starting "HTTP/1.1" "DELETE" "http"://"localhost:5198""""/User/""" - "application/json" 86
+2025-03-04 01:41:50.851 +02:00 [Information] Handling request: DELETE./User/
+2025-03-04 01:41:50.852 +02:00 [Information] Executing endpoint '"405 HTTP Method Not Supported"'
+2025-03-04 01:41:50.853 +02:00 [Information] Executed endpoint '"405 HTTP Method Not Supported"'
+2025-03-04 01:41:50.856 +02:00 [Information] Finished handling request: DELETE./User/, Response Status: 405
+2025-03-04 01:41:50.857 +02:00 [Information] Request finished "HTTP/1.1" "DELETE" "http"://"localhost:5198""""/User/""" - 405 0 null 10.6295ms
+2025-03-04 01:41:55.364 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/""" - "application/json" 86
+2025-03-04 01:41:55.371 +02:00 [Information] Handling request: GET./User/
+2025-03-04 01:41:55.373 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.GetAll (ProjectCore)"'
+2025-03-04 01:41:55.375 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[ProjectCore.User]] GetAll()" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 01:41:55.378 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.User, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-03-04 01:41:55.381 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.GetAll (ProjectCore)" in 3.159ms
+2025-03-04 01:41:55.385 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.GetAll (ProjectCore)"'
+2025-03-04 01:41:55.386 +02:00 [Information] Finished handling request: GET./User/, Response Status: 200
+2025-03-04 01:41:55.389 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/""" - 200 null "application/json; charset=utf-8" 24.597ms
+2025-03-04 01:42:37.054 +02:00 [Information] Application is shutting down...
+2025-03-04 01:42:46.707 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-03-04 01:42:46.752 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-04 01:42:46.754 +02:00 [Information] Hosting environment: "Development"
+2025-03-04 01:42:46.755 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-03-04 01:42:53.448 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/""" - "application/json" 86
+2025-03-04 01:42:53.484 +02:00 [Information] Handling request: GET./User/
+2025-03-04 01:42:53.488 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.GetAll (ProjectCore)"'
+2025-03-04 01:42:53.506 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[ProjectCore.User]] GetAll()" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 01:42:53.543 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.User, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-03-04 01:42:53.567 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.GetAll (ProjectCore)" in 54.673ms
+2025-03-04 01:42:53.570 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.GetAll (ProjectCore)"'
+2025-03-04 01:42:53.571 +02:00 [Information] Finished handling request: GET./User/, Response Status: 200
+2025-03-04 01:42:53.574 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/""" - 200 null "application/json; charset=utf-8" 126.8105ms
+2025-03-04 01:43:00.174 +02:00 [Information] Request starting "HTTP/1.1" "DELETE" "http"://"localhost:5198""""/User/3""" - "application/json" 86
+2025-03-04 01:43:00.184 +02:00 [Information] Handling request: DELETE./User/3
+2025-03-04 01:43:00.189 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.Delete (ProjectCore)"'
+2025-03-04 01:43:00.205 +02:00 [Information] Route matched with "{action = \"Delete\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Delete(Int32)" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 01:43:00.237 +02:00 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-03-04 01:43:00.239 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.Delete (ProjectCore)" in 29.0326ms
+2025-03-04 01:43:00.243 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.Delete (ProjectCore)"'
+2025-03-04 01:43:00.246 +02:00 [Information] Finished handling request: DELETE./User/3, Response Status: 204
+2025-03-04 01:43:00.251 +02:00 [Information] Request finished "HTTP/1.1" "DELETE" "http"://"localhost:5198""""/User/3""" - 204 null null 78.7509ms
+2025-03-04 01:43:05.980 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/""" - "application/json" 86
+2025-03-04 01:43:05.997 +02:00 [Information] Handling request: GET./User/
+2025-03-04 01:43:06.003 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.GetAll (ProjectCore)"'
+2025-03-04 01:43:06.009 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[ProjectCore.User]] GetAll()" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 01:43:06.024 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.User, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-03-04 01:43:06.032 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.GetAll (ProjectCore)" in 10.0113ms
+2025-03-04 01:43:06.041 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.GetAll (ProjectCore)"'
+2025-03-04 01:43:06.048 +02:00 [Information] Finished handling request: GET./User/, Response Status: 200
+2025-03-04 01:43:06.053 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/""" - 200 null "application/json; charset=utf-8" 73.16ms
+2025-03-04 01:43:56.334 +02:00 [Information] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/""" - "application/json" 86
+2025-03-04 01:43:56.339 +02:00 [Information] Handling request: PUT./User/
+2025-03-04 01:43:56.341 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-04 01:43:56.349 +02:00 [Information] Route matched with "{action = \"updateCurrentUser\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult updateCurrentUser(ProjectCore.User)" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 01:43:56.369 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"System.String"'.
+2025-03-04 01:43:56.373 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)" in 20.9007ms
+2025-03-04 01:43:56.375 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-04 01:43:56.379 +02:00 [Information] Finished handling request: PUT./User/, Response Status: 400
+2025-03-04 01:43:56.382 +02:00 [Information] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/""" - 400 null "text/plain; charset=utf-8" 48.5071ms
+2025-03-04 01:44:03.489 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/User/""" - "application/json" 86
+2025-03-04 01:44:03.494 +02:00 [Information] Handling request: POST./User/
+2025-03-04 01:44:03.497 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.Create (ProjectCore)"'
+2025-03-04 01:44:03.500 +02:00 [Information] Route matched with "{action = \"Create\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Create(ProjectCore.User)" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 01:44:03.506 +02:00 [Information] Executing "CreatedAtActionResult", writing value of type '"ProjectCore.User"'.
+2025-03-04 01:44:03.531 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.Create (ProjectCore)" in 28.8238ms
+2025-03-04 01:44:03.533 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.Create (ProjectCore)"'
+2025-03-04 01:44:03.535 +02:00 [Information] Finished handling request: POST./User/, Response Status: 201
+2025-03-04 01:44:03.536 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/User/""" - 201 null "application/json; charset=utf-8" 47.2295ms
+2025-03-04 01:46:36.235 +02:00 [Information] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User""" - "application/json" 93
+2025-03-04 01:46:36.248 +02:00 [Information] Handling request: PUT./User
+2025-03-04 01:46:36.253 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-04 01:46:36.256 +02:00 [Information] Route matched with "{action = \"updateCurrentUser\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult updateCurrentUser(ProjectCore.User)" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 01:46:36.267 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"System.String"'.
+2025-03-04 01:46:36.269 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)" in 4.7897ms
+2025-03-04 01:46:36.272 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-04 01:46:36.274 +02:00 [Information] Finished handling request: PUT./User, Response Status: 400
+2025-03-04 01:46:36.277 +02:00 [Information] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User""" - 400 null "text/plain; charset=utf-8" 41.7323ms
+2025-03-04 01:46:45.812 +02:00 [Information] Application is shutting down...
+2025-03-04 01:46:52.063 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-03-04 01:46:52.095 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-04 01:46:52.097 +02:00 [Information] Hosting environment: "Development"
+2025-03-04 01:46:52.098 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-03-04 01:46:56.106 +02:00 [Information] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User""" - "application/json" 93
+2025-03-04 01:46:56.131 +02:00 [Information] Handling request: PUT./User
+2025-03-04 01:46:56.136 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-04 01:46:56.155 +02:00 [Information] Route matched with "{action = \"updateCurrentUser\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult updateCurrentUser(ProjectCore.User)" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 01:46:56.215 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"System.String"'.
+2025-03-04 01:46:56.221 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)" in 58.8946ms
+2025-03-04 01:46:56.225 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-04 01:46:56.227 +02:00 [Information] Finished handling request: PUT./User, Response Status: 400
+2025-03-04 01:46:56.230 +02:00 [Information] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User""" - 400 null "text/plain; charset=utf-8" 124.4392ms
+2025-03-04 01:47:00.422 +02:00 [Information] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User""" - "application/json" 93
+2025-03-04 01:47:00.429 +02:00 [Information] Handling request: PUT./User
+2025-03-04 01:47:00.431 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-04 01:47:00.434 +02:00 [Information] Route matched with "{action = \"updateCurrentUser\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult updateCurrentUser(ProjectCore.User)" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 01:47:00.438 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"System.String"'.
+2025-03-04 01:47:00.441 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)" in 4.8224ms
+2025-03-04 01:47:00.448 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-04 01:47:00.450 +02:00 [Information] Finished handling request: PUT./User, Response Status: 400
+2025-03-04 01:47:00.452 +02:00 [Information] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User""" - 400 null "text/plain; charset=utf-8" 29.725ms
+2025-03-04 01:47:57.556 +02:00 [Information] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/1""" - "application/json" 93
+2025-03-04 01:47:57.567 +02:00 [Information] Handling request: PUT./User/1
+2025-03-04 01:47:57.570 +02:00 [Information] Executing endpoint '"405 HTTP Method Not Supported"'
+2025-03-04 01:47:57.575 +02:00 [Information] Executed endpoint '"405 HTTP Method Not Supported"'
+2025-03-04 01:47:57.579 +02:00 [Information] Finished handling request: PUT./User/1, Response Status: 405
+2025-03-04 01:47:57.582 +02:00 [Information] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/1""" - 405 0 null 25.8779ms
+2025-03-04 01:49:04.954 +02:00 [Information] Application is shutting down...
+2025-03-04 01:49:11.502 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-03-04 01:49:11.536 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-04 01:49:11.538 +02:00 [Information] Hosting environment: "Development"
+2025-03-04 01:49:11.540 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-03-04 01:49:17.338 +02:00 [Information] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/1""" - "application/json" 93
+2025-03-04 01:49:17.363 +02:00 [Information] Handling request: PUT./User/1
+2025-03-04 01:49:17.368 +02:00 [Information] Executing endpoint '"405 HTTP Method Not Supported"'
+2025-03-04 01:49:17.369 +02:00 [Information] Executed endpoint '"405 HTTP Method Not Supported"'
+2025-03-04 01:49:17.371 +02:00 [Information] Finished handling request: PUT./User/1, Response Status: 405
+2025-03-04 01:49:17.376 +02:00 [Information] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/1""" - 405 0 null 39.6678ms
+2025-03-04 01:49:23.118 +02:00 [Information] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/""" - "application/json" 93
+2025-03-04 01:49:23.127 +02:00 [Information] Handling request: PUT./User/
+2025-03-04 01:49:23.131 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-04 01:49:23.165 +02:00 [Information] Route matched with "{action = \"updateCurrentUser\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult updateCurrentUser(ProjectCore.User)" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 01:49:23.243 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"System.String"'.
+2025-03-04 01:49:23.250 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)" in 75.5203ms
+2025-03-04 01:49:23.251 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-04 01:49:23.253 +02:00 [Information] Finished handling request: PUT./User/, Response Status: 400
+2025-03-04 01:49:23.254 +02:00 [Information] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/""" - 400 null "text/plain; charset=utf-8" 136.219ms
+2025-03-04 01:51:16.770 +02:00 [Information] Application is shutting down...
+2025-03-04 01:51:23.667 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-03-04 01:51:23.701 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-04 01:51:23.703 +02:00 [Information] Hosting environment: "Development"
+2025-03-04 01:51:23.705 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-03-04 01:51:33.175 +02:00 [Information] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/""" - "application/json" 93
+2025-03-04 01:51:33.224 +02:00 [Information] Handling request: PUT./User/
+2025-03-04 01:51:33.232 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-04 01:51:33.276 +02:00 [Information] Route matched with "{action = \"updateCurrentUser\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult updateCurrentUser(ProjectCore.User)" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 01:51:33.445 +02:00 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-03-04 01:51:33.458 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)" in 165.7281ms
+2025-03-04 01:51:33.465 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-04 01:51:33.469 +02:00 [Information] Finished handling request: PUT./User/, Response Status: 204
+2025-03-04 01:51:33.476 +02:00 [Information] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/""" - 204 null null 302.9122ms
+2025-03-04 01:51:40.430 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/""" - "application/json" 93
+2025-03-04 01:51:40.455 +02:00 [Information] Handling request: GET./User/
+2025-03-04 01:51:40.459 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.GetAll (ProjectCore)"'
+2025-03-04 01:51:40.468 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[ProjectCore.User]] GetAll()" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 01:51:40.488 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.User, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-03-04 01:51:40.526 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.GetAll (ProjectCore)" in 49.6826ms
+2025-03-04 01:51:40.531 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.GetAll (ProjectCore)"'
+2025-03-04 01:51:40.535 +02:00 [Information] Finished handling request: GET./User/, Response Status: 200
+2025-03-04 01:51:40.541 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/""" - 200 null "application/json; charset=utf-8" 111.8735ms
+2025-03-04 01:52:01.002 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/""" - "application/json" 93
+2025-03-04 01:52:01.020 +02:00 [Information] Handling request: GET./User/
+2025-03-04 01:52:01.024 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.GetAll (ProjectCore)"'
+2025-03-04 01:52:01.029 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[ProjectCore.User]] GetAll()" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 01:52:01.034 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.User, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-03-04 01:52:01.037 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.GetAll (ProjectCore)" in 3.7696ms
+2025-03-04 01:52:01.041 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.GetAll (ProjectCore)"'
+2025-03-04 01:52:01.043 +02:00 [Information] Finished handling request: GET./User/, Response Status: 200
+2025-03-04 01:52:01.045 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/""" - 200 null "application/json; charset=utf-8" 43.5867ms
+2025-03-04 01:52:07.082 +02:00 [Information] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/""" - "application/json" 93
+2025-03-04 01:52:07.090 +02:00 [Information] Handling request: PUT./User/
+2025-03-04 01:52:07.094 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-04 01:52:07.101 +02:00 [Information] Route matched with "{action = \"updateCurrentUser\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult updateCurrentUser(ProjectCore.User)" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 01:52:07.115 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"System.String"'.
+2025-03-04 01:52:07.121 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)" in 8.9838ms
+2025-03-04 01:52:07.123 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-04 01:52:07.125 +02:00 [Information] Finished handling request: PUT./User/, Response Status: 400
+2025-03-04 01:52:07.126 +02:00 [Information] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/""" - 400 null "text/plain; charset=utf-8" 43.258ms
+2025-03-04 01:53:15.589 +02:00 [Information] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/2""" - "application/json" 93
+2025-03-04 01:53:15.595 +02:00 [Information] Handling request: PUT./User/2
+2025-03-04 01:53:15.601 +02:00 [Information] Executing endpoint '"405 HTTP Method Not Supported"'
+2025-03-04 01:53:15.610 +02:00 [Information] Executed endpoint '"405 HTTP Method Not Supported"'
+2025-03-04 01:53:15.617 +02:00 [Information] Finished handling request: PUT./User/2, Response Status: 405
+2025-03-04 01:53:15.623 +02:00 [Information] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/2""" - 405 0 null 33.6885ms
+2025-03-04 02:04:36.190 +02:00 [Information] Application is shutting down...
+2025-03-04 02:12:53.810 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-03-04 02:12:53.844 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-04 02:12:53.845 +02:00 [Information] Hosting environment: "Development"
+2025-03-04 02:12:53.848 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-03-04 02:13:49.852 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - "application/json" 93
+2025-03-04 02:13:49.934 +02:00 [Information] Handling request: GET./User
+2025-03-04 02:13:49.945 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.GetAll (ProjectCore)"'
+2025-03-04 02:13:49.990 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[ProjectCore.User]] GetAll()" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 02:13:50.151 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.User, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-03-04 02:13:50.201 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.GetAll (ProjectCore)" in 192.4966ms
+2025-03-04 02:13:50.215 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.GetAll (ProjectCore)"'
+2025-03-04 02:13:50.220 +02:00 [Information] Finished handling request: GET./User, Response Status: 200
+2025-03-04 02:13:50.226 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User""" - 200 null "application/json; charset=utf-8" 376.6329ms
+2025-03-04 02:14:13.238 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/1""" - "application/json" 93
+2025-03-04 02:14:13.253 +02:00 [Information] Handling request: GET./User/1
+2025-03-04 02:14:13.257 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.GetById (ProjectCore)"'
+2025-03-04 02:14:13.272 +02:00 [Information] Route matched with "{action = \"GetById\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ProjectCore.User] GetById(Int32)" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 02:14:13.292 +02:00 [Information] Executing "OkObjectResult", writing value of type '"ProjectCore.User"'.
+2025-03-04 02:14:13.301 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.GetById (ProjectCore)" in 21.8025ms
+2025-03-04 02:14:13.306 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.GetById (ProjectCore)"'
+2025-03-04 02:14:13.309 +02:00 [Information] Finished handling request: GET./User/1, Response Status: 200
+2025-03-04 02:14:13.311 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/1""" - 200 null "application/json; charset=utf-8" 73.3971ms
+2025-03-04 02:14:39.261 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/User/""" - "application/json" 96
+2025-03-04 02:14:39.269 +02:00 [Information] Handling request: POST./User/
+2025-03-04 02:14:39.270 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.Create (ProjectCore)"'
+2025-03-04 02:14:39.279 +02:00 [Information] Route matched with "{action = \"Create\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Create(ProjectCore.User)" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 02:14:39.332 +02:00 [Information] Executing "CreatedAtActionResult", writing value of type '"ProjectCore.User"'.
+2025-03-04 02:14:39.371 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.Create (ProjectCore)" in 84.1319ms
+2025-03-04 02:14:39.380 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.Create (ProjectCore)"'
+2025-03-04 02:14:39.384 +02:00 [Information] Finished handling request: POST./User/, Response Status: 201
+2025-03-04 02:14:39.387 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/User/""" - 201 null "application/json; charset=utf-8" 125.4182ms
+2025-03-04 02:15:05.354 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/""" - "application/json" 100
+2025-03-04 02:15:05.360 +02:00 [Information] Handling request: GET./User/
+2025-03-04 02:15:05.369 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.GetAll (ProjectCore)"'
+2025-03-04 02:15:05.375 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[ProjectCore.User]] GetAll()" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 02:15:05.382 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.User, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-03-04 02:15:05.386 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.GetAll (ProjectCore)" in 5.1182ms
+2025-03-04 02:15:05.391 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.GetAll (ProjectCore)"'
+2025-03-04 02:15:05.394 +02:00 [Information] Finished handling request: GET./User/, Response Status: 200
+2025-03-04 02:15:05.396 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/""" - 200 null "application/json; charset=utf-8" 42.3202ms
+2025-03-04 02:15:17.651 +02:00 [Information] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/""" - "application/json" 96
+2025-03-04 02:15:17.657 +02:00 [Information] Handling request: PUT./User/
+2025-03-04 02:15:17.660 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-04 02:15:17.668 +02:00 [Information] Route matched with "{action = \"updateCurrentUser\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult updateCurrentUser(ProjectCore.User)" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 02:15:17.687 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"System.String"'.
+2025-03-04 02:15:17.696 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)" in 15.8431ms
+2025-03-04 02:15:17.702 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-04 02:15:17.707 +02:00 [Information] Finished handling request: PUT./User/, Response Status: 400
+2025-03-04 02:15:17.711 +02:00 [Information] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/""" - 400 null "text/plain; charset=utf-8" 59.9651ms
+2025-03-04 02:16:07.701 +02:00 [Information] Request starting "HTTP/1.1" "DELETE" "http"://"localhost:5198""""/User/3""" - "application/json" 96
+2025-03-04 02:16:07.710 +02:00 [Information] Handling request: DELETE./User/3
+2025-03-04 02:16:07.714 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.Delete (ProjectCore)"'
+2025-03-04 02:16:07.723 +02:00 [Information] Route matched with "{action = \"Delete\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Delete(Int32)" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 02:16:07.744 +02:00 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-03-04 02:16:07.750 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.Delete (ProjectCore)" in 17.4195ms
+2025-03-04 02:16:07.758 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.Delete (ProjectCore)"'
+2025-03-04 02:16:07.761 +02:00 [Information] Finished handling request: DELETE./User/3, Response Status: 204
+2025-03-04 02:16:07.763 +02:00 [Information] Request finished "HTTP/1.1" "DELETE" "http"://"localhost:5198""""/User/3""" - 204 null null 62.1431ms
+2025-03-04 02:16:13.331 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/""" - "application/json" 96
+2025-03-04 02:16:13.340 +02:00 [Information] Handling request: GET./User/
+2025-03-04 02:16:13.347 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.GetAll (ProjectCore)"'
+2025-03-04 02:16:13.352 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[ProjectCore.User]] GetAll()" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 02:16:13.364 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.User, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-03-04 02:16:13.373 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.GetAll (ProjectCore)" in 10.595ms
+2025-03-04 02:16:13.383 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.GetAll (ProjectCore)"'
+2025-03-04 02:16:13.391 +02:00 [Information] Finished handling request: GET./User/, Response Status: 200
+2025-03-04 02:16:13.397 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/""" - 200 null "application/json; charset=utf-8" 65.3779ms
+2025-03-04 02:18:31.595 +02:00 [Information] Application is shutting down...
+2025-03-04 02:18:37.701 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-03-04 02:18:37.732 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-04 02:18:37.735 +02:00 [Information] Hosting environment: "Development"
+2025-03-04 02:18:37.737 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-03-04 02:19:14.243 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/""" - "application/json" 96
+2025-03-04 02:19:14.326 +02:00 [Information] Handling request: GET./User/
+2025-03-04 02:19:14.336 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.GetAll (ProjectCore)"'
+2025-03-04 02:19:14.386 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[ProjectCore.User]] GetAll()" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 02:19:14.514 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.User, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-03-04 02:19:14.613 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.GetAll (ProjectCore)" in 206.6565ms
+2025-03-04 02:19:14.631 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.GetAll (ProjectCore)"'
+2025-03-04 02:19:14.640 +02:00 [Information] Finished handling request: GET./User/, Response Status: 200
+2025-03-04 02:19:14.654 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/""" - 200 null "application/json; charset=utf-8" 416.4909ms
+2025-03-04 02:19:17.547 +02:00 [Information] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/""" - "application/json" 96
+2025-03-04 02:19:17.557 +02:00 [Information] Handling request: PUT./User/
+2025-03-04 02:19:17.562 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-04 02:19:17.581 +02:00 [Information] Route matched with "{action = \"updateCurrentUser\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult updateCurrentUser(ProjectCore.User)" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 02:19:17.648 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"System.String"'.
+2025-03-04 02:19:17.652 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)" in 60.3846ms
+2025-03-04 02:19:17.656 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-04 02:19:17.659 +02:00 [Information] Finished handling request: PUT./User/, Response Status: 400
+2025-03-04 02:19:17.661 +02:00 [Information] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/""" - 400 null "text/plain; charset=utf-8" 114.6935ms
+2025-03-04 02:19:58.181 +02:00 [Information] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/""" - "application/json" 96
+2025-03-04 02:19:58.189 +02:00 [Information] Handling request: PUT./User/
+2025-03-04 02:19:58.190 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-04 02:19:58.192 +02:00 [Information] Route matched with "{action = \"updateCurrentUser\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult updateCurrentUser(ProjectCore.User)" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 02:19:58.209 +02:00 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-03-04 02:19:58.211 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)" in 16.3333ms
+2025-03-04 02:19:58.213 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-04 02:19:58.215 +02:00 [Information] Finished handling request: PUT./User/, Response Status: 204
+2025-03-04 02:19:58.218 +02:00 [Information] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/""" - 204 null null 36.9863ms
+2025-03-04 02:20:04.422 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/""" - "application/json" 96
+2025-03-04 02:20:04.425 +02:00 [Information] Handling request: GET./User/
+2025-03-04 02:20:04.427 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.GetAll (ProjectCore)"'
+2025-03-04 02:20:04.429 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[ProjectCore.User]] GetAll()" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 02:20:04.436 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.User, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-03-04 02:20:04.441 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.GetAll (ProjectCore)" in 7.4313ms
+2025-03-04 02:20:04.446 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.GetAll (ProjectCore)"'
+2025-03-04 02:20:04.451 +02:00 [Information] Finished handling request: GET./User/, Response Status: 200
+2025-03-04 02:20:04.456 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/""" - 200 null "application/json; charset=utf-8" 34.4358ms
+2025-03-04 18:08:20.498 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/""" - "application/json" 96
+2025-03-04 18:08:20.538 +02:00 [Information] Handling request: GET./User/
+2025-03-04 18:08:20.544 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.GetAll (ProjectCore)"'
+2025-03-04 18:08:20.556 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[ProjectCore.User]] GetAll()" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 18:08:20.579 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.User, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-03-04 18:08:20.589 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.GetAll (ProjectCore)" in 24.1554ms
+2025-03-04 18:08:20.595 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.GetAll (ProjectCore)"'
+2025-03-04 18:08:20.600 +02:00 [Information] Finished handling request: GET./User/, Response Status: 200
+2025-03-04 18:08:20.612 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/""" - 200 null "application/json; charset=utf-8" 115.9171ms
+2025-03-04 18:10:16.947 +02:00 [Information] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/""" - "application/json" 96
+2025-03-04 18:10:16.957 +02:00 [Information] Handling request: PUT./User/
+2025-03-04 18:10:16.959 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-04 18:10:16.961 +02:00 [Information] Route matched with "{action = \"updateCurrentUser\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult updateCurrentUser(ProjectCore.User)" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 18:10:17.013 +02:00 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-03-04 18:10:17.021 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)" in 51.3175ms
+2025-03-04 18:10:17.034 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.updateCurrentUser (ProjectCore)"'
+2025-03-04 18:10:17.043 +02:00 [Information] Finished handling request: PUT./User/, Response Status: 204
+2025-03-04 18:10:17.050 +02:00 [Information] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5198""""/User/""" - 204 null null 103.1756ms
+2025-03-04 18:10:21.734 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/User/""" - "application/json" 96
+2025-03-04 18:10:21.751 +02:00 [Information] Handling request: POST./User/
+2025-03-04 18:10:21.756 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.UserController.Create (ProjectCore)"'
+2025-03-04 18:10:21.795 +02:00 [Information] Route matched with "{action = \"Create\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Create(ProjectCore.User)" on controller "ProjectCore.Controllers.UserController" ("ProjectCore").
+2025-03-04 18:10:21.834 +02:00 [Information] Executing "CreatedAtActionResult", writing value of type '"ProjectCore.User"'.
+2025-03-04 18:10:21.953 +02:00 [Information] Executed action "ProjectCore.Controllers.UserController.Create (ProjectCore)" in 143.5595ms
+2025-03-04 18:10:21.958 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.UserController.Create (ProjectCore)"'
+2025-03-04 18:10:21.963 +02:00 [Information] Finished handling request: POST./User/, Response Status: 201
+2025-03-04 18:10:21.968 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/User/""" - 201 null "application/json; charset=utf-8" 233.2082ms
+2025-03-04 18:46:59.534 +02:00 [Information] Application is shutting down...
+2025-03-04 19:36:22.486 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-03-04 19:36:22.525 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-04 19:36:22.528 +02:00 [Information] Hosting environment: "Development"
+2025-03-04 19:36:22.529 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-03-04 19:36:36.668 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/""" - "application/json" 96
+2025-03-04 19:36:36.750 +02:00 [Information] Handling request: GET./
+2025-03-04 19:36:36.804 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main\wwwroot\index.html"'
+2025-03-04 19:36:36.815 +02:00 [Information] Finished handling request: GET./index.html, Response Status: 200
+2025-03-04 19:36:36.827 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/index.html""" - 200 4101 "text/html" 160.8271ms
+2025-03-04 19:36:48.209 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/""" - "application/json" 96
+2025-03-04 19:36:48.218 +02:00 [Information] Handling request: GET./User/
+2025-03-04 19:36:48.231 +02:00 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)"
+2025-03-04 19:36:48.235 +02:00 [Information] Finished handling request: GET./User/, Response Status: 500
+2025-03-04 19:36:48.238 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/""" - 500 null "application/json" 29.3692ms
+2025-03-04 19:37:40.688 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Auth/login""" - "application/json" 96
+2025-03-04 19:37:40.715 +02:00 [Information] Handling request: GET./Auth/login
+2025-03-04 19:37:40.732 +02:00 [Information] Executing endpoint '"405 HTTP Method Not Supported"'
+2025-03-04 19:37:40.739 +02:00 [Information] Executed endpoint '"405 HTTP Method Not Supported"'
+2025-03-04 19:37:40.747 +02:00 [Information] Finished handling request: GET./Auth/login, Response Status: 405
+2025-03-04 19:37:40.752 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Auth/login""" - 405 0 null 64.5438ms
+2025-03-04 19:37:49.147 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - "application/json" 96
+2025-03-04 19:37:49.163 +02:00 [Information] Handling request: POST./Auth/login
+2025-03-04 19:37:49.169 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-04 19:37:49.266 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(ProjectCore.Models.UserLoginDto)" on controller "ProjectCore.Controllers.AuthController" ("ProjectCore").
+2025-03-04 19:37:49.411 +02:00 [Information] Executing "UnauthorizedObjectResult", writing value of type '"System.String"'.
+2025-03-04 19:37:49.420 +02:00 [Information] Executed action "ProjectCore.Controllers.AuthController.Login (ProjectCore)" in 136.4602ms
+2025-03-04 19:37:49.423 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-04 19:37:49.425 +02:00 [Information] Finished handling request: POST./Auth/login, Response Status: 401
+2025-03-04 19:37:49.429 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - 401 null "text/plain; charset=utf-8" 281.258ms
+2025-03-04 19:38:08.222 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - "application/json" 56
+2025-03-04 19:38:08.233 +02:00 [Information] Handling request: POST./Auth/login
+2025-03-04 19:38:08.239 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-04 19:38:08.244 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(ProjectCore.Models.UserLoginDto)" on controller "ProjectCore.Controllers.AuthController" ("ProjectCore").
+2025-03-04 19:38:08.505 +02:00 [Information] Executed action "ProjectCore.Controllers.AuthController.Login (ProjectCore)" in 251.2722ms
+2025-03-04 19:38:08.510 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-04 19:38:08.513 +02:00 [Information] Finished handling request: POST./Auth/login, Response Status: 500
+2025-03-04 19:38:08.517 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - 500 null "application/json" 294.21ms
+2025-03-04 19:39:57.712 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Auth/login""" - null null
+2025-03-04 19:39:57.730 +02:00 [Information] Handling request: GET./Auth/login
+2025-03-04 19:39:57.738 +02:00 [Information] Executing endpoint '"405 HTTP Method Not Supported"'
+2025-03-04 19:39:57.746 +02:00 [Information] Executed endpoint '"405 HTTP Method Not Supported"'
+2025-03-04 19:39:57.750 +02:00 [Information] Finished handling request: GET./Auth/login, Response Status: 405
+2025-03-04 19:39:57.754 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Auth/login""" - 405 0 null 42.3203ms
+2025-03-04 19:42:58.884 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login
+Content-Type: application/json""" - "application/json" 56
+2025-03-04 19:42:58.901 +02:00 [Information] Handling request: POST./Auth/login%0AContent-Type:%20application/json
+2025-03-04 19:42:58.904 +02:00 [Information] Finished handling request: POST./Auth/login%0AContent-Type:%20application/json, Response Status: 404
+2025-03-04 19:42:58.907 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login
+Content-Type: application/json""" - 404 0 null 22.2916ms
+2025-03-04 19:42:58.921 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "POST" "http"://"localhost:5198""""/Auth/login%0AContent-Type:%20application/json", Response status code: 404
+2025-03-04 19:43:24.324 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - "application/json" 56
+2025-03-04 19:43:24.330 +02:00 [Information] Handling request: POST./Auth/login
+2025-03-04 19:43:24.334 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-04 19:43:24.343 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(ProjectCore.Models.UserLoginDto)" on controller "ProjectCore.Controllers.AuthController" ("ProjectCore").
+2025-03-04 19:43:24.357 +02:00 [Information] Executed action "ProjectCore.Controllers.AuthController.Login (ProjectCore)" in 2.108ms
+2025-03-04 19:43:24.362 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-04 19:43:24.370 +02:00 [Information] Finished handling request: POST./Auth/login, Response Status: 500
+2025-03-04 19:43:24.373 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - 500 null "application/json" 49.5839ms
+2025-03-04 23:14:37.757 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/profile""" - "application/json" 56
+2025-03-04 23:14:37.763 +02:00 [Information] Handling request: GET./User/profile
+2025-03-04 23:14:37.768 +02:00 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)"
+2025-03-04 23:14:37.774 +02:00 [Information] Finished handling request: GET./User/profile, Response Status: 500
+2025-03-04 23:14:37.776 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/User/profile""" - 500 null "application/json" 19.2672ms
+2025-03-04 23:40:58.155 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - "application/json" 56
+2025-03-04 23:40:58.170 +02:00 [Information] Handling request: POST./Auth/login
+2025-03-04 23:40:58.175 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-04 23:40:58.184 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(ProjectCore.Models.UserLoginDto)" on controller "ProjectCore.Controllers.AuthController" ("ProjectCore").
+2025-03-04 23:40:58.216 +02:00 [Information] Executed action "ProjectCore.Controllers.AuthController.Login (ProjectCore)" in 6.3546ms
+2025-03-04 23:40:58.228 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-04 23:40:58.239 +02:00 [Information] Finished handling request: POST./Auth/login, Response Status: 500
+2025-03-04 23:40:58.250 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - 500 null "application/json" 94.3181ms
+2025-03-04 23:55:06.193 +02:00 [Information] Application is shutting down...
+2025-03-04 23:56:03.266 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-03-04 23:56:03.367 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-04 23:56:03.373 +02:00 [Information] Hosting environment: "Development"
+2025-03-04 23:56:03.377 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-03-04 23:57:27.052 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - "application/json" 56
+2025-03-04 23:57:27.193 +02:00 [Information] Handling request: POST./Auth/login
+2025-03-04 23:57:27.210 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-04 23:57:27.317 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(ProjectCore.Models.UserLoginDto)" on controller "ProjectCore.Controllers.AuthController" ("ProjectCore").
+2025-03-04 23:57:27.903 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.String"'.
+2025-03-04 23:57:27.934 +02:00 [Information] Executed action "ProjectCore.Controllers.AuthController.Login (ProjectCore)" in 590.3078ms
+2025-03-04 23:57:27.951 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.AuthController.Login (ProjectCore)"'
+2025-03-04 23:57:27.959 +02:00 [Information] Finished handling request: POST./Auth/login, Response Status: 500
+2025-03-04 23:57:27.969 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Auth/login""" - 500 null "text/plain; charset=utf-8" 922.6844ms

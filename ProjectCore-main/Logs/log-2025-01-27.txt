@@ -1,0 +1,751 @@
+2025-01-27 17:53:20.939 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-01-27 17:53:20.996 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-01-27 17:53:21.000 +02:00 [Information] Hosting environment: "Development"
+2025-01-27 17:53:21.002 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-01-27 17:53:25.882 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/""" - null null
+2025-01-27 17:53:25.926 +02:00 [Information] Handling request: GET./
+2025-01-27 17:53:26.015 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main\wwwroot\index.html"'
+2025-01-27 17:53:26.021 +02:00 [Information] Finished handling request: GET./index.html, Response Status: 200
+2025-01-27 17:53:26.034 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/index.html""" - 200 1973 "text/html" 151.8431ms
+2025-01-27 17:53:26.035 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/js/site.js""" - null null
+2025-01-27 17:53:26.055 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/css/site.css""" - null null
+2025-01-27 17:53:26.070 +02:00 [Information] Handling request: GET./js/site.js
+2025-01-27 17:53:26.075 +02:00 [Information] Handling request: GET./css/site.css
+2025-01-27 17:53:26.104 +02:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main\wwwroot\css\site.css"'
+2025-01-27 17:53:26.111 +02:00 [Information] Finished handling request: GET./css/site.css, Response Status: 200
+2025-01-27 17:53:26.116 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/css/site.css""" - 200 308 "text/css" 60.4378ms
+2025-01-27 17:53:26.149 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main\wwwroot\js\site.js"'
+2025-01-27 17:53:26.158 +02:00 [Information] Finished handling request: GET./js/site.js, Response Status: 200
+2025-01-27 17:53:26.166 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/js/site.js""" - 200 3898 "text/javascript" 130.8787ms
+2025-01-27 17:53:26.192 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - null null
+2025-01-27 17:53:26.209 +02:00 [Information] Handling request: GET./Books
+2025-01-27 17:53:26.219 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-01-27 17:53:26.228 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-27 17:53:26.279 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Books\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ProjectCore.Book] GetAll()" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-27 17:53:26.297 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.Book, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-01-27 17:53:26.407 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.GetAll (ProjectCore)" in 117.5202ms
+2025-01-27 17:53:26.413 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-27 17:53:26.416 +02:00 [Information] Finished handling request: GET./Books, Response Status: 200
+2025-01-27 17:53:26.419 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - 200 null "application/json; charset=utf-8" 227.2299ms
+2025-01-27 17:53:26.559 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/favicon.ico""" - null null
+2025-01-27 17:53:26.578 +02:00 [Information] Handling request: GET./favicon.ico
+2025-01-27 17:53:26.586 +02:00 [Information] Finished handling request: GET./favicon.ico, Response Status: 404
+2025-01-27 17:53:26.593 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/favicon.ico""" - 404 0 null 33.7659ms
+2025-01-27 17:53:26.615 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/favicon.ico", Response status code: 404
+2025-01-27 18:02:53.112 +02:00 [Information] Request starting "HTTP/1.1" "DELETE" "http"://"localhost:5198""""/Books/1""" - null null
+2025-01-27 18:02:53.137 +02:00 [Information] Handling request: DELETE./Books/1
+2025-01-27 18:02:53.141 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.Delete (ProjectCore)"'
+2025-01-27 18:02:53.182 +02:00 [Information] Route matched with "{action = \"Delete\", controller = \"Books\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Delete(Int32)" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-27 18:02:53.234 +02:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/plain; charset=utf-8"
+2025-01-27 18:02:53.250 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.Delete (ProjectCore)" in 50.2634ms
+2025-01-27 18:02:53.258 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.Delete (ProjectCore)"'
+2025-01-27 18:02:53.266 +02:00 [Information] Finished handling request: DELETE./Books/1, Response Status: 200
+2025-01-27 18:02:53.273 +02:00 [Information] Request finished "HTTP/1.1" "DELETE" "http"://"localhost:5198""""/Books/1""" - 200 1 "text/plain; charset=utf-8" 161.2922ms
+2025-01-27 18:02:53.293 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - null null
+2025-01-27 18:02:53.309 +02:00 [Information] Handling request: GET./Books
+2025-01-27 18:02:53.313 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-27 18:02:53.320 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Books\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ProjectCore.Book] GetAll()" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-27 18:02:53.333 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.Book, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-01-27 18:02:53.341 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.GetAll (ProjectCore)" in 9.309ms
+2025-01-27 18:02:53.349 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-27 18:02:53.354 +02:00 [Information] Finished handling request: GET./Books, Response Status: 200
+2025-01-27 18:02:53.358 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - 200 null "application/json; charset=utf-8" 65.1017ms
+2025-01-27 18:02:55.555 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Books""" - "application/json" 27
+2025-01-27 18:02:55.581 +02:00 [Information] Handling request: POST./Books
+2025-01-27 18:02:55.585 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.Insert (ProjectCore)"'
+2025-01-27 18:02:55.600 +02:00 [Information] Route matched with "{action = \"Insert\", controller = \"Books\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Insert(ProjectCore.Book)" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-27 18:02:55.695 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2025-01-27 18:02:55.790 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.Insert (ProjectCore)" in 172.6289ms
+2025-01-27 18:02:55.797 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.Insert (ProjectCore)"'
+2025-01-27 18:02:55.804 +02:00 [Information] Finished handling request: POST./Books, Response Status: 400
+2025-01-27 18:02:55.810 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Books""" - 400 null "application/problem+json; charset=utf-8" 254.542ms
+2025-01-27 18:02:55.827 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - null null
+2025-01-27 18:02:55.841 +02:00 [Information] Handling request: GET./Books
+2025-01-27 18:02:55.848 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-27 18:02:55.856 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Books\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ProjectCore.Book] GetAll()" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-27 18:02:55.869 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.Book, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-01-27 18:02:55.878 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.GetAll (ProjectCore)" in 9.7055ms
+2025-01-27 18:02:55.887 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-27 18:02:55.892 +02:00 [Information] Finished handling request: GET./Books, Response Status: 200
+2025-01-27 18:02:55.898 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - 200 null "application/json; charset=utf-8" 71.0539ms
+2025-01-27 18:03:00.069 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Books""" - "application/json" 33
+2025-01-27 18:03:00.074 +02:00 [Information] Handling request: POST./Books
+2025-01-27 18:03:00.075 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.Insert (ProjectCore)"'
+2025-01-27 18:03:00.078 +02:00 [Information] Route matched with "{action = \"Insert\", controller = \"Books\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Insert(ProjectCore.Book)" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-27 18:03:00.084 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2025-01-27 18:03:00.087 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.Insert (ProjectCore)" in 3.6494ms
+2025-01-27 18:03:00.091 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.Insert (ProjectCore)"'
+2025-01-27 18:03:00.094 +02:00 [Information] Finished handling request: POST./Books, Response Status: 400
+2025-01-27 18:03:00.097 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Books""" - 400 null "application/problem+json; charset=utf-8" 28.1126ms
+2025-01-27 18:03:00.106 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - null null
+2025-01-27 18:03:00.110 +02:00 [Information] Handling request: GET./Books
+2025-01-27 18:03:00.112 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-27 18:03:00.114 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Books\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ProjectCore.Book] GetAll()" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-27 18:03:00.118 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.Book, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-01-27 18:03:00.122 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.GetAll (ProjectCore)" in 4.2068ms
+2025-01-27 18:03:00.125 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-27 18:03:00.127 +02:00 [Information] Finished handling request: GET./Books, Response Status: 200
+2025-01-27 18:03:00.128 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - 200 null "application/json; charset=utf-8" 22.4325ms
+2025-01-27 18:10:08.834 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/""" - null null
+2025-01-27 18:10:08.841 +02:00 [Information] Handling request: GET./
+2025-01-27 18:10:08.891 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main\wwwroot\index.html"'
+2025-01-27 18:10:08.896 +02:00 [Information] Finished handling request: GET./index.html, Response Status: 200
+2025-01-27 18:10:08.901 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/index.html""" - 200 1977 "text/html" 66.9247ms
+2025-01-27 18:10:08.916 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/css/site.css""" - null null
+2025-01-27 18:10:08.918 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/js/site.js""" - null null
+2025-01-27 18:10:08.931 +02:00 [Information] Handling request: GET./css/site.css
+2025-01-27 18:10:08.942 +02:00 [Information] Handling request: GET./js/site.js
+2025-01-27 18:10:08.947 +02:00 [Information] The file "/css/site.css" was not modified
+2025-01-27 18:10:08.949 +02:00 [Information] The file "/js/site.js" was not modified
+2025-01-27 18:10:08.951 +02:00 [Information] Finished handling request: GET./css/site.css, Response Status: 304
+2025-01-27 18:10:08.953 +02:00 [Information] Finished handling request: GET./js/site.js, Response Status: 304
+2025-01-27 18:10:08.956 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/css/site.css""" - 304 null "text/css" 39.874ms
+2025-01-27 18:10:08.958 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/js/site.js""" - 304 null "text/javascript" 39.9599ms
+2025-01-27 18:10:08.978 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - null null
+2025-01-27 18:10:08.986 +02:00 [Information] Handling request: GET./Books
+2025-01-27 18:10:08.989 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-27 18:10:08.993 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Books\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ProjectCore.Book] GetAll()" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-27 18:10:09.000 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.Book, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-01-27 18:10:09.004 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.GetAll (ProjectCore)" in 5.0813ms
+2025-01-27 18:10:09.009 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-27 18:10:09.012 +02:00 [Information] Finished handling request: GET./Books, Response Status: 200
+2025-01-27 18:10:09.014 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - 200 null "application/json; charset=utf-8" 35.3091ms
+2025-01-27 18:11:27.486 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/""" - null null
+2025-01-27 18:11:27.494 +02:00 [Information] Handling request: GET./
+2025-01-27 18:11:27.542 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main\wwwroot\index.html"'
+2025-01-27 18:11:27.552 +02:00 [Information] Finished handling request: GET./index.html, Response Status: 200
+2025-01-27 18:11:27.560 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/index.html""" - 200 1986 "text/html" 74.297ms
+2025-01-27 18:11:27.600 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - null null
+2025-01-27 18:11:27.619 +02:00 [Information] Handling request: GET./Books
+2025-01-27 18:11:27.625 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-27 18:11:27.632 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Books\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ProjectCore.Book] GetAll()" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-27 18:11:27.642 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.Book, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-01-27 18:11:27.650 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.GetAll (ProjectCore)" in 8.3609ms
+2025-01-27 18:11:27.657 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-27 18:11:27.666 +02:00 [Information] Finished handling request: GET./Books, Response Status: 200
+2025-01-27 18:11:27.673 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - 200 null "application/json; charset=utf-8" 73.537ms
+2025-01-27 18:11:38.937 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Books""" - "application/json" 28
+2025-01-27 18:11:38.962 +02:00 [Information] Handling request: POST./Books
+2025-01-27 18:11:38.968 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.Insert (ProjectCore)"'
+2025-01-27 18:11:38.976 +02:00 [Information] Route matched with "{action = \"Insert\", controller = \"Books\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Insert(ProjectCore.Book)" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-27 18:11:39.005 +02:00 [Information] Executing "CreatedAtActionResult", writing value of type '"ProjectCore.Book"'.
+2025-01-27 18:11:39.079 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.Insert (ProjectCore)" in 87.161ms
+2025-01-27 18:11:39.088 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.Insert (ProjectCore)"'
+2025-01-27 18:11:39.096 +02:00 [Information] Finished handling request: POST./Books, Response Status: 201
+2025-01-27 18:11:39.103 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Books""" - 201 null "application/json; charset=utf-8" 165.7761ms
+2025-01-27 18:11:39.122 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - null null
+2025-01-27 18:11:39.134 +02:00 [Information] Handling request: GET./Books
+2025-01-27 18:11:39.139 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-27 18:11:39.144 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Books\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ProjectCore.Book] GetAll()" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-27 18:11:39.155 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.Book, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-01-27 18:11:39.161 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.GetAll (ProjectCore)" in 8.5411ms
+2025-01-27 18:11:39.168 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-27 18:11:39.173 +02:00 [Information] Finished handling request: GET./Books, Response Status: 200
+2025-01-27 18:11:39.178 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - 200 null "application/json; charset=utf-8" 55.8711ms
+2025-01-27 18:11:44.130 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Books""" - "application/json" 27
+2025-01-27 18:11:44.147 +02:00 [Information] Handling request: POST./Books
+2025-01-27 18:11:44.150 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.Insert (ProjectCore)"'
+2025-01-27 18:11:44.153 +02:00 [Information] Route matched with "{action = \"Insert\", controller = \"Books\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Insert(ProjectCore.Book)" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-27 18:11:44.172 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2025-01-27 18:11:44.183 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.Insert (ProjectCore)" in 13.9452ms
+2025-01-27 18:11:44.197 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.Insert (ProjectCore)"'
+2025-01-27 18:11:44.208 +02:00 [Information] Finished handling request: POST./Books, Response Status: 400
+2025-01-27 18:11:44.216 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Books""" - 400 null "application/problem+json; charset=utf-8" 86.0495ms
+2025-01-27 18:11:44.244 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - null null
+2025-01-27 18:11:44.267 +02:00 [Information] Handling request: GET./Books
+2025-01-27 18:11:44.274 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-27 18:11:44.285 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Books\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ProjectCore.Book] GetAll()" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-27 18:11:44.301 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.Book, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-01-27 18:11:44.313 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.GetAll (ProjectCore)" in 11.466ms
+2025-01-27 18:11:44.321 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-27 18:11:44.326 +02:00 [Information] Finished handling request: GET./Books, Response Status: 200
+2025-01-27 18:11:44.333 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - 200 null "application/json; charset=utf-8" 88.4005ms
+2025-01-27 18:11:48.160 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Books""" - "application/json" 31
+2025-01-27 18:11:48.172 +02:00 [Information] Handling request: POST./Books
+2025-01-27 18:11:48.176 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.Insert (ProjectCore)"'
+2025-01-27 18:11:48.186 +02:00 [Information] Route matched with "{action = \"Insert\", controller = \"Books\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Insert(ProjectCore.Book)" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-27 18:11:48.204 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2025-01-27 18:11:48.217 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.Insert (ProjectCore)" in 16.0952ms
+2025-01-27 18:11:48.231 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.Insert (ProjectCore)"'
+2025-01-27 18:11:48.240 +02:00 [Information] Finished handling request: POST./Books, Response Status: 400
+2025-01-27 18:11:48.248 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Books""" - 400 null "application/problem+json; charset=utf-8" 87.7476ms
+2025-01-27 18:11:48.266 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - null null
+2025-01-27 18:11:48.279 +02:00 [Information] Handling request: GET./Books
+2025-01-27 18:11:48.281 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-27 18:11:48.286 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Books\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ProjectCore.Book] GetAll()" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-27 18:11:48.296 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.Book, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-01-27 18:11:48.306 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.GetAll (ProjectCore)" in 9.6221ms
+2025-01-27 18:11:48.314 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-27 18:11:48.321 +02:00 [Information] Finished handling request: GET./Books, Response Status: 200
+2025-01-27 18:11:48.327 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - 200 null "application/json; charset=utf-8" 61.2302ms
+2025-01-27 18:13:51.316 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/""" - null null
+2025-01-27 18:13:51.324 +02:00 [Information] Handling request: GET./
+2025-01-27 18:13:51.331 +02:00 [Information] The file "/index.html" was not modified
+2025-01-27 18:13:51.333 +02:00 [Information] Finished handling request: GET./index.html, Response Status: 304
+2025-01-27 18:13:51.337 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/index.html""" - 304 null "text/html" 20.505ms
+2025-01-27 18:13:51.363 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - null null
+2025-01-27 18:13:51.373 +02:00 [Information] Handling request: GET./Books
+2025-01-27 18:13:51.376 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-27 18:13:51.381 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Books\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ProjectCore.Book] GetAll()" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-27 18:13:51.388 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.Book, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-01-27 18:13:51.393 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.GetAll (ProjectCore)" in 5.7798ms
+2025-01-27 18:13:51.397 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-27 18:13:51.401 +02:00 [Information] Finished handling request: GET./Books, Response Status: 200
+2025-01-27 18:13:51.404 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - 200 null "application/json; charset=utf-8" 40.7852ms
+2025-01-27 18:13:55.052 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Books""" - "application/json" 31
+2025-01-27 18:13:55.062 +02:00 [Information] Handling request: POST./Books
+2025-01-27 18:13:55.065 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.Insert (ProjectCore)"'
+2025-01-27 18:13:55.072 +02:00 [Information] Route matched with "{action = \"Insert\", controller = \"Books\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Insert(ProjectCore.Book)" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-27 18:13:55.092 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2025-01-27 18:13:55.104 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.Insert (ProjectCore)" in 15.3967ms
+2025-01-27 18:13:55.118 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.Insert (ProjectCore)"'
+2025-01-27 18:13:55.127 +02:00 [Information] Finished handling request: POST./Books, Response Status: 400
+2025-01-27 18:13:55.137 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Books""" - 400 null "application/problem+json; charset=utf-8" 84.8478ms
+2025-01-27 18:13:55.162 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - null null
+2025-01-27 18:13:55.182 +02:00 [Information] Handling request: GET./Books
+2025-01-27 18:13:55.187 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-27 18:13:55.195 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Books\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ProjectCore.Book] GetAll()" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-27 18:13:55.206 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.Book, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-01-27 18:13:55.214 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.GetAll (ProjectCore)" in 8.7935ms
+2025-01-27 18:13:55.223 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-27 18:13:55.247 +02:00 [Information] Finished handling request: GET./Books, Response Status: 200
+2025-01-27 18:13:55.283 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - 200 null "application/json; charset=utf-8" 121.5623ms
+2025-01-27 18:15:22.530 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/""" - null null
+2025-01-27 18:15:22.538 +02:00 [Information] Handling request: GET./
+2025-01-27 18:15:22.542 +02:00 [Information] The file "/index.html" was not modified
+2025-01-27 18:15:22.545 +02:00 [Information] Finished handling request: GET./index.html, Response Status: 304
+2025-01-27 18:15:22.548 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/index.html""" - 304 null "text/html" 17.0982ms
+2025-01-27 18:15:22.580 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - null null
+2025-01-27 18:15:22.594 +02:00 [Information] Handling request: GET./Books
+2025-01-27 18:15:22.605 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-27 18:15:22.610 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Books\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ProjectCore.Book] GetAll()" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-27 18:15:22.616 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.Book, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-01-27 18:15:22.622 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.GetAll (ProjectCore)" in 5.89ms
+2025-01-27 18:15:22.627 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-27 18:15:22.632 +02:00 [Information] Finished handling request: GET./Books, Response Status: 200
+2025-01-27 18:15:22.636 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - 200 null "application/json; charset=utf-8" 55.9792ms
+2025-01-27 18:18:33.654 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/""" - null null
+2025-01-27 18:18:33.662 +02:00 [Information] Handling request: GET./
+2025-01-27 18:18:33.667 +02:00 [Information] The file "/index.html" was not modified
+2025-01-27 18:18:33.674 +02:00 [Information] Finished handling request: GET./index.html, Response Status: 304
+2025-01-27 18:18:33.678 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/index.html""" - 304 null "text/html" 23.609ms
+2025-01-27 18:18:33.721 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - null null
+2025-01-27 18:18:33.735 +02:00 [Information] Handling request: GET./Books
+2025-01-27 18:18:33.740 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-27 18:18:33.746 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Books\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ProjectCore.Book] GetAll()" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-27 18:18:33.753 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.Book, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-01-27 18:18:33.756 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.GetAll (ProjectCore)" in 2.991ms
+2025-01-27 18:18:33.761 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-27 18:18:33.764 +02:00 [Information] Finished handling request: GET./Books, Response Status: 200
+2025-01-27 18:18:33.766 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - 200 null "application/json; charset=utf-8" 44.6006ms
+2025-01-27 18:18:37.909 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Books""" - "application/json" 31
+2025-01-27 18:18:37.933 +02:00 [Information] Handling request: POST./Books
+2025-01-27 18:18:37.939 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.Insert (ProjectCore)"'
+2025-01-27 18:18:37.946 +02:00 [Information] Route matched with "{action = \"Insert\", controller = \"Books\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Insert(ProjectCore.Book)" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-27 18:18:37.962 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2025-01-27 18:18:37.973 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.Insert (ProjectCore)" in 13.3494ms
+2025-01-27 18:18:37.985 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.Insert (ProjectCore)"'
+2025-01-27 18:18:37.995 +02:00 [Information] Finished handling request: POST./Books, Response Status: 400
+2025-01-27 18:18:38.002 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Books""" - 400 null "application/problem+json; charset=utf-8" 93.7396ms
+2025-01-27 18:18:38.024 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - null null
+2025-01-27 18:18:38.035 +02:00 [Information] Handling request: GET./Books
+2025-01-27 18:18:38.041 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-27 18:18:38.049 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Books\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ProjectCore.Book] GetAll()" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-27 18:18:38.061 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.Book, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-01-27 18:18:38.069 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.GetAll (ProjectCore)" in 8.2546ms
+2025-01-27 18:18:38.077 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-27 18:18:38.082 +02:00 [Information] Finished handling request: GET./Books, Response Status: 200
+2025-01-27 18:18:38.088 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - 200 null "application/json; charset=utf-8" 63.0744ms
+2025-01-27 18:22:03.190 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/""" - null null
+2025-01-27 18:22:03.198 +02:00 [Information] Handling request: GET./
+2025-01-27 18:22:03.202 +02:00 [Information] The file "/index.html" was not modified
+2025-01-27 18:22:03.205 +02:00 [Information] Finished handling request: GET./index.html, Response Status: 304
+2025-01-27 18:22:03.209 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/index.html""" - 304 null "text/html" 19.6404ms
+2025-01-27 18:22:03.238 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/css/site.css""" - null null
+2025-01-27 18:22:03.240 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/js/site.js""" - null null
+2025-01-27 18:22:03.251 +02:00 [Information] Handling request: GET./css/site.css
+2025-01-27 18:22:03.261 +02:00 [Information] Handling request: GET./js/site.js
+2025-01-27 18:22:03.264 +02:00 [Information] The file "/css/site.css" was not modified
+2025-01-27 18:22:03.269 +02:00 [Information] Finished handling request: GET./css/site.css, Response Status: 304
+2025-01-27 18:22:03.271 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/css/site.css""" - 304 null "text/css" 32.7458ms
+2025-01-27 18:22:03.326 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main\wwwroot\js\site.js"'
+2025-01-27 18:22:03.332 +02:00 [Information] Finished handling request: GET./js/site.js, Response Status: 200
+2025-01-27 18:22:03.335 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/js/site.js""" - 200 3920 "text/javascript" 94.4109ms
+2025-01-27 18:22:03.343 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakeries""" - null null
+2025-01-27 18:22:03.348 +02:00 [Information] Handling request: GET./Bakeries
+2025-01-27 18:22:03.350 +02:00 [Information] Finished handling request: GET./Bakeries, Response Status: 404
+2025-01-27 18:22:03.351 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakeries""" - 404 0 null 8.3518ms
+2025-01-27 18:22:03.356 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/Bakeries", Response status code: 404
+2025-01-27 18:22:05.053 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakeries""" - "application/json" 27
+2025-01-27 18:22:05.063 +02:00 [Information] Handling request: POST./Bakeries
+2025-01-27 18:22:05.066 +02:00 [Information] Finished handling request: POST./Bakeries, Response Status: 404
+2025-01-27 18:22:05.070 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakeries""" - 404 0 null 16.1965ms
+2025-01-27 18:22:05.087 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "POST" "http"://"localhost:5198""""/Bakeries", Response status code: 404
+2025-01-27 18:22:07.806 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakeries""" - "application/json" 31
+2025-01-27 18:22:07.816 +02:00 [Information] Handling request: POST./Bakeries
+2025-01-27 18:22:07.818 +02:00 [Information] Finished handling request: POST./Bakeries, Response Status: 404
+2025-01-27 18:22:07.823 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakeries""" - 404 0 null 17.313ms
+2025-01-27 18:22:07.832 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "POST" "http"://"localhost:5198""""/Bakeries", Response status code: 404
+2025-01-27 18:22:12.922 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakeries""" - "application/json" 28
+2025-01-27 18:22:12.937 +02:00 [Information] Handling request: POST./Bakeries
+2025-01-27 18:22:12.948 +02:00 [Information] Finished handling request: POST./Bakeries, Response Status: 404
+2025-01-27 18:22:12.953 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakeries""" - 404 0 null 30.8778ms
+2025-01-27 18:22:12.964 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "POST" "http"://"localhost:5198""""/Bakeries", Response status code: 404
+2025-01-27 18:22:17.519 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakeries""" - "application/json" 28
+2025-01-27 18:22:17.531 +02:00 [Information] Handling request: POST./Bakeries
+2025-01-27 18:22:17.535 +02:00 [Information] Finished handling request: POST./Bakeries, Response Status: 404
+2025-01-27 18:22:17.545 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakeries""" - 404 0 null 25.4559ms
+2025-01-27 18:22:17.556 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "POST" "http"://"localhost:5198""""/Bakeries", Response status code: 404
+2025-01-27 18:32:58.968 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/""" - null null
+2025-01-27 18:32:58.972 +02:00 [Information] Handling request: GET./
+2025-01-27 18:32:58.975 +02:00 [Information] The file "/index.html" was not modified
+2025-01-27 18:32:58.977 +02:00 [Information] Finished handling request: GET./index.html, Response Status: 304
+2025-01-27 18:32:58.980 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/index.html""" - 304 null "text/html" 11.6601ms
+2025-01-27 18:32:58.997 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/js/site.js""" - null null
+2025-01-27 18:32:59.004 +02:00 [Information] Handling request: GET./js/site.js
+2025-01-27 18:32:59.007 +02:00 [Information] The file "/js/site.js" was not modified
+2025-01-27 18:32:59.010 +02:00 [Information] Finished handling request: GET./js/site.js, Response Status: 304
+2025-01-27 18:32:59.013 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/js/site.js""" - 304 null "text/javascript" 15.2612ms
+2025-01-27 18:32:59.023 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakeries""" - null null
+2025-01-27 18:32:59.028 +02:00 [Information] Handling request: GET./Bakeries
+2025-01-27 18:32:59.031 +02:00 [Information] Finished handling request: GET./Bakeries, Response Status: 404
+2025-01-27 18:32:59.033 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakeries""" - 404 0 null 10.1813ms
+2025-01-27 18:32:59.038 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/Bakeries", Response status code: 404
+2025-01-27 18:33:00.021 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/""" - null null
+2025-01-27 18:33:00.027 +02:00 [Information] Handling request: GET./
+2025-01-27 18:33:00.030 +02:00 [Information] The file "/index.html" was not modified
+2025-01-27 18:33:00.033 +02:00 [Information] Finished handling request: GET./index.html, Response Status: 304
+2025-01-27 18:33:00.035 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/index.html""" - 304 null "text/html" 13.3109ms
+2025-01-27 18:33:00.056 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakeries""" - null null
+2025-01-27 18:33:00.060 +02:00 [Information] Handling request: GET./Bakeries
+2025-01-27 18:33:00.063 +02:00 [Information] Finished handling request: GET./Bakeries, Response Status: 404
+2025-01-27 18:33:00.064 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakeries""" - 404 0 null 8.7488ms
+2025-01-27 18:33:00.070 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/Bakeries", Response status code: 404
+2025-01-27 18:33:01.256 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakeries""" - "application/json" 27
+2025-01-27 18:33:01.267 +02:00 [Information] Handling request: POST./Bakeries
+2025-01-27 18:33:01.271 +02:00 [Information] Finished handling request: POST./Bakeries, Response Status: 404
+2025-01-27 18:33:01.275 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakeries""" - 404 0 null 18.8829ms
+2025-01-27 18:33:01.286 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "POST" "http"://"localhost:5198""""/Bakeries", Response status code: 404
+2025-01-27 18:44:54.250 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-01-27 18:44:54.346 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-01-27 18:44:54.351 +02:00 [Information] Hosting environment: "Development"
+2025-01-27 18:44:54.353 +02:00 [Information] Content root path: "C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main"
+2025-01-27 18:44:59.503 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/""" - null null
+2025-01-27 18:44:59.607 +02:00 [Information] Handling request: GET./
+2025-01-27 18:44:59.636 +02:00 [Information] The file "/index.html" was not modified
+2025-01-27 18:44:59.644 +02:00 [Information] Finished handling request: GET./index.html, Response Status: 304
+2025-01-27 18:44:59.658 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/index.html""" - 304 null "text/html" 156.8871ms
+2025-01-27 18:44:59.690 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/css/site.css""" - null null
+2025-01-27 18:44:59.696 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/js/site.js""" - null null
+2025-01-27 18:44:59.713 +02:00 [Information] Handling request: GET./css/site.css
+2025-01-27 18:44:59.715 +02:00 [Information] Handling request: GET./js/site.js
+2025-01-27 18:44:59.721 +02:00 [Information] The file "/css/site.css" was not modified
+2025-01-27 18:44:59.728 +02:00 [Information] The file "/js/site.js" was not modified
+2025-01-27 18:44:59.732 +02:00 [Information] Finished handling request: GET./css/site.css, Response Status: 304
+2025-01-27 18:44:59.737 +02:00 [Information] Finished handling request: GET./js/site.js, Response Status: 304
+2025-01-27 18:44:59.741 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/css/site.css""" - 304 null "text/css" 52.6659ms
+2025-01-27 18:44:59.744 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/js/site.js""" - 304 null "text/javascript" 47.9868ms
+2025-01-27 18:44:59.773 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakeries""" - null null
+2025-01-27 18:44:59.788 +02:00 [Information] Handling request: GET./Bakeries
+2025-01-27 18:44:59.801 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-01-27 18:44:59.811 +02:00 [Information] Finished handling request: GET./Bakeries, Response Status: 404
+2025-01-27 18:44:59.815 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakeries""" - 404 0 null 41.9365ms
+2025-01-27 18:44:59.836 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/Bakeries", Response status code: 404
+2025-01-27 18:45:03.656 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakeries""" - "application/json" 27
+2025-01-27 18:45:03.670 +02:00 [Information] Handling request: POST./Bakeries
+2025-01-27 18:45:03.677 +02:00 [Information] Finished handling request: POST./Bakeries, Response Status: 404
+2025-01-27 18:45:03.683 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakeries""" - 404 0 null 26.9944ms
+2025-01-27 18:45:03.701 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "POST" "http"://"localhost:5198""""/Bakeries", Response status code: 404
+2025-01-27 18:45:10.745 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakeries""" - "application/json" 28
+2025-01-27 18:45:10.759 +02:00 [Information] Handling request: POST./Bakeries
+2025-01-27 18:45:10.765 +02:00 [Information] Finished handling request: POST./Bakeries, Response Status: 404
+2025-01-27 18:45:10.770 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakeries""" - 404 0 null 25.5049ms
+2025-01-27 18:45:10.794 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "POST" "http"://"localhost:5198""""/Bakeries", Response status code: 404
+2025-01-27 18:46:08.992 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/""" - null null
+2025-01-27 18:46:09.012 +02:00 [Information] Handling request: GET./
+2025-01-27 18:46:09.094 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main\wwwroot\index.html"'
+2025-01-27 18:46:09.101 +02:00 [Information] Finished handling request: GET./index.html, Response Status: 200
+2025-01-27 18:46:09.105 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/index.html""" - 200 1892 "text/html" 112.6689ms
+2025-01-27 18:46:09.130 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakeries""" - null null
+2025-01-27 18:46:09.142 +02:00 [Information] Handling request: GET./Bakeries
+2025-01-27 18:46:09.147 +02:00 [Information] Finished handling request: GET./Bakeries, Response Status: 404
+2025-01-27 18:46:09.151 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakeries""" - 404 0 null 20.8323ms
+2025-01-27 18:46:09.165 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/Bakeries", Response status code: 404
+2025-01-27 18:46:51.789 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/""" - null null
+2025-01-27 18:46:51.806 +02:00 [Information] Handling request: GET./
+2025-01-27 18:46:51.815 +02:00 [Information] The file "/index.html" was not modified
+2025-01-27 18:46:51.823 +02:00 [Information] Finished handling request: GET./index.html, Response Status: 304
+2025-01-27 18:46:51.829 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/index.html""" - 304 null "text/html" 40.4512ms
+2025-01-27 18:46:51.879 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakeries""" - null null
+2025-01-27 18:46:51.895 +02:00 [Information] Handling request: GET./Bakeries
+2025-01-27 18:46:51.900 +02:00 [Information] Finished handling request: GET./Bakeries, Response Status: 404
+2025-01-27 18:46:51.905 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakeries""" - 404 0 null 26.0201ms
+2025-01-27 18:46:51.914 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/Bakeries", Response status code: 404
+2025-01-27 18:52:13.146 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/""" - null null
+2025-01-27 18:52:13.157 +02:00 [Information] Handling request: GET./
+2025-01-27 18:52:13.162 +02:00 [Information] The file "/index.html" was not modified
+2025-01-27 18:52:13.165 +02:00 [Information] Finished handling request: GET./index.html, Response Status: 304
+2025-01-27 18:52:13.168 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/index.html""" - 304 null "text/html" 21.9629ms
+2025-01-27 18:52:13.181 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/js/site.js""" - null null
+2025-01-27 18:52:13.185 +02:00 [Information] Handling request: GET./js/site.js
+2025-01-27 18:52:13.245 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main\wwwroot\js\site.js"'
+2025-01-27 18:52:13.253 +02:00 [Information] Finished handling request: GET./js/site.js, Response Status: 200
+2025-01-27 18:52:13.261 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/js/site.js""" - 200 3906 "text/javascript" 80.1313ms
+2025-01-27 18:52:13.272 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakeries""" - null null
+2025-01-27 18:52:13.285 +02:00 [Information] Handling request: GET./Bakeries
+2025-01-27 18:52:13.290 +02:00 [Information] Finished handling request: GET./Bakeries, Response Status: 404
+2025-01-27 18:52:13.294 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakeries""" - 404 0 null 21.4326ms
+2025-01-27 18:52:13.300 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/Bakeries", Response status code: 404
+2025-01-27 18:52:19.452 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakeries""" - "application/json" 31
+2025-01-27 18:52:19.461 +02:00 [Information] Handling request: POST./Bakeries
+2025-01-27 18:52:19.465 +02:00 [Information] Finished handling request: POST./Bakeries, Response Status: 404
+2025-01-27 18:52:19.469 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakeries""" - 404 0 null 17.2221ms
+2025-01-27 18:52:19.482 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "POST" "http"://"localhost:5198""""/Bakeries", Response status code: 404
+2025-01-27 18:53:24.391 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/""" - null null
+2025-01-27 18:53:24.401 +02:00 [Information] Handling request: GET./
+2025-01-27 18:53:24.444 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main\wwwroot\index.html"'
+2025-01-27 18:53:24.450 +02:00 [Information] Finished handling request: GET./index.html, Response Status: 200
+2025-01-27 18:53:24.456 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/index.html""" - 200 1806 "text/html" 65.2397ms
+2025-01-27 18:53:24.476 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/js/site.js""" - null null
+2025-01-27 18:53:24.490 +02:00 [Information] Handling request: GET./js/site.js
+2025-01-27 18:53:24.492 +02:00 [Information] The file "/js/site.js" was not modified
+2025-01-27 18:53:24.494 +02:00 [Information] Finished handling request: GET./js/site.js, Response Status: 304
+2025-01-27 18:53:24.495 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/js/site.js""" - 304 null "text/javascript" 19.806ms
+2025-01-27 18:53:24.504 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakeries""" - null null
+2025-01-27 18:53:24.509 +02:00 [Information] Handling request: GET./Bakeries
+2025-01-27 18:53:24.511 +02:00 [Information] Finished handling request: GET./Bakeries, Response Status: 404
+2025-01-27 18:53:24.512 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakeries""" - 404 0 null 7.897ms
+2025-01-27 18:53:24.517 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/Bakeries", Response status code: 404
+2025-01-27 18:57:08.960 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/""" - null null
+2025-01-27 18:57:08.974 +02:00 [Information] Handling request: GET./
+2025-01-27 18:57:09.037 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main\wwwroot\index.html"'
+2025-01-27 18:57:09.045 +02:00 [Information] Finished handling request: GET./index.html, Response Status: 200
+2025-01-27 18:57:09.050 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/index.html""" - 200 1806 "text/html" 90.0683ms
+2025-01-27 18:57:09.064 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/js/site.js""" - null null
+2025-01-27 18:57:09.074 +02:00 [Information] Handling request: GET./js/site.js
+2025-01-27 18:57:09.078 +02:00 [Information] The file "/js/site.js" was not modified
+2025-01-27 18:57:09.082 +02:00 [Information] Finished handling request: GET./js/site.js, Response Status: 304
+2025-01-27 18:57:09.083 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/js/site.js""" - 304 null "text/javascript" 19.4983ms
+2025-01-27 18:57:09.094 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakeries""" - null null
+2025-01-27 18:57:09.099 +02:00 [Information] Handling request: GET./Bakeries
+2025-01-27 18:57:09.102 +02:00 [Information] Finished handling request: GET./Bakeries, Response Status: 404
+2025-01-27 18:57:09.105 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakeries""" - 404 0 null 10.4753ms
+2025-01-27 18:57:09.111 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/Bakeries", Response status code: 404
+2025-01-27 18:57:11.567 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakeries""" - "application/json" 27
+2025-01-27 18:57:11.577 +02:00 [Information] Handling request: POST./Bakeries
+2025-01-27 18:57:11.580 +02:00 [Information] Finished handling request: POST./Bakeries, Response Status: 404
+2025-01-27 18:57:11.583 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakeries""" - 404 0 null 15.595ms
+2025-01-27 18:57:11.591 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "POST" "http"://"localhost:5198""""/Bakeries", Response status code: 404
+2025-01-27 18:57:15.809 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakeries""" - "application/json" 28
+2025-01-27 18:57:15.818 +02:00 [Information] Handling request: POST./Bakeries
+2025-01-27 18:57:15.822 +02:00 [Information] Finished handling request: POST./Bakeries, Response Status: 404
+2025-01-27 18:57:15.825 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakeries""" - 404 0 null 16.4409ms
+2025-01-27 18:57:15.836 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "POST" "http"://"localhost:5198""""/Bakeries", Response status code: 404
+2025-01-27 18:57:19.084 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/""" - null null
+2025-01-27 18:57:19.094 +02:00 [Information] Handling request: GET./
+2025-01-27 18:57:19.100 +02:00 [Information] The file "/index.html" was not modified
+2025-01-27 18:57:19.104 +02:00 [Information] Finished handling request: GET./index.html, Response Status: 304
+2025-01-27 18:57:19.108 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/index.html""" - 304 null "text/html" 23.6604ms
+2025-01-27 18:57:19.130 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakeries""" - null null
+2025-01-27 18:57:19.139 +02:00 [Information] Handling request: GET./Bakeries
+2025-01-27 18:57:19.143 +02:00 [Information] Finished handling request: GET./Bakeries, Response Status: 404
+2025-01-27 18:57:19.147 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakeries""" - 404 0 null 17.2438ms
+2025-01-27 18:57:19.156 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/Bakeries", Response status code: 404
+2025-01-27 18:57:20.381 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/""" - null null
+2025-01-27 18:57:20.388 +02:00 [Information] Handling request: GET./
+2025-01-27 18:57:20.391 +02:00 [Information] The file "/index.html" was not modified
+2025-01-27 18:57:20.396 +02:00 [Information] Finished handling request: GET./index.html, Response Status: 304
+2025-01-27 18:57:20.399 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/index.html""" - 304 null "text/html" 17.8073ms
+2025-01-27 18:57:20.419 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakeries""" - null null
+2025-01-27 18:57:20.424 +02:00 [Information] Handling request: GET./Bakeries
+2025-01-27 18:57:20.427 +02:00 [Information] Finished handling request: GET./Bakeries, Response Status: 404
+2025-01-27 18:57:20.430 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakeries""" - 404 0 null 10.1144ms
+2025-01-27 18:57:20.434 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/Bakeries", Response status code: 404
+2025-01-27 19:00:16.613 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/""" - null null
+2025-01-27 19:00:16.622 +02:00 [Information] Handling request: GET./
+2025-01-27 19:00:16.625 +02:00 [Information] The file "/index.html" was not modified
+2025-01-27 19:00:16.628 +02:00 [Information] Finished handling request: GET./index.html, Response Status: 304
+2025-01-27 19:00:16.629 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/index.html""" - 304 null "text/html" 15.4398ms
+2025-01-27 19:00:16.643 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/css/site.css""" - null null
+2025-01-27 19:00:16.643 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/js/site.js""" - null null
+2025-01-27 19:00:16.647 +02:00 [Information] Handling request: GET./css/site.css
+2025-01-27 19:00:16.650 +02:00 [Information] Handling request: GET./js/site.js
+2025-01-27 19:00:16.652 +02:00 [Information] The file "/css/site.css" was not modified
+2025-01-27 19:00:16.654 +02:00 [Information] Finished handling request: GET./css/site.css, Response Status: 304
+2025-01-27 19:00:16.656 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/css/site.css""" - 304 null "text/css" 12.9203ms
+2025-01-27 19:00:16.707 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main\wwwroot\js\site.js"'
+2025-01-27 19:00:16.713 +02:00 [Information] Finished handling request: GET./js/site.js, Response Status: 200
+2025-01-27 19:00:16.718 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/js/site.js""" - 200 3906 "text/javascript" 74.6745ms
+2025-01-27 19:00:16.728 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/bakeries""" - null null
+2025-01-27 19:00:16.732 +02:00 [Information] Handling request: GET./bakeries
+2025-01-27 19:00:16.734 +02:00 [Information] Finished handling request: GET./bakeries, Response Status: 404
+2025-01-27 19:00:16.738 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/bakeries""" - 404 0 null 9.7869ms
+2025-01-27 19:00:16.742 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/bakeries", Response status code: 404
+2025-01-27 19:08:59.193 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/""" - null null
+2025-01-27 19:08:59.202 +02:00 [Information] Handling request: GET./
+2025-01-27 19:08:59.204 +02:00 [Information] The file "/index.html" was not modified
+2025-01-27 19:08:59.206 +02:00 [Information] Finished handling request: GET./index.html, Response Status: 304
+2025-01-27 19:08:59.208 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/index.html""" - 304 null "text/html" 15.4534ms
+2025-01-27 19:08:59.234 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/js/site.js""" - null null
+2025-01-27 19:08:59.245 +02:00 [Information] Handling request: GET./js/site.js
+2025-01-27 19:08:59.251 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main\wwwroot\js\site.js"'
+2025-01-27 19:08:59.254 +02:00 [Information] Finished handling request: GET./js/site.js, Response Status: 200
+2025-01-27 19:08:59.256 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/js/site.js""" - 200 3906 "text/javascript" 22.3954ms
+2025-01-27 19:08:59.261 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakeries""" - null null
+2025-01-27 19:08:59.264 +02:00 [Information] Handling request: GET./Bakeries
+2025-01-27 19:08:59.265 +02:00 [Information] Finished handling request: GET./Bakeries, Response Status: 404
+2025-01-27 19:08:59.266 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakeries""" - 404 0 null 4.6581ms
+2025-01-27 19:08:59.269 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/Bakeries", Response status code: 404
+2025-01-27 19:10:23.659 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/""" - null null
+2025-01-27 19:10:23.671 +02:00 [Information] Handling request: GET./
+2025-01-27 19:10:23.678 +02:00 [Information] The file "/index.html" was not modified
+2025-01-27 19:10:23.682 +02:00 [Information] Finished handling request: GET./index.html, Response Status: 304
+2025-01-27 19:10:23.686 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/index.html""" - 304 null "text/html" 27.5488ms
+2025-01-27 19:10:23.710 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/js/site.js""" - null null
+2025-01-27 19:10:23.717 +02:00 [Information] Handling request: GET./js/site.js
+2025-01-27 19:10:23.764 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main\wwwroot\js\site.js"'
+2025-01-27 19:10:23.768 +02:00 [Information] Finished handling request: GET./js/site.js, Response Status: 200
+2025-01-27 19:10:23.770 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/js/site.js""" - 200 3910 "text/javascript" 59.8475ms
+2025-01-27 19:10:23.774 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/api/bakeries""" - null null
+2025-01-27 19:10:23.778 +02:00 [Information] Handling request: GET./api/bakeries
+2025-01-27 19:10:23.779 +02:00 [Information] Finished handling request: GET./api/bakeries, Response Status: 404
+2025-01-27 19:10:23.780 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/api/bakeries""" - 404 0 null 5.8818ms
+2025-01-27 19:10:23.783 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/api/bakeries", Response status code: 404
+2025-01-27 19:13:12.923 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/""" - null null
+2025-01-27 19:13:12.931 +02:00 [Information] Handling request: GET./
+2025-01-27 19:13:12.934 +02:00 [Information] The file "/index.html" was not modified
+2025-01-27 19:13:12.935 +02:00 [Information] Finished handling request: GET./index.html, Response Status: 304
+2025-01-27 19:13:12.938 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/index.html""" - 304 null "text/html" 14.9312ms
+2025-01-27 19:13:12.955 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/js/site.js""" - null null
+2025-01-27 19:13:12.964 +02:00 [Information] Handling request: GET./js/site.js
+2025-01-27 19:13:13.020 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main\wwwroot\js\site.js"'
+2025-01-27 19:13:13.028 +02:00 [Information] Finished handling request: GET./js/site.js, Response Status: 200
+2025-01-27 19:13:13.031 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/js/site.js""" - 200 3909 "text/javascript" 76.2469ms
+2025-01-27 19:13:13.039 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/api/bakerys""" - null null
+2025-01-27 19:13:13.044 +02:00 [Information] Handling request: GET./api/bakerys
+2025-01-27 19:13:13.046 +02:00 [Information] Finished handling request: GET./api/bakerys, Response Status: 404
+2025-01-27 19:13:13.047 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/api/bakerys""" - 404 0 null 7.877ms
+2025-01-27 19:13:13.054 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/api/bakerys", Response status code: 404
+2025-01-27 19:13:44.732 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/""" - null null
+2025-01-27 19:13:44.743 +02:00 [Information] Handling request: GET./
+2025-01-27 19:13:44.750 +02:00 [Information] The file "/index.html" was not modified
+2025-01-27 19:13:44.756 +02:00 [Information] Finished handling request: GET./index.html, Response Status: 304
+2025-01-27 19:13:44.759 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/index.html""" - 304 null "text/html" 26.3891ms
+2025-01-27 19:13:44.790 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/js/site.js""" - null null
+2025-01-27 19:13:44.799 +02:00 [Information] Handling request: GET./js/site.js
+2025-01-27 19:13:44.852 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main\wwwroot\js\site.js"'
+2025-01-27 19:13:44.859 +02:00 [Information] Finished handling request: GET./js/site.js, Response Status: 200
+2025-01-27 19:13:44.862 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/js/site.js""" - 200 3905 "text/javascript" 72.4888ms
+2025-01-27 19:13:44.868 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys""" - null null
+2025-01-27 19:13:44.876 +02:00 [Information] Handling request: GET./Bakerys
+2025-01-27 19:13:44.883 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)"'
+2025-01-27 19:13:44.914 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Bakerys\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ProjectCore.Bakery] GetAll()" on controller "ProjectCore.Controllers.BakerysController" ("ProjectCore").
+2025-01-27 19:13:44.924 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.Bakery, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-01-27 19:13:44.976 +02:00 [Information] Executed action "ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)" in 54.3194ms
+2025-01-27 19:13:44.979 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)"'
+2025-01-27 19:13:44.980 +02:00 [Information] Finished handling request: GET./Bakerys, Response Status: 200
+2025-01-27 19:13:44.982 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys""" - 200 null "application/json; charset=utf-8" 113.8302ms
+2025-01-27 19:14:38.299 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakerys""" - "application/json" 29
+2025-01-27 19:14:38.312 +02:00 [Information] Handling request: POST./Bakerys
+2025-01-27 19:14:38.318 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BakerysController.Insert (ProjectCore)"'
+2025-01-27 19:14:38.339 +02:00 [Information] Route matched with "{action = \"Insert\", controller = \"Bakerys\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Insert(ProjectCore.Bakery)" on controller "ProjectCore.Controllers.BakerysController" ("ProjectCore").
+2025-01-27 19:14:38.391 +02:00 [Information] Executing "CreatedAtActionResult", writing value of type '"ProjectCore.Bakery"'.
+2025-01-27 19:14:38.426 +02:00 [Information] Executed action "ProjectCore.Controllers.BakerysController.Insert (ProjectCore)" in 79.5029ms
+2025-01-27 19:14:38.430 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BakerysController.Insert (ProjectCore)"'
+2025-01-27 19:14:38.434 +02:00 [Information] Finished handling request: POST./Bakerys, Response Status: 201
+2025-01-27 19:14:38.437 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakerys""" - 201 null "application/json; charset=utf-8" 138.5837ms
+2025-01-27 19:14:38.447 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys""" - null null
+2025-01-27 19:14:38.454 +02:00 [Information] Handling request: GET./Bakerys
+2025-01-27 19:14:38.457 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)"'
+2025-01-27 19:14:38.461 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Bakerys\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ProjectCore.Bakery] GetAll()" on controller "ProjectCore.Controllers.BakerysController" ("ProjectCore").
+2025-01-27 19:14:38.469 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.Bakery, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-01-27 19:14:38.477 +02:00 [Information] Executed action "ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)" in 8.4734ms
+2025-01-27 19:14:38.481 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)"'
+2025-01-27 19:14:38.483 +02:00 [Information] Finished handling request: GET./Bakerys, Response Status: 200
+2025-01-27 19:14:38.487 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys""" - 200 null "application/json; charset=utf-8" 39.3775ms
+2025-01-27 19:15:12.506 +02:00 [Information] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5198""""/Bakerys/1""" - "application/json" 47
+2025-01-27 19:15:12.516 +02:00 [Information] Handling request: PUT./Bakerys/1
+2025-01-27 19:15:12.520 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BakerysController.Update (ProjectCore)"'
+2025-01-27 19:15:12.528 +02:00 [Information] Route matched with "{action = \"Update\", controller = \"Bakerys\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Update(Int32, ProjectCore.Bakery)" on controller "ProjectCore.Controllers.BakerysController" ("ProjectCore").
+2025-01-27 19:15:12.548 +02:00 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-01-27 19:15:12.554 +02:00 [Information] Executed action "ProjectCore.Controllers.BakerysController.Update (ProjectCore)" in 19.6897ms
+2025-01-27 19:15:12.559 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BakerysController.Update (ProjectCore)"'
+2025-01-27 19:15:12.563 +02:00 [Information] Finished handling request: PUT./Bakerys/1, Response Status: 204
+2025-01-27 19:15:12.566 +02:00 [Information] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5198""""/Bakerys/1""" - 204 null null 60.0667ms
+2025-01-27 19:15:12.578 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys""" - null null
+2025-01-27 19:15:12.586 +02:00 [Information] Handling request: GET./Bakerys
+2025-01-27 19:15:12.590 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)"'
+2025-01-27 19:15:12.594 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Bakerys\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ProjectCore.Bakery] GetAll()" on controller "ProjectCore.Controllers.BakerysController" ("ProjectCore").
+2025-01-27 19:15:12.601 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.Bakery, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-01-27 19:15:12.606 +02:00 [Information] Executed action "ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)" in 5.2328ms
+2025-01-27 19:15:12.610 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)"'
+2025-01-27 19:15:12.613 +02:00 [Information] Finished handling request: GET./Bakerys, Response Status: 200
+2025-01-27 19:15:12.617 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys""" - 200 null "application/json; charset=utf-8" 38.5313ms
+2025-01-27 19:15:16.908 +02:00 [Information] Request starting "HTTP/1.1" "DELETE" "http"://"localhost:5198""""/Bakerys/1""" - null null
+2025-01-27 19:15:16.915 +02:00 [Information] Handling request: DELETE./Bakerys/1
+2025-01-27 19:15:16.919 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BakerysController.Delete (ProjectCore)"'
+2025-01-27 19:15:16.931 +02:00 [Information] Route matched with "{action = \"Delete\", controller = \"Bakerys\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Delete(Int32)" on controller "ProjectCore.Controllers.BakerysController" ("ProjectCore").
+2025-01-27 19:15:16.945 +02:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/plain; charset=utf-8"
+2025-01-27 19:15:16.952 +02:00 [Information] Executed action "ProjectCore.Controllers.BakerysController.Delete (ProjectCore)" in 11.4559ms
+2025-01-27 19:15:16.961 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BakerysController.Delete (ProjectCore)"'
+2025-01-27 19:15:16.966 +02:00 [Information] Finished handling request: DELETE./Bakerys/1, Response Status: 200
+2025-01-27 19:15:16.972 +02:00 [Information] Request finished "HTTP/1.1" "DELETE" "http"://"localhost:5198""""/Bakerys/1""" - 200 1 "text/plain; charset=utf-8" 63.8798ms
+2025-01-27 19:15:16.981 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys""" - null null
+2025-01-27 19:15:16.991 +02:00 [Information] Handling request: GET./Bakerys
+2025-01-27 19:15:16.993 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)"'
+2025-01-27 19:15:16.996 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Bakerys\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ProjectCore.Bakery] GetAll()" on controller "ProjectCore.Controllers.BakerysController" ("ProjectCore").
+2025-01-27 19:15:17.007 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.Bakery, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-01-27 19:15:17.012 +02:00 [Information] Executed action "ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)" in 5.8315ms
+2025-01-27 19:15:17.020 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)"'
+2025-01-27 19:15:17.025 +02:00 [Information] Finished handling request: GET./Bakerys, Response Status: 200
+2025-01-27 19:15:17.029 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys""" - 200 null "application/json; charset=utf-8" 47.9953ms
+2025-01-27 19:24:30.671 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/""" - null null
+2025-01-27 19:24:30.680 +02:00 [Information] Handling request: GET./
+2025-01-27 19:24:30.685 +02:00 [Information] The file "/index.html" was not modified
+2025-01-27 19:24:30.687 +02:00 [Information] Finished handling request: GET./index.html, Response Status: 304
+2025-01-27 19:24:30.690 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/index.html""" - 304 null "text/html" 18.6933ms
+2025-01-27 19:24:30.713 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/css/site.css""" - null null
+2025-01-27 19:24:30.722 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/js/site.js""" - null null
+2025-01-27 19:24:30.727 +02:00 [Information] Handling request: GET./css/site.css
+2025-01-27 19:24:30.734 +02:00 [Information] Handling request: GET./js/site.js
+2025-01-27 19:24:30.737 +02:00 [Information] The file "/css/site.css" was not modified
+2025-01-27 19:24:30.740 +02:00 [Information] Finished handling request: GET./css/site.css, Response Status: 304
+2025-01-27 19:24:30.740 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main\wwwroot\js\site.js"'
+2025-01-27 19:24:30.741 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/css/site.css""" - 304 null "text/css" 27.6678ms
+2025-01-27 19:24:30.744 +02:00 [Information] Finished handling request: GET./js/site.js, Response Status: 200
+2025-01-27 19:24:30.748 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakeries""" - null null
+2025-01-27 19:24:30.749 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/js/site.js""" - 200 3906 "text/javascript" 26.9434ms
+2025-01-27 19:24:30.751 +02:00 [Information] Handling request: GET./Bakeries
+2025-01-27 19:24:30.755 +02:00 [Information] Finished handling request: GET./Bakeries, Response Status: 404
+2025-01-27 19:24:30.756 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakeries""" - 404 0 null 8.6306ms
+2025-01-27 19:24:30.760 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/Bakeries", Response status code: 404
+2025-01-27 19:25:02.102 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/""" - null null
+2025-01-27 19:25:02.113 +02:00 [Information] Handling request: GET./
+2025-01-27 19:25:02.119 +02:00 [Information] The file "/index.html" was not modified
+2025-01-27 19:25:02.125 +02:00 [Information] Finished handling request: GET./index.html, Response Status: 304
+2025-01-27 19:25:02.128 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/index.html""" - 304 null "text/html" 26.0667ms
+2025-01-27 19:25:02.151 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/js/site.js""" - null null
+2025-01-27 19:25:02.163 +02:00 [Information] Handling request: GET./js/site.js
+2025-01-27 19:25:02.169 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main\wwwroot\js\site.js"'
+2025-01-27 19:25:02.174 +02:00 [Information] Finished handling request: GET./js/site.js, Response Status: 200
+2025-01-27 19:25:02.176 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/js/site.js""" - 200 3906 "text/javascript" 24.9473ms
+2025-01-27 19:25:02.197 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakeries""" - null null
+2025-01-27 19:25:02.201 +02:00 [Information] Handling request: GET./Bakeries
+2025-01-27 19:25:02.202 +02:00 [Information] Finished handling request: GET./Bakeries, Response Status: 404
+2025-01-27 19:25:02.203 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakeries""" - 404 0 null 5.6381ms
+2025-01-27 19:25:02.206 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/Bakeries", Response status code: 404
+2025-01-27 19:26:27.850 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/""" - null null
+2025-01-27 19:26:27.860 +02:00 [Information] Handling request: GET./
+2025-01-27 19:26:27.865 +02:00 [Information] The file "/index.html" was not modified
+2025-01-27 19:26:27.868 +02:00 [Information] Finished handling request: GET./index.html, Response Status: 304
+2025-01-27 19:26:27.871 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/index.html""" - 304 null "text/html" 20.7079ms
+2025-01-27 19:26:27.894 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/js/site.js""" - null null
+2025-01-27 19:26:27.905 +02:00 [Information] Handling request: GET./js/site.js
+2025-01-27 19:26:27.909 +02:00 [Information] The file "/js/site.js" was not modified
+2025-01-27 19:26:27.912 +02:00 [Information] Finished handling request: GET./js/site.js, Response Status: 304
+2025-01-27 19:26:27.914 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/js/site.js""" - 304 null "text/javascript" 20.6325ms
+2025-01-27 19:26:27.922 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakeries""" - null null
+2025-01-27 19:26:27.925 +02:00 [Information] Handling request: GET./Bakeries
+2025-01-27 19:26:27.927 +02:00 [Information] Finished handling request: GET./Bakeries, Response Status: 404
+2025-01-27 19:26:27.928 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakeries""" - 404 0 null 6.2902ms
+2025-01-27 19:26:27.931 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/Bakeries", Response status code: 404
+2025-01-27 19:27:56.052 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/""" - null null
+2025-01-27 19:27:56.064 +02:00 [Information] Handling request: GET./
+2025-01-27 19:27:56.068 +02:00 [Information] The file "/index.html" was not modified
+2025-01-27 19:27:56.073 +02:00 [Information] Finished handling request: GET./index.html, Response Status: 304
+2025-01-27 19:27:56.076 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/index.html""" - 304 null "text/html" 24.578ms
+2025-01-27 19:27:56.095 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/js/site.js""" - null null
+2025-01-27 19:27:56.103 +02:00 [Information] Handling request: GET./js/site.js
+2025-01-27 19:27:56.106 +02:00 [Information] The file "/js/site.js" was not modified
+2025-01-27 19:27:56.108 +02:00 [Information] Finished handling request: GET./js/site.js, Response Status: 304
+2025-01-27 19:27:56.109 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/js/site.js""" - 304 null "text/javascript" 13.6501ms
+2025-01-27 19:27:56.115 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakeries""" - null null
+2025-01-27 19:27:56.119 +02:00 [Information] Handling request: GET./Bakeries
+2025-01-27 19:27:56.120 +02:00 [Information] Finished handling request: GET./Bakeries, Response Status: 404
+2025-01-27 19:27:56.124 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakeries""" - 404 0 null 9.0563ms
+2025-01-27 19:27:56.141 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/Bakeries", Response status code: 404
+2025-01-27 19:27:57.199 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/""" - null null
+2025-01-27 19:27:57.207 +02:00 [Information] Handling request: GET./
+2025-01-27 19:27:57.211 +02:00 [Information] The file "/index.html" was not modified
+2025-01-27 19:27:57.213 +02:00 [Information] Finished handling request: GET./index.html, Response Status: 304
+2025-01-27 19:27:57.215 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/index.html""" - 304 null "text/html" 16.4158ms
+2025-01-27 19:27:57.254 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakeries""" - null null
+2025-01-27 19:27:57.258 +02:00 [Information] Handling request: GET./Bakeries
+2025-01-27 19:27:57.260 +02:00 [Information] Finished handling request: GET./Bakeries, Response Status: 404
+2025-01-27 19:27:57.261 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakeries""" - 404 0 null 6.6791ms
+2025-01-27 19:27:57.264 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/Bakeries", Response status code: 404
+2025-01-27 19:28:09.019 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/""" - null null
+2025-01-27 19:28:09.027 +02:00 [Information] Handling request: GET./
+2025-01-27 19:28:09.032 +02:00 [Information] The file "/index.html" was not modified
+2025-01-27 19:28:09.039 +02:00 [Information] Finished handling request: GET./index.html, Response Status: 304
+2025-01-27 19:28:09.045 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/index.html""" - 304 null "text/html" 26.0293ms
+2025-01-27 19:28:09.079 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakeries""" - null null
+2025-01-27 19:28:09.084 +02:00 [Information] Handling request: GET./Bakeries
+2025-01-27 19:28:09.086 +02:00 [Information] Finished handling request: GET./Bakeries, Response Status: 404
+2025-01-27 19:28:09.087 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakeries""" - 404 0 null 8.3887ms
+2025-01-27 19:28:09.091 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/Bakeries", Response status code: 404
+2025-01-27 19:28:10.431 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/""" - null null
+2025-01-27 19:28:10.442 +02:00 [Information] Handling request: GET./
+2025-01-27 19:28:10.447 +02:00 [Information] The file "/index.html" was not modified
+2025-01-27 19:28:10.448 +02:00 [Information] Finished handling request: GET./index.html, Response Status: 304
+2025-01-27 19:28:10.452 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/index.html""" - 304 null "text/html" 20.0773ms
+2025-01-27 19:28:10.507 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakeries""" - null null
+2025-01-27 19:28:10.513 +02:00 [Information] Handling request: GET./Bakeries
+2025-01-27 19:28:10.514 +02:00 [Information] Finished handling request: GET./Bakeries, Response Status: 404
+2025-01-27 19:28:10.515 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakeries""" - 404 0 null 7.926ms
+2025-01-27 19:28:10.519 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5198""""/Bakeries", Response status code: 404
+2025-01-27 19:28:22.199 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/""" - null null
+2025-01-27 19:28:22.211 +02:00 [Information] Handling request: GET./
+2025-01-27 19:28:22.216 +02:00 [Information] The file "/index.html" was not modified
+2025-01-27 19:28:22.223 +02:00 [Information] Finished handling request: GET./index.html, Response Status: 304
+2025-01-27 19:28:22.226 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/index.html""" - 304 null "text/html" 26.4858ms
+2025-01-27 19:28:22.258 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/js/site.js""" - null null
+2025-01-27 19:28:22.275 +02:00 [Information] Handling request: GET./js/site.js
+2025-01-27 19:28:22.284 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר א\core_\project\core_project זה מה שעובד בgit\ProjectCore-main\wwwroot\js\site.js"'
+2025-01-27 19:28:22.289 +02:00 [Information] Finished handling request: GET./js/site.js, Response Status: 200
+2025-01-27 19:28:22.290 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/js/site.js""" - 200 3905 "text/javascript" 31.4779ms
+2025-01-27 19:28:22.307 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys""" - null null
+2025-01-27 19:28:22.313 +02:00 [Information] Handling request: GET./Bakerys
+2025-01-27 19:28:22.314 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)"'
+2025-01-27 19:28:22.316 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Bakerys\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ProjectCore.Bakery] GetAll()" on controller "ProjectCore.Controllers.BakerysController" ("ProjectCore").
+2025-01-27 19:28:22.318 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.Bakery, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-01-27 19:28:22.320 +02:00 [Information] Executed action "ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)" in 1.879ms
+2025-01-27 19:28:22.321 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)"'
+2025-01-27 19:28:22.322 +02:00 [Information] Finished handling request: GET./Bakerys, Response Status: 200
+2025-01-27 19:28:22.323 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys""" - 200 null "application/json; charset=utf-8" 16.569ms
+2025-01-27 20:15:07.260 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakerys""" - "application/json" 27
+2025-01-27 20:15:07.276 +02:00 [Information] Handling request: POST./Bakerys
+2025-01-27 20:15:07.279 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BakerysController.Insert (ProjectCore)"'
+2025-01-27 20:15:07.284 +02:00 [Information] Route matched with "{action = \"Insert\", controller = \"Bakerys\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Insert(ProjectCore.Bakery)" on controller "ProjectCore.Controllers.BakerysController" ("ProjectCore").
+2025-01-27 20:15:07.327 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2025-01-27 20:15:07.398 +02:00 [Information] Executed action "ProjectCore.Controllers.BakerysController.Insert (ProjectCore)" in 104.491ms
+2025-01-27 20:15:07.405 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BakerysController.Insert (ProjectCore)"'
+2025-01-27 20:15:07.409 +02:00 [Information] Finished handling request: POST./Bakerys, Response Status: 400
+2025-01-27 20:15:07.414 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakerys""" - 400 null "application/problem+json; charset=utf-8" 154.0693ms
+2025-01-27 20:15:07.434 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys""" - null null
+2025-01-27 20:15:07.451 +02:00 [Information] Handling request: GET./Bakerys
+2025-01-27 20:15:07.456 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)"'
+2025-01-27 20:15:07.464 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Bakerys\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ProjectCore.Bakery] GetAll()" on controller "ProjectCore.Controllers.BakerysController" ("ProjectCore").
+2025-01-27 20:15:07.474 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.Bakery, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-01-27 20:15:07.483 +02:00 [Information] Executed action "ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)" in 9.3615ms
+2025-01-27 20:15:07.490 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)"'
+2025-01-27 20:15:07.496 +02:00 [Information] Finished handling request: GET./Bakerys, Response Status: 200
+2025-01-27 20:15:07.500 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys""" - 200 null "application/json; charset=utf-8" 65.9432ms
+2025-01-27 20:15:13.531 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakerys""" - "application/json" 32
+2025-01-27 20:15:13.537 +02:00 [Information] Handling request: POST./Bakerys
+2025-01-27 20:15:13.540 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BakerysController.Insert (ProjectCore)"'
+2025-01-27 20:15:13.543 +02:00 [Information] Route matched with "{action = \"Insert\", controller = \"Bakerys\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Insert(ProjectCore.Bakery)" on controller "ProjectCore.Controllers.BakerysController" ("ProjectCore").
+2025-01-27 20:15:13.549 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2025-01-27 20:15:13.551 +02:00 [Information] Executed action "ProjectCore.Controllers.BakerysController.Insert (ProjectCore)" in 3.1894ms
+2025-01-27 20:15:13.555 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BakerysController.Insert (ProjectCore)"'
+2025-01-27 20:15:13.558 +02:00 [Information] Finished handling request: POST./Bakerys, Response Status: 400
+2025-01-27 20:15:13.560 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Bakerys""" - 400 null "application/problem+json; charset=utf-8" 28.4076ms
+2025-01-27 20:15:13.569 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys""" - null null
+2025-01-27 20:15:13.574 +02:00 [Information] Handling request: GET./Bakerys
+2025-01-27 20:15:13.576 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)"'
+2025-01-27 20:15:13.577 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Bakerys\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ProjectCore.Bakery] GetAll()" on controller "ProjectCore.Controllers.BakerysController" ("ProjectCore").
+2025-01-27 20:15:13.583 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.Bakery, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-01-27 20:15:13.588 +02:00 [Information] Executed action "ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)" in 5.9395ms
+2025-01-27 20:15:13.593 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BakerysController.GetAll (ProjectCore)"'
+2025-01-27 20:15:13.595 +02:00 [Information] Finished handling request: GET./Bakerys, Response Status: 200
+2025-01-27 20:15:13.596 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Bakerys""" - 200 null "application/json; charset=utf-8" 27.8822ms
