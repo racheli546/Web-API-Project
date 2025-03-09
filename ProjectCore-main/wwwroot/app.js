@@ -8,28 +8,28 @@ function login() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ username, password })
     })
-    .then(res => res.json())
-    .then(data => {
-    if (data.token) {
-        localStorage.setItem("token", data.token);
-        
-        const tokenData = JSON.parse(atob(data.token.split('.')[1]));
-        console.log(tokenData);  // הוסף כאן את הדפסת הטוקן
-        
-        const role = tokenData["http://schemas.microsoft.com/ws/2008/06/identity/claims/role"];  // נניח שהתפקיד נמצא בטוקן כ-"role"
-        console.log("role: ", role);  // הדפסת התפקיד שנמצא בטוקן
+        .then(res => res.json())
+        .then(data => {
+            if (data.token) {
+                localStorage.setItem("token", data.token);
 
-        if (role === "Admin") {
-            console.log("הולך למנהל");
-            window.location.href = "admin.html";
-        } else {
-            console.log("הולך ללקוח");
-            window.location.href = "index.html";
-        }
-    } else {
-        document.getElementById("errorMessage").innerText = "⚠️ שם משתמש או סיסמה שגויים!";
-    }
-});
+                const tokenData = JSON.parse(atob(data.token.split('.')[1]));
+                console.log(tokenData);  // הוסף כאן את הדפסת הטוקן
+
+                const role = tokenData["http://schemas.microsoft.com/ws/2008/06/identity/claims/role"];  // נניח שהתפקיד נמצא בטוקן כ-"role"
+                console.log("role: ", role);  // הדפסת התפקיד שנמצא בטוקן
+
+                if (role === "Admin") {
+                    console.log("הולך למנהל");
+                    window.location.href = "admin.html";
+                } else {
+                    console.log("הולך ללקוח");
+                    window.location.href = "index.html";
+                }
+            } else {
+                document.getElementById("errorMessage").innerText = "⚠️ שם משתמש או סיסמה שגויים!";
+            }
+        });
 
 }
 
@@ -42,57 +42,40 @@ function checkLogin() {
         fetch("/User/currentUser", {
             headers: { "Authorization": `Bearer ${token}` }
         })
-        .then(res => res.json())
-        .then(user => {
-            document.getElementById("username").innerText = user.username;
-            loadBakeries();
-            loadUserPurchases();
-        })
-        .catch(() => {
-            localStorage.removeItem("token");
-            window.location.href = "login.html";
-        });
+            .then(res => res.json())
+            .then(user => {
+                document.getElementById("username").innerText = user.username;
+                loadBakeries();
+                loadUserPurchases();
+            })
+            .catch(() => {
+                localStorage.removeItem("token");
+                window.location.href = "login.html";
+            });
     }
 }
 
-// 📦 טעינת מאפים זמינים לרכישה
-// function loadBakeries() {
-//     const token = localStorage.getItem("token");
-
-//     fetch("/Bakerys", {
-//         headers: { "Authorization": `Bearer ${token}` }
-//     })
-//     .then(res => res.json())
-//     .then(bakeries => {
-//         const list = document.getElementById("bakeryList");
-//         list.innerHTML = "";
-//         bakeries.forEach(bakery => {
-//             list.innerHTML += `<li>${bakery.name} 
-//                 <button onclick="buyBakery(${bakery.id})">קנה</button></li>`;
-//         });
-//     });
-// }
 function loadBakeries() {
     const token = localStorage.getItem("token");
 
     fetch("/Bakerys", {
         headers: { "Authorization": `Bearer ${token}` }
     })
-    .then(res => res.json())
-    .then(bakeries => {
-        const list = document.getElementById("bakeryList");
-        const container = document.getElementById("bakeryListContainer"); // קבלת הקונטיינר
-        list.innerHTML = "";
-        if (bakeries.length > 0) {
-            bakeries.forEach(bakery => {
-                list.innerHTML += `<li>${bakery.name} 
+        .then(res => res.json())
+        .then(bakeries => {
+            const list = document.getElementById("bakeryList");
+            const container = document.getElementById("bakeryListContainer"); // קבלת הקונטיינר
+            list.innerHTML = "";
+            if (bakeries.length > 0) {
+                bakeries.forEach(bakery => {
+                    list.innerHTML += `<li>${bakery.name} 
                     <button onclick="buyBakery(${bakery.id})">קנה</button></li>`;
-            });
-            container.style.display = "block"; // הצגת הקונטיינר אם יש מוצרים
-        } else {
-            container.style.display = "none"; // הסתרת הקונטיינר אם אין מוצרים
-        }
-    });
+                });
+                container.style.display = "block"; // הצגת הקונטיינר אם יש מוצרים
+            } else {
+                container.style.display = "none"; // הסתרת הקונטיינר אם אין מוצרים
+            }
+        });
 }
 // 🛒 קניית מאפה
 function buyBakery(bakeryId) {
@@ -102,51 +85,34 @@ function buyBakery(bakeryId) {
         method: "POST",
         headers: { "Authorization": `Bearer ${token}` }
     })
-    .then(() => {
-        alert("✅ נרכש בהצלחה!");
-        loadBakeries();
-        loadUserPurchases();
-    });
+        .then(() => {
+            alert("✅ נרכש בהצלחה!");
+            loadBakeries();
+            loadUserPurchases();
+        });
 }
 
-// 🏷️ טעינת המאפים שנרכשו
-// function loadUserPurchases() {
-//     const token = localStorage.getItem("token");
-
-//     fetch("/User/purchases", {
-//         headers: { "Authorization": `Bearer ${token}` }
-//     })
-//     .then(res => res.json())
-//     .then(purchases => {
-//         const list = document.getElementById("purchasedList");
-//         list.innerHTML = "";
-//         purchases.forEach(bakery => {
-//             list.innerHTML += `<li>${bakery.name} 
-//                 <button onclick="removeBakery(${bakery.id})">הסר</button></li>`;
-//         });
-//     });
-// }
 function loadUserPurchases() {
     const token = localStorage.getItem("token");
 
     fetch("/User/purchases", {
         headers: { "Authorization": `Bearer ${token}` }
     })
-    .then(res => res.json())
-    .then(purchases => {
-        const list = document.getElementById("purchasedList");
-        const container = document.getElementById("purchasedListContainer"); // קבלת הקונטיינר
-        list.innerHTML = "";
-        if (purchases.length > 0) {
-            purchases.forEach(bakery => {
-                list.innerHTML += `<li>${bakery.name} 
+        .then(res => res.json())
+        .then(purchases => {
+            const list = document.getElementById("purchasedList");
+            const container = document.getElementById("purchasedListContainer"); // קבלת הקונטיינר
+            list.innerHTML = "";
+            if (purchases.length > 0) {
+                purchases.forEach(bakery => {
+                    list.innerHTML += `<li>${bakery.name} 
                     <button onclick="removeBakery(${bakery.id})">הסר</button></li>`;
-            });
-            container.style.display = "block"; // הצגת הקונטיינר אם יש מוצרים
-        } else {
-            container.style.display = "none"; // הסתרת הקונטיינר אם אין מוצרים
-        }
-    });
+                });
+                container.style.display = "block"; // הצגת הקונטיינר אם יש מוצרים
+            } else {
+                container.style.display = "none"; // הסתרת הקונטיינר אם אין מוצרים
+            }
+        });
 }
 // ❌ מחיקת מאפה שנרכש
 function removeBakery(bakeryId) {
@@ -156,10 +122,10 @@ function removeBakery(bakeryId) {
         method: "DELETE",
         headers: { "Authorization": `Bearer ${token}` }
     })
-    .then(() => {
-        alert("✅ הוסר בהצלחה!");
-        loadUserPurchases();
-    });
+        .then(() => {
+            alert("✅ הוסר בהצלחה!");
+            loadUserPurchases();
+        });
 }
 
 // 🚪 התנתקות

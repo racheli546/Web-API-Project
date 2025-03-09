@@ -16,38 +16,33 @@ public class BakerysController : ControllerBase
         this.BakeryService = BakeryService;
     }
 
-[HttpGet]
-public IActionResult GetAll()
-{
-    Console.WriteLine("📌 בקשת GET /Bakerys התקבלה"); 
-    try
+    [HttpGet]
+    public IActionResult GetAll()
     {
-        var bakeries = BakeryService.GetAll();
-        Console.WriteLine("✅ BakeryService.GetAll() בוצע בהצלחה");
-
-        if (bakeries == null)
+        Console.WriteLine("📌 בקשת GET /Bakerys התקבלה");
+        try
         {
-            Console.WriteLine("❌ BakeryService.GetAll() החזיר NULL!");
-            return StatusCode(500, "Database error: No bakeries found.");
+            var bakeries = BakeryService.GetAll();
+            Console.WriteLine("✅ BakeryService.GetAll() בוצע בהצלחה");
+
+            if (bakeries == null)
+            {
+                Console.WriteLine("❌ BakeryService.GetAll() החזיר NULL!");
+                return StatusCode(500, "Database error: No bakeries found.");
+            }
+
+            Console.WriteLine($"✅ נמצאו {bakeries.Count()} מאפים.");
+            return Ok(bakeries);
         }
-
-        Console.WriteLine($"✅ נמצאו {bakeries.Count()} מאפים.");
-        return Ok(bakeries);
+        catch (Exception ex)
+        {
+            Console.WriteLine($"❌ שגיאה חמורה ב-GetAll: {ex.GetType().Name} - {ex.Message}");
+            Console.WriteLine($"🔍 פרטי שגיאה: {ex.StackTrace}");
+            return StatusCode(500, new { error = $"Internal Server Error: {ex.Message}" });
+        }
     }
-    catch (Exception ex)
-    {
-        Console.WriteLine($"❌ שגיאה חמורה ב-GetAll: {ex.GetType().Name} - {ex.Message}");
-        Console.WriteLine($"🔍 פרטי שגיאה: {ex.StackTrace}");
-        return StatusCode(500, new { error = $"Internal Server Error: {ex.Message}" });
-    }
-}
 
 
-    // [HttpGet]
-    // public IEnumerable<Bakery> GetAll()
-    // {
-    //     return BakeryService.GetAll();
-    // }
     [HttpGet("{id}")]
     public ActionResult<Bakery> Get(int id)
     {
@@ -64,50 +59,40 @@ public IActionResult GetAll()
         BakeryService.Add(nb);
         return CreatedAtAction(nameof(Insert), new { id = nb.Id }, nb);
     }
-    // [HttpPut("{id}")]
-    // public ActionResult Update(int id, Bakery nb)
-    // {
-    //     if (id != nb.Id)
-    //         return BadRequest();
-    //     var existingBakery = BakeryService.Get(id);
-    //     if (existingBakery is null)
-    //         return NotFound();
-    //     BakeryService.Update(nb);
-    //     return NoContent();
-    // }
 
-   [HttpPut("{id}")]
-public ActionResult Update(int id, string name, int userId)
-{
-    if (id != BakeryService.Get(id).Id)
+
+    [HttpPut("{id}")]
+    public ActionResult Update(int id, string name, int userId)
     {
-        return BadRequest(new { message = "ID לא תואם" });
+        if (id != BakeryService.Get(id).Id)
+        {
+            return BadRequest(new { message = "ID לא תואם" });
+        }
+
+        var existingBakery = BakeryService.Get(id);
+        if (existingBakery is null)
+        {
+            return NotFound(new { message = "מאפה לא נמצא" });
+        }
+
+        Bakery nb = new Bakery();
+        nb.Id = id;
+        nb.Name = name;
+        nb.UserId = userId;
+
+        BakeryService.Update(nb);
+        return Ok(nb); // החזרת אובייקט JSON תקין
     }
-
-    var existingBakery = BakeryService.Get(id);
-    if (existingBakery is null)
-    {
-        return NotFound(new { message = "מאפה לא נמצא" });
-    }
-
-    Bakery nb = new Bakery();
-    nb.Id = id;
-    nb.Name = name;
-    nb.UserId = userId;
-
-    BakeryService.Update(nb);
-    return Ok(nb); // החזרת אובייקט JSON תקין
-}
 
     [HttpDelete("{id}")]
     public ActionResult Delete(int id)
     {
-       var bakery = BakeryService.Get(id);
-            if (bakery is null)
-                return  NotFound();
+        var bakery = BakeryService.Get(id);
+        if (bakery is null)
+            return NotFound();
 
-            BakeryService.Delete(id);
+        BakeryService.Delete(id);
 
-            return Content(BakeryService.Count.ToString());
+        return Content(BakeryService.Count.ToString());
     }
 }

@@ -22,6 +22,5 @@ namespace ProjectCore.Interfaces
         // ✅ הסרת מאפה מרשימת המשתמש
         void RemoveBakery(int userId, int bakeryId);
 
-        // int Count { get;}
     }
 }

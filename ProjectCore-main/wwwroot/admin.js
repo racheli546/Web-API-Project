@@ -311,7 +311,7 @@ function deleteBakery(id) {
     fetch(`/Bakerys/${id}`, {
         method: "DELETE",
         headers: { "Authorization": `Bearer ${token}` },
-        body: JSON.stringify({userId: parseInt(userId)}) //העברת userId ב body
+        body: JSON.stringify({ userId: parseInt(userId) }) //העברת userId ב body
     })
         .then(res => {
             if (res.ok) {
