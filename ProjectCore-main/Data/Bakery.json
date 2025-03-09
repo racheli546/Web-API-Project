@@ -34,5 +34,17 @@
     "Name": "\u05D2\u05D3",
     "Category": 0,
     "UserId": 1
+  },
+  {
+    "Id": 12,
+    "Name": "\u05E2\u05D5\u05D2\u05EA \u05D6\u05D0\u05D1\u05D9",
+    "Category": 0,
+    "UserId": 1
+  },
+  {
+    "Id": 13,
+    "Name": "\u05E2\u05D5\u05D2\u05EA \u05E7\u05E9\u05E7\u05D5\u05E9\u05D9\u05DD",
+    "Category": 0,
+    "UserId": 1
   }
 ]

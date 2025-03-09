@@ -31,3 +31,6 @@ msbuild.wrn
 
 # Ignore the Logs folder and its contents
 Logs/
+
+bin/
+obj/

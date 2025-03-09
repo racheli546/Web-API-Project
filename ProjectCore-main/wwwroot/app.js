@@ -56,6 +56,22 @@ function checkLogin() {
 }
 
 // 📦 טעינת מאפים זמינים לרכישה
+// function loadBakeries() {
+//     const token = localStorage.getItem("token");
+
+//     fetch("/Bakerys", {
+//         headers: { "Authorization": `Bearer ${token}` }
+//     })
+//     .then(res => res.json())
+//     .then(bakeries => {
+//         const list = document.getElementById("bakeryList");
+//         list.innerHTML = "";
+//         bakeries.forEach(bakery => {
+//             list.innerHTML += `<li>${bakery.name} 
+//                 <button onclick="buyBakery(${bakery.id})">קנה</button></li>`;
+//         });
+//     });
+// }
 function loadBakeries() {
     const token = localStorage.getItem("token");
 
@@ -65,14 +81,19 @@ function loadBakeries() {
     .then(res => res.json())
     .then(bakeries => {
         const list = document.getElementById("bakeryList");
+        const container = document.getElementById("bakeryListContainer"); // קבלת הקונטיינר
         list.innerHTML = "";
-        bakeries.forEach(bakery => {
-            list.innerHTML += `<li>${bakery.name} 
-                <button onclick="buyBakery(${bakery.id})">קנה</button></li>`;
-        });
+        if (bakeries.length > 0) {
+            bakeries.forEach(bakery => {
+                list.innerHTML += `<li>${bakery.name} 
+                    <button onclick="buyBakery(${bakery.id})">קנה</button></li>`;
+            });
+            container.style.display = "block"; // הצגת הקונטיינר אם יש מוצרים
+        } else {
+            container.style.display = "none"; // הסתרת הקונטיינר אם אין מוצרים
+        }
     });
 }
-
 // 🛒 קניית מאפה
 function buyBakery(bakeryId) {
     const token = localStorage.getItem("token");
@@ -89,6 +110,22 @@ function buyBakery(bakeryId) {
 }
 
 // 🏷️ טעינת המאפים שנרכשו
+// function loadUserPurchases() {
+//     const token = localStorage.getItem("token");
+
+//     fetch("/User/purchases", {
+//         headers: { "Authorization": `Bearer ${token}` }
+//     })
+//     .then(res => res.json())
+//     .then(purchases => {
+//         const list = document.getElementById("purchasedList");
+//         list.innerHTML = "";
+//         purchases.forEach(bakery => {
+//             list.innerHTML += `<li>${bakery.name} 
+//                 <button onclick="removeBakery(${bakery.id})">הסר</button></li>`;
+//         });
+//     });
+// }
 function loadUserPurchases() {
     const token = localStorage.getItem("token");
 
@@ -98,14 +135,19 @@ function loadUserPurchases() {
     .then(res => res.json())
     .then(purchases => {
         const list = document.getElementById("purchasedList");
+        const container = document.getElementById("purchasedListContainer"); // קבלת הקונטיינר
         list.innerHTML = "";
-        purchases.forEach(bakery => {
-            list.innerHTML += `<li>${bakery.name} 
-                <button onclick="removeBakery(${bakery.id})">הסר</button></li>`;
-        });
+        if (purchases.length > 0) {
+            purchases.forEach(bakery => {
+                list.innerHTML += `<li>${bakery.name} 
+                    <button onclick="removeBakery(${bakery.id})">הסר</button></li>`;
+            });
+            container.style.display = "block"; // הצגת הקונטיינר אם יש מוצרים
+        } else {
+            container.style.display = "none"; // הסתרת הקונטיינר אם אין מוצרים
+        }
     });
 }
-
 // ❌ מחיקת מאפה שנרכש
 function removeBakery(bakeryId) {
     const token = localStorage.getItem("token");

@@ -9,18 +9,21 @@
 <body>
     <div class="container">
         
-        <h1 style="text-align: center;">ברוך הבא!</h1>
         
-        <h2 style="text-align: center;">התחברות</h2>
         <header>
-            </br>   
-            <input type="text" id="username" placeholder="שם משתמש">
-            <input type="password" id="password" placeholder="סיסמה">
+            <h1 style="text-align: center;">ברוך הבא! <span id="username"></span  id="password" > <span></span></h1>
+            <!-- <h3 id="username" ></h3> -->
+            <!-- <p id="password" ></p> -->
         </br>
               </header>
-
-              <button onclick="login()" style="text-align: center;">התחבר</button>
+              <h3> רשימת מוצרים לרכישה</h3>
+              <div id="bakeryList"></div>
+              
+              <h3>רשימת מוצרים שנרכשו </h3>
+              <div id="purchasedList"></div>
+              <!-- <button onclick="login()" style="text-align: center;">התחבר</button> -->
               <p id="errorMessage" class="error"></p> 
+              <button class="logout-btn" onclick="logout()">התנתק</button>
     </div>
 
     <script src="app.js"></script>

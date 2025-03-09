@@ -29,6 +29,15 @@
             <div id="customersList"></div>
         </section>
 
+        <div id="editForm" style="display: none;">
+            <input type="hidden" id="edit-id">
+            <input type="text" id="edit-username" placeholder="שם משתמש">
+            <input type="text" id="edit-role" placeholder="תפקיד">
+            <input type="password" id="edit-password" placeholder="סיסמה">
+            <button onclick="updateUser()">שמור</button>
+            <button onclick="closeEditForm()">בטל</button>
+        </div>
+        
         <section class="bakery-management">
             <h2>רשימת מאפים</h2>
             <button onclick="openAddBakeryForm()">הוסף מאפה</button>
@@ -40,14 +49,6 @@
             <div id="bakeryList"></div>
         </section>
 
-        <div id="editForm" style="display: none;">
-            <input type="hidden" id="edit-id">
-            <input type="text" id="edit-username" placeholder="שם משתמש">
-            <input type="text" id="edit-role" placeholder="תפקיד">
-            <input type="password" id="edit-password" placeholder="סיסמה">
-            <button onclick="updateUser()">שמור</button>
-            <button onclick="closeEditForm()">בטל</button>
-        </div>
         <div id="editBakeryForm" style="display: none;">
             <input type="hidden" id="edit-bakery-id">
             <input type="text" id="edit-bakery-name" placeholder="שם מאפה">

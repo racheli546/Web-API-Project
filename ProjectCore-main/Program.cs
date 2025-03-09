@@ -13,6 +13,13 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
+// 📌 קביעת פורטים מותאמים אישית ל-Kestrel
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.ListenAnyIP(5000); // ✅ HTTP על פורט 5000
+    options.ListenAnyIP(5001, listenOptions => listenOptions.UseHttps()); // ✅ HTTPS על פורט 5001
+});
+
 var key = Encoding.ASCII.GetBytes(builder.Configuration["Jwt:Key"]);
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
@@ -89,7 +96,7 @@ app.UseLoggerMiddleware();
 app.UseErrorHandlingMiddleware();
 
 /*js (remove "launchUrl" from Properties\launchSettings.json*/
-// app.UseHttpsRedirection();
+app.UseHttpsRedirection();
 
 
 
@@ -104,7 +111,7 @@ app.MapControllers();
 
 
 
-app.MapFallbackToFile("index.html");
+app.MapFallbackToFile("login.html");
 app.Run();
 
 

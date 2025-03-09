@@ -26,12 +26,6 @@
         "UserId": 1
       },
       {
-        "Id": 9,
-        "Name": "Chocolate Cake",
-        "Category": 1,
-        "UserId": 1
-      },
-      {
         "Id": 1,
         "Name": "Cheeses cake",
         "Category": 2,
@@ -42,6 +36,18 @@
         "Name": " Vanillas Cake",
         "Category": 1,
         "UserId": 2
+      },
+      {
+        "Id": 1,
+        "Name": "Cheeses cake",
+        "Category": 2,
+        "UserId": 1
+      },
+      {
+        "Id": 13,
+        "Name": "\u05E2\u05D5\u05D2\u05EA \u05E7\u05E9\u05E7\u05D5\u05E9\u05D9\u05DD",
+        "Category": 0,
+        "UserId": 1
       }
     ]
   },
@@ -65,5 +71,64 @@
     "Password": "1478",
     "Role": "User",
     "PurchasedBakeries": []
+  },
+  {
+    "Id": 10,
+    "Username": "\u05D6\u05D0\u05D1\u05D9",
+    "Password": "1234",
+    "Role": "User",
+    "PurchasedBakeries": [
+      {
+        "Id": 12,
+        "Name": "\u05E2\u05D5\u05D2\u05EA \u05D6\u05D0\u05D1\u05D9",
+        "Category": 0,
+        "UserId": 1
+      },
+      {
+        "Id": 12,
+        "Name": "\u05E2\u05D5\u05D2\u05EA \u05D6\u05D0\u05D1\u05D9",
+        "Category": 0,
+        "UserId": 1
+      },
+      {
+        "Id": 12,
+        "Name": "\u05E2\u05D5\u05D2\u05EA \u05D6\u05D0\u05D1\u05D9",
+        "Category": 0,
+        "UserId": 1
+      }
+    ]
+  },
+  {
+    "Id": 11,
+    "Username": "\u05D0\u05DE\u05D0",
+    "Password": "1234",
+    "Role": "Admin",
+    "PurchasedBakeries": []
+  },
+  {
+    "Id": 12,
+    "Username": "eli",
+    "Password": "1234",
+    "Role": "User",
+    "PurchasedBakeries": [
+      {
+        "Id": 12,
+        "Name": "\u05E2\u05D5\u05D2\u05EA \u05D6\u05D0\u05D1\u05D9",
+        "Category": 0,
+        "UserId": 1
+      },
+      {
+        "Id": 10,
+        "Name": "\u05E7\u05E4\u05D4",
+        "Category": 0,
+        "UserId": 1
+      },
+      {
+        "Id": 4,
+        "Name": " Vanillas Cake",
+        "Category": 1,
+        "UserId": 2
+      }
+    ]
   }
 ]
